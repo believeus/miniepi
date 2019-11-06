@@ -1,0 +1,20 @@
+<view style='width:{{width}}px;height:555px;'>
+
+  <view style='width:100%;height:2%;background-color:#f5f5f5'></view>
+
+  <view style='width:100%;height:80%;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:4%;'></view>
+      <view style='width:100%;height:18%;;margin-top:3%'>
+        <image src='http://47.75.111.0/data/image/index/introduction/ourScience.png' mode='widthFix' style='width:100%' bindtap='ToOur'></image>
+      </view>
+      <view style='width:100%;height:18%;;margin-top:3%'>
+        <image src='http://47.75.111.0/data/image/index/introduction/DataProtection.png' mode='widthFix' style='width:100%' bindtap='ToData' ></image>
+      </view>
+
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+</view>

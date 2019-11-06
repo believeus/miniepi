@@ -1,0 +1,2 @@
+@import "../../../style/font/CenturyGothic.wxss";
+@import "../../../style/font/CenturyGothic-Bold.wxss";

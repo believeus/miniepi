@@ -1,0 +1,193 @@
+<view style="width:{{width}}px;height:3129px;">
+  <view style='width:100%;height:6.75%;'>
+    <image src='http://47.75.111.0/data/image/mess/DNAMethylation/top.jpg' mode='widthFix' style='width:100%'></image>
+  </view>
+
+  <view style='width:100%;height:8.85%;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:6%;'></view>
+      <view style='width:100%;height:13%;;font-size:58rpx'>
+        DNA甲基化
+      </view>
+      <view style='width:100%;height:1.46%;'></view>
+      <view style='width:100%;height:6.63%;;font-size:40rpx;color:#026eb9'>
+        人体真正的遗传学身份证
+      </view>
+      <view style='width:100%;height:4%;'></view>
+      <view style='width:100%;height:14.26%;;font-size:28rpx;color:#4f4f4f;line-height:48rpx'>
+        传统基因检测主要预测人体固有的遗传信息，这种遗传信息不会随着时间的推移而发生变化。
+      </view>
+      <view style='width:100%;height:8.23%;'></view>
+      <view style='width:100%;height:33.83%;;font-size:28rpx;color:#4f4f4f;line-height:48rpx'>
+        而针对基因的甲基化修饰检测属于表观遗传学的范畴，DNA甲基化的变化与后天的环境因素、生活习惯等息息相关，可以准确反映人体各种疾病状态的动态变化，
+        <text style='color:#e6420d'>是人体真正的遗传学“身份证”。</text>
+      </view>
+      <view style='width:100%;height:14.42%;'></view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:9.5%;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;border-bottom:1px solid #e2e2e2;'>
+      <view style='width:100%;height:11.5%;;font-size:58rpx'>
+        DNA甲基化技术
+      </view>
+      <view style='width:100%;height:1%;'></view>
+      <view style='width:100%;height:10.5%;;font-size:40rpx;color:#026eb9'>
+        比以往技术更能实现早期疾病诊断
+      </view>
+      <view style='width:100%;height:9%;'></view>
+      <view style='width:100%;height:6.26%;;font-size:28rpx;color:#4f4f4f;line-height:48rpx'>
+        疾病发生与免疫系统的变化高度相关。
+      </view>
+      <view style='width:100%;height:8.7%;'></view>
+      <view style='width:100%;height:45%;;font-size:28rpx;color:#4f4f4f;line-height:48rpx'>
+        疾病的发生发展过程中，外周血免疫细胞DNA上某些位点的甲基化状态会发生特异性的显著变化，这些位点被称为疾病发生高度相关的甲基化位点，对这些位点的甲基化状态进行联合检测，可以比以往的技术更能实现超早期疾病的超精准诊断。
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:14.87%;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;border-bottom:1px solid #e2e2e2;'>
+      <view style='width:100%;height:5%;'></view>
+      <view style='width:100%;height:7.5%;;font-size:58rpx'>
+        DNA甲基化技术
+      </view>
+      <view style='width:100%;height:1%;'></view>
+      <view style='width:100%;height:10.5%;;font-size:40rpx;color:#026eb9'>
+        重要研究成果
+      </view>
+      <view style='width:100%;height:26.7%;'>
+        <image src='http://47.75.111.0/data/image/mess/DNAMethylation/1.jpg' mode='widthFix' style='width:100%'></image>
+      </view>
+      <view style='width:100%;height:5%;'></view>
+      <view style='width:100%;height:42%;;font-size:28rpx;color:#4f4f4f;line-height:48rpx'>
+        针对DNA甲基化技术，埃彼达雅首席科学家Moshe Szyf 教授通过与北京佑安医院合作，针对健康人群及患者进行大量深入研究，从人体DNA序列数十万个甲基化位点当中筛选出了与其发生高度相关的甲基化位点，从而实现了
+        <text style="color:#026eb7;font-weight:600">超早期肿瘤和生物学年龄DNA甲基化精准诊断的两项核心技术。其中超早期癌症DNA甲基化精准诊断获得了发明专利。</text> </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:30.95%;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;border-bottom:1px solid #e2e2e2;'>
+      <view style='width:100%;height:2.5%;'></view>
+      <view style='width:100%;height:21%;'>
+        <image src='http://47.75.111.0/data/image/mess/DNAMethylation/2.jpg' mode='widthFix' style='width:100%'></image>
+      </view>
+      <view style='width:100%;height:2%;'></view>
+      <view style='width:100%;height:3.5%;;color:#036db7;font-size:54rpx;font-weight:700'>
+        超早期肿瘤
+      </view>
+      <view style='width:100%;height:0.2%;'></view>
+      <view style='width:100%;height:2.6%;;color:#036db7;font-size:44rpx;'>
+        DNA甲基化精准诊断
+      </view>
+      <view style='width:100%;height:0.3%;'></view>
+      <view style='width:100%;height:3%;;font-size:20rpx;color:#6d6d6d'>
+        <text decode='ture'>Accurate Diagnosis Of DNA Methylation\nIn Ultra-early Cancer </text>
+      </view>
+      <view style='width:100%;height:3%;'></view>
+      <view style='width:100%;height:2.5%;;font-size:32rpx;font-weight:900;color:#6d6d6d'>
+        超早期高精准，灵敏度及特异度90%以上
+      </view>
+      <view style='width:100%;height:0.8%;'></view>
+      <view style='width:100%;height:4%;;font-size:28rpx;color:#6d6d6d;line-height:21px'>
+        通过检测人体外周血细胞中DNA的甲基化修饰状态，高效评估并精准预测超早期肿瘤的发生风险。
+      </view>
+      <view style='width:100%;height:4.6%;'></view>
+      <view style='width:100%;height:3.5%;;font-size:32rpx;font-weight:900;color:#6d6d6d'>全面覆盖我国发病率、死亡率最高的十六种恶性肿瘤</view>
+      <view style='width:100%;height:1.5%;'></view>
+      <view style='width:100%;height:6.5%;;font-size:28rpx;color:#6d6d6d;line-height:21px'>肝癌、肺癌、前列腺癌、乳腺癌、结直肠癌、胰腺癌、脑癌、胃癌、卵巢癌、宫颈癌、鼻咽癌、食道癌、膀胱癌、肾癌、睾丸癌、癌症等</view>
+      <view style='width:100%;height:4%;'></view>
+      <view style='width:100%;height:2%;;color:#036db7;'>
+        <text style='font-size:32rpx;font-weight:700'>技术优势/</text>
+        <text style='font-size:30rpx;'>Technical Advantages</text>
+      </view>
+      <view style='width:100%;height:28.5%;'>
+        <view style='width:100%;height:10%;'></view>
+        <image src='http://47.75.111.0/data/image/mess/DNAMethylation/3.jpg' mode='widthFix' style='width:100%'></image>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+
+  </view>
+
+  <view style='width:100%;height:26.9%;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:1.7%;'></view>
+      <view style='width:100%;height:22%;'>
+        <image src='http://47.75.111.0/data/image/mess/DNAMethylation/4.jpg' mode='widthFix' style='width:100%'></image>
+      </view>
+      <view style='width:100%;height:1%;'></view>
+      <view style='width:100%;height:3.5%;;color:#036db7;font-size:54rpx;font-weight:700'>
+        生物学年龄
+      </view>
+      <view style='width:100%;height:0.5%;'></view>
+      <view style='width:100%;height:3.2%;;color:#036db7;font-size:44rpx;'>
+        DNA甲基化精准检测
+      </view>
+      <view style='width:100%;height:0.5%;'></view>
+      <view style='width:100%;height:3%;;font-size:20rpx;color:#6d6d6d'>
+        <text decode='true'>Detection Of Biological Age\nThrough Dna Methylation</text>
+      </view>
+      <view style='width:100%;height:2.3%;'></view>
+      <view style='width:100%;height:13%;;font-size:28rpx;color:#6d6d6d;line-height:21px'>
+        埃彼达雅生物学年龄DNA甲基化精准检测技术是由香港HKG epitherapeutics基于其突破性研究成果开发的新一代国际专利技术，仅通过分析唾液样本即可精准检测个人的生物学年龄，具有
+        <text style='color:#036db7;font-weight:700'>采样便捷、分析快速、结果精准</text>三大优势”。
+      </view>
+      <view style='width:100%;height:3.4%;'></view>
+      <view style='width:100%;height:21.5%;'>
+        <view style='width:100%;height:43%;;display:flex'>
+          <view style='width:73.2%;height:100%;'>
+            <view style='width:100%;height:50%;'></view>
+            <view style='width:100%;height:48%;;color:#036db7;'>
+              <text style='font-size:32rpx;font-weight:700'>技术优势/</text>
+              <text style='font-size:30rpx;'>Technical Advantages</text>
+            </view>
+          </view>
+          <view style='width:25%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/mess/DNAMethylation/5.jpg' mode='widthFix' style='width:90%'></image>
+          </view>
+        </view>
+        <view style='width:100%;height:55%;'>
+          <image style='width:6%;height:20%;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+          <text style='font-size:28rpx;color:#6d6d6d;'>仅需少许口腔唾液样本即可进行检测\n</text>
+          <image style='width:6%;height:20%;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+          <text style='font-size:28rpx;color:#6d6d6d;'>可根据个体需要在不同年龄阶段多次检测，实时监测\n</text>
+          <image style='width:6%;height:20%;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+          <text style='font-size:28rpx;color:#6d6d6d;'>仅检测精度高，能最真实的确认您的生物学年龄\n</text>
+        </view>
+      </view>
+      <view style='width:100%;height:1.5%;'></view>
+      <view style='width:100%;height:21.5%;'>
+        <view style='width:100%;height:43%;;display:flex'>
+          <view style='width:73.2%;height:100%;'>
+            <view style='width:100%;height:50%;'></view>
+            <view style='width:100%;height:48%;;color:#036db7;'>
+              <text style='font-size:32rpx;font-weight:700'>检测意义/</text>
+              <text style='font-size:30rpx;'>Detection Purposes</text>
+            </view>
+          </view>
+          <view style='width:25%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/mess/DNAMethylation/6.jpg' mode='widthFix' style='width:90%'></image>
+          </view>
+        </view>
+        <view style='width:100%;height:55%;'>
+          <image style='width:6%;height:20%;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+          <text style='font-size:28rpx;color:#6d6d6d;'>为生物学年龄和健康调理提供相随一生的动态评价\n</text>
+          <image style='width:6%;height:20%;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+          <text style='font-size:28rpx;color:#6d6d6d;'>为预防疾病和增进健康提供终生指南和路线图\n</text>
+          <image style='width:6%;height:20%;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+          <text style='font-size:28rpx;color:#6d6d6d;'>为制定有效的个性化抗衰老方案提供重要评判标准\n</text>
+        </view>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+</view>

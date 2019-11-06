@@ -1,0 +1,294 @@
+<view style='width:100%;background-color:#f7f7f9;'>
+  <view style='background-color:#edeeef;width:100%;height:10px;'></view>
+  <view style='width:100%;background-color:#edeeef;border-radius:20px;'>
+    <view style='width:100%;display:flex;justify-content:center;background-color:#edeeef;border-bottom:1px solid #efeff0;'>
+      <view style='width:100%;background-color:#ffffff;'>
+        <view style='widht:100%;height:30px;'></view>
+        <view style=' width:100%;display:flex;justify-content:center;background-color:#fffdfd;'>
+          <view style='width:60%;'>
+            <view style='width:100%;height:35px;text-align:center;background-color:#0071bc;color:white;border-radius:30px;line-height:35px;font-size:16px;'>
+              麦吉尔疼痛问卷
+            </view>
+            <view style='font-size:14px;width:100%;text-align:center;color:#666666;'>McGill Pain Questionaire</view>
+            <view style='width:100%;height:20px;'></view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+    <view style='width:100%;display:flex;justify-content:center;background-color:#f7f7f9;border-bottom:1px solid #efeff0;'>
+      <view style='width:100%;'>
+        <view style=' width:100%;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            <view style='width:100%;height:15px;'></view>
+            <view style='width:100%;color:#333333;border-radius:30px;font-size:15px;'>
+              麦吉尔疼痛问卷, 也被称为麦吉尔疼痛指数, 是梅尔扎克和托格森1971年在麦吉尔大学开发的一个评级疼痛量表。这是一个自我报告的调查问卷, 可以让个人给医生一个很好的描述他们正在经历的疼痛的质量和强度
+            </view>
+            <view style='widht:100%;height:15px;'></view>
+            
+            <view style='width:100%;color:#333333;border-radius:30px;font-size:12px;'>
+            The McGill Pain Questionnaire, also known as McGill Pain Index, is a scale of rating pain developed at McGill University by Melzack and Torgerson in 1971. It is a self-report questionnaire that allows individuals to give their doctor a good description of the quality and intensity of pain that they are experiencing.
+            </view>
+          </view>
+        </view>
+        <view style='widht:100%;height:15px;'></view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:15px;background-color:#ffffff;'></view>
+    <view style='width:100%;display:flex;justify-content:center;background-color:#ffffff;border-bottom:1px solid #efeff0;'>
+      <view style='width:90%;background-color:#ffffff;border:1px solid bdbdbd;'>
+        <view style='font-size:15px;color:#0071bc;'>现在哪个词描述你的痛苦？</view>
+        <view style='font-size:12px;color:#666666;'>Which word describe your pain right now?</view>
+        <view style='width:100%;height:8px;'></view>
+        <view>
+          <radio-group>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>A.让人心旷神怡（Discomforting）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>B. 令人痛心（Distressing）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;;color:#4d4d4d'>C.可怕（Horrible） </view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);color:#4d4d4d;'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>D. 痛苦（Excruciating）</view>
+            </view>
+          </radio-group>
+        </view>
+        <view style='width:100%;height:15px;'></view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:15px;background-color:#ffffff;'></view>
+    <view style='width:100%;display:flex;justify-content:center;background-color:#ffffff;border-bottom:1px solid #efeff0;'>
+      <view style='width:90%;background-color:#ffffff;border:1px solid bdbdbd;'>
+        <view style='font-size:15px;color:#0071bc;'>当症状最轻的时候用哪个词来形容？</view>
+        <view style='font-size:12px;color:#666666;'>Which word describes it when it is least?</view>
+        <view style='width:100%;height:8px;'></view>
+        <view>
+          <radio-group>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>A.让人心旷神怡（Discomforting）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>B. 令人痛心（Distressing）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;;color:#4d4d4d'>C.可怕（Horrible） </view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);color:#4d4d4d;'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>D. 痛苦（Excruciating）</view>
+            </view>
+          </radio-group>
+        </view>
+        <view style='width:100%;height:15px;'></view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:15px;background-color:#ffffff;'></view>
+    <view style='width:100%;display:flex;justify-content:center;background-color:#ffffff;border-bottom:1px solid #efeff0;'>
+      <view style='width:90%;background-color:#ffffff;border:1px solid bdbdbd;'>
+        <view style='font-size:15px;color:#0071bc;'>当症状差的时候用哪个词来形容？</view>
+        <view style='font-size:12px;color:#666666;'>Which word describes it as its worst?</view>
+        <view style='width:100%;height:8px;'></view>
+        <view>
+          <radio-group>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>A.让人心旷神怡（Discomforting）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>B. 令人痛心（Distressing）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;;color:#4d4d4d'>C.可怕（Horrible） </view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);color:#4d4d4d;'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>D. 痛苦（Excruciating）</view>
+            </view>
+          </radio-group>
+        </view>
+        <view style='width:100%;height:15px;'></view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:15px;background-color:#ffffff;'></view>
+    <view style='width:100%;display:flex;justify-content:center;background-color:#ffffff;border-bottom:1px solid #efeff0;'>
+      <view style='width:90%;background-color:#ffffff;border:1px solid bdbdbd;'>
+        <view style='font-size:15px;color:#0071bc;'>哪个词描述了你曾经经历过的最严重的牙痛？</view>
+        <view style='font-size:12px;color:#666666;'>Which word describes the worst toothache you ever had?</view>
+        <view style='width:100%;height:8px;'></view>
+        <view>
+          <radio-group>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>A.让人心旷神怡（Discomforting）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>B. 令人痛心（Distressing）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;;color:#4d4d4d'>C.可怕（Horrible） </view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);color:#4d4d4d;'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>D. 痛苦（Excruciating）</view>
+            </view>
+          </radio-group>
+        </view>
+        <view style='width:100%;height:15px;'></view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:15px;background-color:#ffffff;'></view>
+    <view style='width:100%;display:flex;justify-content:center;background-color:#ffffff;border-bottom:1px solid #efeff0;'>
+      <view style='width:90%;background-color:#ffffff;border:1px solid bdbdbd;'>
+        <view style='font-size:15px;color:#0071bc;'>哪个词描述了你所经历过的最严重的头痛</view>
+        <view style='font-size:12px;color:#666666;'>Which word describes the worst headache yo ever had?</view>
+        <view style='width:100%;height:8px;'></view>
+        <view>
+          <radio-group>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>A.让人心旷神怡（Discomforting）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>B. 令人痛心（Distressing）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;;color:#4d4d4d'>C.可怕（Horrible） </view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);color:#4d4d4d;'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>D. 痛苦（Excruciating）</view>
+            </view>
+          </radio-group>
+        </view>
+        <view style='width:100%;height:15px;'></view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:15px;background-color:#ffffff;'></view>
+    <view style='width:100%;display:flex;justify-content:center;background-color:#ffffff;border-bottom:1px solid #efeff0;'>
+      <view style='width:90%;background-color:#ffffff;border:1px solid bdbdbd;'>
+        <view style='font-size:15px;color:#0071bc;'>哪个词描述了你经历过的最严重的胃痛？</view>
+        <view style='font-size:12px;color:#666666;'>Which word describes the worst stomach-ache you ever had?</view>
+        <view style='width:100%;height:8px;'></view>
+        <view>
+          <radio-group>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>A.让人心旷神怡（Discomforting）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>B. 令人痛心（Distressing）</view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;;color:#4d4d4d'>C.可怕（Horrible） </view>
+            </view>
+            <view style='width:100%;height:2px;'></view>
+            <view style='display:flex;'>
+              <view>
+                <radio color="#0071bc" style='transform:scale(0.8);color:#4d4d4d;'></radio>
+              </view>
+              <view style='font-size:15px;line-height:28px;color:#4d4d4d;'>D. 痛苦（Excruciating）</view>
+            </view>
+          </radio-group>
+        </view>
+        <view style='width:100%;height:15px;'></view>
+      </view>
+    </view>
+    
+    <view style='width:100%;height:10px;background-color:#ffffff;'></view>
+    <view style='width:100%;display:flex;justify-content:center;background-color:#ffffff;'>
+      <view style='width:60%;height:35px;text-align:center;background-color:#0071bc;color:white;border-radius:30px;line-height:35px;font-size:16px;'>
+        确定(Enter)
+      </view>
+    </view>
+    <view style='width:100%;height:20px;background-color:#ffffff;'></view>
+  </view>
+
+</view>

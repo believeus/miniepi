@@ -1,0 +1,12 @@
+<!--pages/start/start.wxml-->
+<!--这是启动图片，过2秒钟会自动隐藏，做成一个程序启动页效果-->
+<!--hidden控制view是否隐藏和显示-->
+<view style='width: 100%;height:{{height}}px;background-color:#525cef;opacity:{{opacity}};'>
+    <!--只要设置了width：100%，mode=mode='widthFix'图片就能自适应-->
+   <image src='../../image/start.jpg' style='width:100%' mode='widthFix'></image>
+</view>
+
+
+
+
+

@@ -1,0 +1,711 @@
+<view class="container">
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 降低血压和胆固醇 -->
+  <view style='width:100%;text-align:center;'>
+    <view style='width:100%;height:10px;background-color:#c6c6c6;'></view>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/heart.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>降低血压和胆固醇</view>
+      <view style='width:100%;font-size:14px'>Lowering blood pressure and cholesterol</view>
+      <view style='width:100%;height:5px;'></view>
+      <view style='width:100%;font-size:14px;color:#777777'>(有氧运动强度水平)</view>
+      <view style='width:100%;font-size:12px;color:#777777;'>Aerobic exercise intensity level</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;height:130px;'>
+      <view style='width:30%;border-top-left-radius:10px;border-bottom-left-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>低(LOW)</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>3</view>
+        <view style='width:99%;height:20px;font-size:12px;border-right:1px solid white;color:#777777;line-height:15px;'>天/周</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>(DAY/WEEK)</view>
+      </view>
+      <view style='width:30%;background-color:#eaeaea;height:130px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>中(MOD)</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>4</view>
+        <view style='width:99%;height:20px;font-size:12px;border-right:1px solid white;color:#777777;line-height:15px;'>天/周</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>(DAY/WEEK)</view>
+      </view>
+      <view style='width:30%;background-color:#eaeaea;border-top-right-radius:10px;border-bottom-right-radius:10px;height:130px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px'>高(HIGH)</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>5.5</view>
+        <view style='width:99%;height:20px;font-size:12px;color:#777777;line-height:15px;'>天/周</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>(DAY/WEEK)</view>
+      </view>
+
+    </view>
+    <view style='width:100%;height:30px;'></view>
+    <view style='width:100%;height:20px;color:#777777;font-size:14px;'>水平的强度</view>
+    <view style='width:100%;height:20px;color:#777777;font-size:12px;'> Intensity level</view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas id="line-dom" canvas-id="line" opts="{{lineData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:25%;height:40px;'></view>
+      <view style='width:50%;height:40px;display:flex;'>
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:20px;font-size:12px;color:#777777;text-align:center;'>低</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>LOW</view>
+        </view>
+        <view style='width:33%;height:40px'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#666666;height:15px;width:15px;'></view>
+            <view style='height:15px;width:20px;font-size:12px;color:#777777;text-align:center;'>中</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>MOD</view>
+        </view>
+        <view style='width:33%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#c1272d;height:15px;width:15px;'></view>
+            <view style='height:15px;width:20px;font-size:12px;color:#777777;text-align:center;'>高</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>HEIGHT</view>
+        </view>
+      </view>
+      <view style='width:25%;height:40px;'></view>
+    </view>
+    <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 降低血压和胆固醇 -->
+
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 心血管健康 -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/run.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>心血管健康</view>
+      <view style='width:100%;font-size:14px'> Cardiovascular health </view>
+      <view style='width:100%;height:5px;'></view>
+      <view style='width:100%;font-size:14px;color:#808080;'>(有氧运动强度水平)</view>
+      <view style='width:100%;font-size:12px;color:#808080;'>Aerobic exercise intensity level</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;display:flex;height:110px;justify-content:center;'>
+      <view style='width:30%;height:130px;border-top-left-radius:10px;border-bottom-left-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>低(LOW)</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>2</view>
+        <view style='width:99%;height:20px;font-size:14px;border-right:1px solid white;color:#777777;line-height:15px;'>天/周</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>(day/week)</view>
+      </view>
+      <view style='width:30%;background-color:#eaeaea;height:130px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>中(MOD)</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>3</view>
+        <view style='width:99%;height:20px;font-size:14px;border-right:1px solid white;color:#777777;line-height:15px;'>天/周</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>(day/week)</view>
+      </view>
+      <view style='width:30%;background-color:#eaeaea;border-top-right-radius:10px;border-bottom-right-radius:10px;height:130px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px'>高(HIGH)</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>4.5</view>
+        <view style='width:99%;height:20px;font-size:14px;color:#777777;line-height:15px;'>天/周</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>(day/week)</view>
+      </view>
+    </view>
+    <view style='width:100%;height:30px;'></view>
+    <view style='width:100%;height:20px;color:#808080;font-size:14px;'>水平的强度</view>
+    <view style='width:100%;height:20px;color:#808080;font-size:14px;'>Intensity level</view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas id="line-dom" canvas-id="line" opts="{{lineData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:25%;height:40px;'></view>
+      <view style='width:50%;height:40px;display:flex;'>
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:20px;font-size:12px;color:#777777;text-align:center;'>低</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>LOW</view>
+        </view>
+        <view style='width:33%;height:40px'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#666666;height:15px;width:15px;'></view>
+            <view style='height:15px;width:20px;font-size:12px;color:#777777;text-align:center;'>中</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>MIDDLE</view>
+        </view>
+        <view style='width:33%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#c1272d;height:15px;width:15px;'></view>
+            <view style='height:15px;width:20px;font-size:12px;color:#777777;text-align:center;'>高</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>HEIGHT</view>
+        </view>
+      </view>
+      <view style='width:25%;height:40px;'></view>
+    </view>
+    <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 心血管健康 -->
+
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 睡眠管理 -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/sleep.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>睡眠管理</view>
+      <view style='width:100%;font-size:14px;'>sleep management</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;'>
+      <view style='width:90%;height:125px;border-radius:10px;border-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>小时(HOUR)</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>10</view>
+        <view style='width:99%;height:20px;font-size:12px;color:#777777;line-height:5px;'>小时/天</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:0px;'>(HOUR/DAY)</view>
+      </view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas id="line-dom" canvas-id="line" opts="{{lineData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:25%;height:40px;'></view>
+      <view style='width:50%;height:40px;display:flex;justify-content:center'>
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:30px;font-size:12px;color:#777777;text-align:center;'>小时</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>HOUR</view>
+        </view>
+
+      </view>
+      <view style='width:25%;height:40px;'></view>
+    </view>
+    <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 睡眠管理 -->
+
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 冥想 -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/seat.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>冥想</view>
+      <view style='width:100%;font-size:14px;'>meditation</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;height:110px;'>
+      <view style='width:45%;height:120px;border-top-left-radius:10px;border-bottom-left-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>频率(FREQUENCY)</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>100</view>
+        <view style='width:99%;height:20px;font-size:12px;border-right:1px solid white;color:#777777;line-height:12px;'>天/周</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>(DAY/WEEK)</view>
+      </view>
+      <view style='width:45%;height:120px;border-top-right-radius:10px;border-bottom-right-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>频率(FREQUENCY)</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>100</view>
+        <view style='width:99%;height:20px;font-size:12px;color:#777777;line-height:12px;'>天/周</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>(DAY/WEEK)</view>
+      </view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas id="line-dom" canvas-id="line" opts="{{lineData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:25%;height:40px;'></view>
+      <view style='width:50%;height:40px;display:flex;justify-content:center'>
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:30px;font-size:12px;color:#777777;text-align:center;'>天</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>DAYS</view>
+        </view>
+
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:yellow;height:15px;width:15px;'></view>
+            <view style='height:15px;width:30px;font-size:12px;color:#777777;text-align:center;'>分</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>MINUTES</view>
+        </view>
+      </view>
+      <view style='width:25%;height:40px;'></view>
+    </view>
+    <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 冥想 -->
+
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 性生活 -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/sexlife.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>性生活</view>
+      <view style='width:100%;font-size:12px;'>SEX LIFE</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;height:80px;'>
+      <view style='width:45%;height:80px;border-top-left-radius:10px;border-bottom-left-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:20px;border-right:1px solid white;color:#777777;font-size:12px;'>年均次(YEARS OF ACTIVE)</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;'>78</view>
+        <view style='width:99%;height:20px;font-size:20px;line-height:10px;'></view>
+      </view>
+      <view style='width:45%;height:80px;;border-top-right-radius:10px;border-bottom-right-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>满意指数(RATINGS)</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>5</view>
+      </view>
+    </view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas id="line-dom" canvas-id="line" opts="{{lineData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:25%;height:40px;'></view>
+      <view style='width:50%;height:40px;display:flex;justify-content:center'>
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:30px;font-size:12px;color:#777777;text-align:center;'>天</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>DAYS</view>
+        </view>
+
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:yellow;height:15px;width:15px;'></view>
+            <view style='height:15px;width:30px;font-size:12px;color:#777777;text-align:center;'>分</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>MINUTES</view>
+        </view>
+      </view>
+      <view style='width:25%;height:40px;'></view>
+    </view>
+     <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 性生活 -->
+
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 吸烟情况 -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/smoke.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>吸烟</view>
+      <view style='width:100%;font-size:14px;font-weight:bold;'>SMOKING</view>
+      <view style='width:100%;height:10px;'></view>
+      <view style='width:100%;font-weight:bold;font-size:12px;color:#808080;'>(吸烟情况)</view>
+      <view style='width:100%;font-size:12px;color:#808080;'>Level Of Smoking</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;height:121px;'>
+      <view style='width:45%;height:120px;border-top-left-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>不吸烟(NO SMOKER)</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>0</view>
+        <view style='width:99%;height:20px;font-size:12px;border-right:1px solid white;color:#777777;line-height:15px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>YEARS</view>
+      </view>
+      <view style='width:45%;height:120px;background-color:#eaeaea;height:120px;border-top-right-radius:10px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>轻(LIGHT)[1-7]</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>3</view>
+        <view style='width:99%;height:20px;font-size:12px;color:#777777;line-height:15px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>YEARS</view>
+      </view>
+    </view>
+    <view style='width:100%;justify-content:center;display:flex;height:121px;'>
+      <view style='width:45%;height:120px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>中等(MOD)[8-14]</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>0</view>
+        <view style='width:99%;height:20px;font-size:12px;border-right:1px solid white;color:#777777;line-height:15px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>YEARS</view>
+      </view>
+      <view style='width:45%;height:120px;background-color:#eaeaea;height:120px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>严重(HEAVY)[15-24]</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>0</view>
+        <view style='width:99%;height:20px;font-size:12px;color:#777777;line-height:15px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>YEARS</view>
+      </view>
+    </view>
+    <view style='width:100%;display:flex;height:110px;justify-content:center;'>
+      <view style='width:90%;height:120px;background-color:#eaeaea;height:120px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>非常严重(VERY HEAVY)[25+]</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>0</view>
+        <view style='width:99%;height:20px;font-size:12px;color:#777777;line-height:15px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>YEARS</view>
+      </view>
+    </view>
+
+
+    <view style='width:100%;height:30px;'></view>
+    <view style='width:100%;height:20px;color:#777777;font-size:12px;'>水平的强度</view>
+    <view style='width:100%;height:20px;color:#777777;font-size:12px;'>Intensity level</view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas  canvas-id="ring" opts="{{smokeData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:0%;height:40px;'></view>
+      <view style='width:100%;height:40px;display:flex;'>
+        <view style='width:20%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:green;height:15px;width:15px;'></view>
+            <view style='height:15px;width:50px;font-size:12px;color:#777777;text-align:center;'>不吸烟</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:left;'>Non Somker</view>
+        </view>
+        <view style='width:20%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:30px;font-size:12px;color:#777777;text-align:center;'>轻微</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>LIGHT</view>
+        </view>
+        <view style='width:20%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:yellow;height:15px;width:15px;'></view>
+            <view style='height:15px;width:20px;font-size:12px;color:#777777;text-align:center;'>中</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>Moderate</view>
+        </view>
+        <view style='width:18%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#c1272d;height:15px;width:15px;'></view>
+            <view style='height:15px;width:25px;font-size:12px;color:#777777;text-align:center;'>严重</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>HEAVY</view>
+        </view>
+        <view style='width:22%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:black;height:15px;width:15px;'></view>
+            <view style='height:15px;width:52px;font-size:12px;color:#777777;text-align:center;'>非常严重</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>VERY HEAVY</view>
+        </view>
+      </view>
+      <view style='width:0%;height:40px;'></view>
+    </view>
+    <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 吸烟情况 -->
+
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 酒精情况 -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/wine.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>饮酒</view>
+      <view style='width:100%;font-size:14px;font-weight:bold;'>Alcohol</view>
+      <view style='width:100%;height:10px;'></view>
+      <view style='width:100%;font-weight:bold;font-size:12px;color:#808080;'>(饮酒情况)</view>
+      <view style='width:100%;font-size:12px;color:#808080;'>Level Of Alcohol</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;height:121px;'>
+      <view style='width:45%;height:120px;border-top-left-radius:10px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>不喝酒(NO DRINKER)</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>0</view>
+        <view style='width:99%;height:20px;font-size:12px;border-right:1px solid white;color:#777777;line-height:15px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>YEARS</view>
+      </view>
+      <view style='width:45%;height:120px;background-color:#eaeaea;height:120px;border-top-right-radius:10px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>轻(LIGHT)[0~1]</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>3</view>
+        <view style='width:99%;height:20px;font-size:14px;color:#777777;line-height:12px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>YEARS</view>
+      </view>
+    </view>
+    <view style='width:100%;justify-content:center;display:flex;height:121px;'>
+      <view style='width:45%;height:120px;background-color:#eaeaea;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;border-right:1px solid white;color:#777777;font-size:12px;'>中等(MOD)[1-2]</view>
+        <view style='width:99%;height:30px;border-right:1px solid white;font-size:20px;line-height:10px;'>0</view>
+        <view style='width:99%;height:20px;font-size:12px;border-right:1px solid white;color:#777777;line-height:1px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:5px;'>YEARS</view>
+      </view>
+      <view style='width:45%;height:120px;background-color:#eaeaea;height:120px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>严重(HEAVY)[3-4]</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>0</view>
+        <view style='width:99%;height:20px;font-size:14px;color:#777777;line-height:5px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:0px;'>YEARS</view>
+      </view>
+    </view>
+    <view style='width:100%;display:flex;height:110px;justify-content:center;'>
+
+      <view style='width:90%;height:120px;background-color:#eaeaea;height:120px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;'>
+        <view style='width:100%;height:20px;'></view>
+        <view style='width:99%;height:30px;color:#777777;font-size:12px;'>非常严重(VERY HEAVY)[5+]</view>
+        <view style='width:99%;height:30px;font-size:20px;line-height:10px;'>0</view>
+        <view style='width:99%;height:20px;font-size:14px;color:#777777;line-height:10px;'>年</view>
+        <view style='width:100%;height:20px;font-size:12px;color:#777777;line-height:0px;'>YEARS</view>
+      </view>
+    </view>
+    <view style='width:100%;height:30px;'></view>
+    <view style='width:100%;height:20px;color:#777777;font-size:12px;'>水平的强度</view>
+    <view style='width:100%;height:20px;color:#777777;font-size:12px;'> Intensity level</view>
+    <view style='width:100%;height:400px;'>
+       <ff-canvas  canvas-id="ring" opts="{{smokeData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:0%;height:40px;'></view>
+      <view style='width:100%;height:40px;display:flex;'>
+        <view style='width:20%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:green;height:15px;width:15px;'></view>
+            <view style='height:15px;width:50px;font-size:12px;color:#777777;text-align:center;'>不饮酒</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:left;'>Non DINKER</view>
+        </view>
+        <view style='width:20%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:30px;font-size:12px;color:#777777;text-align:center;'>轻微</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>LIGHT</view>
+        </view>
+        <view style='width:20%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:yellow;height:15px;width:15px;'></view>
+            <view style='height:15px;width:20px;font-size:12px;color:#777777;text-align:center;'>中</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>Moderate</view>
+        </view>
+        <view style='width:18%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#c1272d;height:15px;width:15px;'></view>
+            <view style='height:15px;width:25px;font-size:12px;color:#777777;text-align:center;'>严重</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>HEAVY</view>
+        </view>
+        <view style='width:22%;height:40px;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:black;height:15px;width:15px;'></view>
+            <view style='height:15px;width:52px;font-size:12px;color:#777777;text-align:center;'>非常严重</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>VERY HEAVY</view>
+        </view>
+      </view>
+      <view style='width:0%;height:40px;'></view>
+    </view>
+     <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 饮酒情况 -->
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 维他命A -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/vitami.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>维他命A摄入量</view>
+      <view style='width:100%;font-size:12px;font-weight:bold;'>Vitamin A intake</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;height:75px;'>
+      <view style='width:90%;height:75px;border-radius:10px;border-radius:10px;background-color:#eaeaea;'>
+        <view style='width:99%;height:30px;font-size:30px;'>0</view>
+         <view style='width:99%;height:10px;'></view>
+        <view style='width:99%;height:10px;font-size:12px;color:#777777;'>摄入量</view>
+        <view style='width:99%;height:5px;'></view>
+        <view style='width:99%;height:10px;font-size:12px;color:#777777;'>Intervention Units</view>
+      </view>
+    </view>
+    <view style='widht:100%;height:20px;'></view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas id="line-dom" canvas-id="line" opts="{{lineData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:25%;height:40px;'></view>
+      <view style='width:50%;height:40px;display:flex;justify-content:center'>
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:60px;font-size:12px;color:#777777;text-align:center;'>维他命A</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>Vit A</view>
+        </view>
+
+      </view>
+      <view style='width:25%;height:40px;'></view>
+    </view>
+     <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 维他命A -->
+
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 维他命C -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:10px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/vitami.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>维他命C摄入量</view>
+      <view style='width:100%;font-size:12px;font-weight:bold;'>Vitamin C intake</view>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;height:80px;'>
+     <view style='width:90%;height:75px;border-radius:10px;border-radius:10px;background-color:#eaeaea;'>
+        <view style='width:99%;height:30px;font-size:30px;'>0</view>
+         <view style='width:99%;height:10px;'></view>
+        <view style='width:99%;height:10px;font-size:12px;color:#777777;'>摄入量</view>
+        <view style='width:99%;height:5px;'></view>
+        <view style='width:99%;height:10px;font-size:12px;color:#777777;'>Intervention Units</view>
+      </view>
+    </view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas id="line-dom" canvas-id="line" opts="{{lineData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:25%;height:40px;'></view>
+      <view style='width:50%;height:40px;display:flex;justify-content:center'>
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:60px;font-size:12px;color:#777777;text-align:center;'>维他命C</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>Vit C</view>
+        </view>
+
+      </view>
+      <view style='width:25%;height:40px;'></view>
+    </view>
+     <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 维他命C -->
+
+  <!--Begin:Author:wuqiwei 2019/2/19 10:27 维他命C -->
+  <view style='width:100%;text-align:center;'>
+    <view style='widht:100%;height:50px;'></view>
+    <image src='http://47.75.111.0/data/image/questionnaire/lifestyle/vitami.png' style='width:20%;' mode="widthFix"></image>
+    <view style='widht:100%;height:10px;'></view>
+    <view style='width:100%;'>
+      <view style='width:100%;font-weight:bold;'>维他命D摄入量</view>
+      <view style='width:100%;font-size:12px;font-weight:bold;'>Vitamin D intake</view>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='width:100%;justify-content:center;display:flex;height:75px;'>
+       <view style='width:90%;height:75px;border-radius:10px;border-radius:10px;background-color:#eaeaea;'>
+        <view style='width:99%;height:30px;font-size:30px;'>0</view>
+         <view style='width:99%;height:10px;'></view>
+        <view style='width:99%;height:10px;font-size:12px;color:#777777;'>摄入量</view>
+        <view style='width:99%;height:5px;'></view>
+        <view style='width:99%;height:10px;font-size:12px;color:#777777;'>Intervention Units</view>
+      </view>
+    </view>
+    <view style='width:100%;height:400px;'>
+      <ff-canvas id="line-dom" canvas-id="line" opts="{{lineData}}"></ff-canvas>
+    </view>
+    <view style='width:100%;height:10px;'></view>
+    <view style='display:flex;justify-content:center;width:100%;height:10px'>
+      <view style='width:90%;height:1px;background-color:#c6c6c6;'></view>
+    </view>
+    <view style='display:flex'>
+      <view style='width:25%;height:40px;'></view>
+      <view style='width:50%;height:40px;display:flex;justify-content:center;'>
+        <view style='width:33%;height:40px;text-aligin:center;'>
+          <view style='display:flex;justify-content:center;'>
+            <view style='border-radius:50%;background-color:#036eb2;height:15px;width:15px;'></view>
+            <view style='height:15px;width:60px;font-size:12px;color:#777777;text-align:center;'>维他命D</view>
+          </view>
+          <view style='height:15px;width:100%;font-size:12px;color:#777777;text-align:center;'>Vit D</view>
+        </view>
+
+      </view>
+      <view style='width:25%;height:40px;'></view>
+    </view>
+    <view style='width:100%;display: flex;justify-content: center;'>
+      <view style='background-color:#036eb2;width:90%;height:40px;border-radius:10px;text-align:center;color:white;line-height:40px;font-size:16px;'>更新数据（UPDATE DATA）</view>
+    </view>
+    <view style='width:100%;height:20px;'></view>
+    <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  </view>
+  <view style='width:100%;height:20px;'></view>
+  <view style='width:100%;height:5px;background-color:#c6c6c6;'></view>
+  <!--End:Author:wuqiwei 2019/2/19 10:27 维他命D -->
+</view>

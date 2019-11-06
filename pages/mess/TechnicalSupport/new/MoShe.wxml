@@ -1,0 +1,109 @@
+<view class="page" style='width:{{width}}px;height:{{height}}px'>
+
+  <view style='width:100%;height:25%;border:1px solid #000000;'>
+    <view style='width:100%;height:30%;border:1px solid #000000;'></view>
+    <view style='width:100%;height:54%;border:1px solid #000000;display:flex'>
+      <view style='width:10%;height:100%;border:1px solid #000000;'></view>
+      <view style='width:22%;height:100%;border:1px solid #000000;'>
+        <image src='http://47.75.111.0/data/image/mess/Moshe_Szyf.png' mode="widthFix" style='width:100%;'></image>
+      </view>
+      <view style='width:9%;height:100%;border:1px solid #000000;'></view>
+      <view style='width:58%;height:100%;border:1px solid #000000;'>
+        <view style='width:100%;height:22%;border:1px solid #000000;'></view>
+        <view style='width:100%;height:20.41%;border:1px solid #000000;font-size:36rpx;font-weight:700;color:#4f4f4f'>
+          HKG公司 CEO
+        </view>
+        <view style='width:100%;height:6.5%;border:1px solid #000000;'></view>
+        <view style='width:100%;height:20.41%;border:1px solid #000000;font-size:36rpx;color:#4f4f4f'>
+          摩西·西夫 院士
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view style='width:100%;height:1.2%;background-color:#e2e2e2;border:1px solid #000000;'></view>
+
+  <view style='width:100%;height:41.5%;border:1px solid #000000;'>
+    <view style='width:100%;height:7.5%;border:1px solid #000000;'></view>
+    <view style='width:100%;height:83%;border:1px solid #000000;display:flex'>
+      <view style='width:10%;height:100%;border:1px solid #000000;'></view>
+      <view style='width:79%;height:100%;border:1px solid #000000;'>
+        <view class='font'>加拿大皇家科学院院士</view>
+        <view class='font'>加拿大麦吉尔大学一级终身教授</view>
+        <view class='font'>国际癌症相关DNA甲基化研究领域首批专利发明人</view>
+        <view class='font'>全球表观遗传学领域拥有最广泛专利的发明人</view>
+        <view class='font'>香港HKG精准医学技术公司首席科学家</view>
+        <view class='font'>北京埃彼达雅医学诊断技术有限公司科学家</view>
+        <view class='font'>行为和心里表观遗传学奠基人</view>
+        <view class='font'>相关研究领域著名思想传播领袖</view>
+        <view class='font'>已发表280多篇论文，论文他引33000次</view>
+        <view class='font'>5年内18500次，H-index值90</view>
+      </view>
+      <view style='width:10%;height:100%;border:1px solid #000000;'></view>
+    </view>
+    <view style='width:100%;height:7.5%;border:1px solid #000000;'></view>
+  </view>
+
+  <view style='width:100%;height:1.2%;background-color:#e2e2e2;border:1px solid #000000;'></view>
+
+  <view style='width:100%;height:60%;border:1px solid #000000;'>
+    <view style='width:100%;height:3.8%;border:1px solid #000000;'></view>
+
+    <view style='width:100%;height:4%;border:1px solid #000000;display:flex;'>
+      <view style='height:100%;width:5%;'></view>
+      <view style='height:90%;width:1%;background-color:#036ea6;'></view>
+      <view style='height:100%;width:2%;'></view>
+      <view style='height:100%;width:92%;font-size:30rpx;transform:translateY(-3px);color:#0071ad;font-weight:700'>
+        职业经历
+      </view>
+    </view>
+    <view style='width:100%;height:80%;border:1px solid #000000;display:flex'>
+      <view style='width:10%;height:100%;border:1px solid #000000'></view>
+      <view style='width:80%;height:100%;border:1px solid #000000;font-size:10px'>
+
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:22%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:7%'>2007-至今</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>葛兰素史可-加拿大健康研究所药理学主席</view>
+        </view>
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:22%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:7%'>2003-至今</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>詹姆斯·麦吉尔荣誉教授</view>
+        </view>
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:22%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:7%'>2000-至今</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>麦吉尔大学医学院药理学系，教授</view>
+        </view>
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1993-2000</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>麦吉尔大学医学院药理学系，副教授</view>
+        </view>
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1989-1993</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>麦吉尔大学医学院药理学系，助理教授</view>
+        </view>
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1988-1989</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>哈佛医学院遗传学系，博士后研究员</view>
+        </view>
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1985-1988</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>希伯来大学，生物化学讲师</view>
+        </view>
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1984-1985</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>希伯来大学，生物化学助教</view>
+        </view>
+        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:7%'>1981-1983</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>希伯来大学学生会主席</view>
+        </view>
+        <view style='display:flex;flex-direction: row;justify-content: left;border-bottom:1px solid #e2e2e2;height:24px'>
+          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1978-1979</view>
+          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>希伯来大学学生会副主席</view>
+        </view>
+
+      </view>
+      <view style='width:10%;height:100%;border:1px solid #000000'></view>
+    </view>
+  </view>
+</view>

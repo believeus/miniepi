@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/contract/index",
+    "pages/questionnaire/page/sleep",
+    "pages/index/index",
+    "pages/questionnaire/page/pain",
+    "pages/questionnaire/page1",
+    "pages/questionnaire/page/mood",
+    "pages/Buy/GoodsList/index",
+    "pages/user/Report/index",
+    "pages/Buy/nutritional",
+    "pages/questionnaire/page/lifestyle",
+    "pages/mess/TechnicalSupport/professor/MoShe",
+    "pages/index/TestProcess/index",
+    "pages/index/introduction/index",
+    "pages/index/introduction/question/index",
+    "pages/index/introduction/DNA/index",
+    "pages/index/Swiper/lifestyle/index",
+    "pages/questionnaire/page/q1",
+    "pages/questionnaire/page/q2",
+    "pages/questionnaire/page/q3",
+    "pages/Buy/nutrilist",
+    "pages/user/question/index",
+    "pages/Buy/Order/empty",
+    "pages/user/user",
+    "pages/Buy/Order/index",
+    "pages/mess/DNAMethylation/index",
+    "pages/mess/Company/index",
+    "pages/questionnaire/index",
+    "pages/Buy/index",
+    "pages/Buy/DNAMethylation",
+    "pages/mess/TechnicalSupport/old/MoShe",
+    "pages/mess/TechnicalSupport/new/MoShe",
+    "pages/mess/index",
+    "pages/mess/TechnicalSupport/index",
+    "pages/user/mess",
+    "pages/index/SalivaCollection/index",
+    "pages/index/BioAge/index",
+    "pages/Buy/message",
+    "pages/questionnaire/mess",
+    "pages/start/start",
+    "pages/charts/multiCharts/index",
+    "pages/reagent/index",
+    "pages/detail/index",
+    "pages/user/investigation",
+    "pages/report/index",
+    "pages/cart/index"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "埃彼达雅医学诊断",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "selectedColor": "#036eae",
+    "color": "#808080",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "image/tabbar/index.png",
+        "selectedIconPath": "image/tabbar/index-1.png"
+      },
+      {
+        "pagePath": "pages/mess/index",
+        "text": "品牌",
+        "iconPath": "image/tabbar/mess-2.png",
+        "selectedIconPath": "image/tabbar/mess-3.png"
+      },
+      {
+        "pagePath": "pages/Buy/index",
+        "text": "产品商城",
+        "iconPath": "image/tabbar/buy.png",
+        "selectedIconPath": "image/tabbar/buy-1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户中心",
+        "iconPath": "image/tabbar/user.png",
+        "selectedIconPath": "image/tabbar/user-1.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+<view style="width:{{width}}px;height:2800px;">
+  <view style='width:100%;height:225px;;text-align:center'>
+    <image src='http://47.75.111.0/data/image/buy/DNA/Goods.png' mode='widthFix' style='width:100%' />
+  </view>
+
+  <view style='width:100%;height:650px;display:flex;background-color:#f4f4f6;'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:4.5%;font-size:20px;margin-top:20px;'>
+        S-腺苷蛋氨酸补充剂
+      </view>
+      <view style='width:100%;height:8;font-size:13px;color:#4d4d4d;margin-top:20px;margin-bottom:20px;'>
+        采用肠内包衣形式，能有效保护S-腺苷蛋氨酸活性，减轻胃负担，帮助S-腺苷蛋氨酸在小肠内分解释放，使人体更易吸收。同时本品还添加了维生素C及核黄素，以帮助人体内S-腺苷蛋氨酸的合成。
+      </view>
+      <view style='width:100%;height:4%;font-size:18px;margin-top:20px;'>
+        epiSAM-e
+      </view>
+      <view style='width:100%;font-size:12px;color:#4d4d4d;margin-top:10px;'>
+        The intestinal coating can effectively protect the activity of S-adenosylmethionine, relieve the burden of stomach, help the release of S-adenosylmethionine in the small intestine, and make the human body absorb more easily. Also added vitamin C and riboflavin
+        to help the synthesis of S-adenosylmethionine in the human body.
+      </view>
+      <view style='width:100%;height:8%;;margin-top:20px;font-size:20px'>
+        <text decode='true'>用于补充S-腺苷蛋氨酸\n缺失引起的症状</text>
+      </view>
+      <view style='width:100%;height:13%;margin-top:10px;;line-height:28px;color:#e2780c;font-weight:700'>
+        <text decode='true'>+ 保护肝脏\n+ 改善关节炎\n+ 抗抑郁</text>
+      </view>
+      <view style='width:100%;height:6%;font-size:18px;margin-top:20px;margin-bottom:20px;;line-height:18px'>
+        <text decode='true'>Promotes Optimal\nHormone Levels</text>
+      </view>
+      <view style='width:100%;height:8.7%;font-size:12px;;line-height:20px;color:#e2780c'>
+        <text decode='true'>+ HORMONAL BALANCE\n+ VITALITY  +  LIBIDO\n+ HEALTHY AGING\n</text>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+
+  <view style='width:100%;height:833px;;display:flex;'>
+
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:3%;font-size:20px;margin-top:10px;margin-bottom:20px;transform:translateX(-9px)'>【适宜人群】
+      </view>
+      <view style='width:100%;height:15%;;margin-top:10px;margin-bottom:10px;font-size:13px;line-height:19px;'>
+        <view style='width:100%;height:30%;;margin-bottom:10px;display:flex'>
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            长期接触化学用品、经常饮酒的人士需要补充S-腺苷蛋氨酸；
+          </view>
+        </view>
+
+        <view style='width:100%;height:30%;;margin-bottom:10px;display:flex'>
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            关节炎患者、睡眠不佳者、精神不振容易沮丧忧郁者、肝脏功能失调者需要补充S-腺苷蛋氨酸；
+          </view>
+        </view>
+
+        <view style='width:100%;height:30%;;margin-bottom:10px;display:flex'>
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            素食者容易缺乏甲硫氨酸，需要注意补充S-腺苷蛋氨酸。
+          </view>
+        </view>
+      </view>
+
+      <view style='width:100%;height:13%;;margin-top:40px;margin-bottom:40px;text-align:center'>
+        <image src='http://47.75.111.0/data/image/buy/DNA/1.png' mode='widthFix' style='width:30%;margin-right:5px' />
+        <image src='http://47.75.111.0/data/image/buy/DNA/2.png' mode='widthFix' style='width:30%;margin-left:5px;margin-right:5px' />
+        <image src='http://47.75.111.0/data/image/buy/DNA/3.png' mode='widthFix' style='width:30%;margin-left:5px;' />
+      </view>
+      <view style='width:100%;height:3%;font-size:18px;margin-top:10px;margin-bottom:20px;;transform:translateX(-9px)'>【Suitable population】
+      </view>
+      <view style='width:100%;height:20%;;margin-top:10px;margin-bottom:10px;font-size:12px;'>
+        <view style='width:100%;height:30%;;margin-bottom:10px;display:flex'>
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            People who have been exposed to chemical supplies for a long time and those who drink regularly need to be supplemented with SAMe;
+          </view>
+        </view>
+
+        <view style='width:100%;height:35%;;margin-bottom:10px;display:flex'>
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            Patients with arthritis, those with poor sleep, or mental retardation and depression, or liver dysfunction need to be supplemented with SAMe;
+          </view>
+        </view>
+
+        <view style='width:100%;height:30%;;margin-bottom:10px;display:flex'>
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            Vegetarians tend to be deficient in methionine and need to be supplemented with SAMe.
+          </view>
+        </view>
+      </view>
+      <view style='width:100%;height:3%;font-size:20px;margin-top:20px;margin-bottom:20px;transform:translateX(-9px)'>【食用方法】
+      </view>
+      <view style='width:100%;font-size:13px;'>
+        成人每次1粒，每日1～3次。建议空腹食用。S-腺苷蛋氨酸应至少在餐前30分钟食用。
+      </view>
+      <view style='width:100%;height:3%;font-size:18px;margin-top:20px;margin-bottom:20px;;transform:translateX(-9px)'>【Edible method】
+      </view>
+      <view style='width:100%;margin-bottom:20px;;font-size:12px;'>
+        One capsule per time for adult, 1～3 times daily. It is recommended that SAMe should be eaten on an empty stomach at least 30 minutes before meal.
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+
+  </view>
+
+  <view style='width:100%;height:1167px;display:flex;;background-color:#f4f4f6;'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:2%;font-size:20px;;margin-top:20px;transform:translateX(-9px)'>【主要成份】</view>
+      <view style='width:100%;font-size:13px;;margin-top:20px'>S-腺苷蛋氨酸、植物纤维素、交联羧甲基纤维素、聚甲基丙烯酸酯、植物硬脂酸镁、二氧化硅、柠檬酸三乙酯、纯化硬脂酸、抗坏血酸、核黄素、柠檬酸、二氧化钛。</view>
+      <view style='width:100%;height:2.2%;font-size:18px;;margin-top:20px;transform:translateX(-9px)'>【Main ingredients】</view>
+      <view style='width:100%;font-size:12px;;margin-top:10px'> S-adenosyl methionine, plant cellulose, crosslinked carboxymethyl cellulose, polymethacrylate, plant magnesium stearate, silica, citroflex-2, purified stearic acid, ascorbic acid, Riboflavin, citric acid, titanium dioxide.</view>
+      <view style='width:100%;height:18%;;margin-top:20px'>
+        <image src='http://47.75.111.0/data/image/buy/DNA/table.png' mode='widthFix' style='width:100%'></image>
+      </view>
+      <view style='width:100%;height:2%;font-size:20px;;margin-top:20px;transform:translateX(-9px)'>【禁忌症】</view>
+      <view style='width:100%;height:1.5%;font-size:13px;;margin-top:10px'>对腺苷蛋氨酸过敏者</view>
+      <view style='width:100%;height:2%;font-size:18px;;margin-top:20px;transform:translateX(-9px)'>【Contraindication】</view>
+      <view style='width:100%;height:1.5%;font-size:12px;;margin-top:10px'>Allergy to adenosine methionine </view>
+      <view style='width:100%;height:2%;font-size:20px;;margin-top:20px;transform:translateX(-9px)'>【温馨提示】</view>
+      <view style='width:100%;height:6%;font-size:13px;;margin-top:10px'>
+        <view style='width:100%;height:30%;;margin-bottom:5px'>
+          <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>首次使用如发现包装有破损，请勿食用；</view>
+        <view style='width:100%;height:30%;;margin-bottom:5px'>
+          <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>哺乳期女性及疾病患者食用前请咨询医师；</view>
+        <view style='width:100%;height:25%;'>
+          <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>如有不适，请停止食用并咨询专业人士。</view>
+      </view>
+
+      <view style='width:100%;height:2%;font-size:18px;;margin-top:20px;transform:translateX(-9px)'>【Tips】</view>
+
+      <view style='width:100%;height:10%;font-size:12px;;margin-top:10px'>
+        <view style='width:100%;height:30%;;margin-bottom:10px;display:flex'>
+
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            For the first time, if the package is found to be damaged, please do not eat it;
+          </view>
+        </view>
+
+        <view style='width:100%;height:30%;;margin-bottom:10px;display:flex'>
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            Nursing women and patients with diseases should consult a doctor before taking it;
+          </view>
+        </view>
+
+        <view style='width:100%;height:30%;;margin-bottom:10px;display:flex'>
+          <view style='width:10px;height:100%;'>
+            <image src='http://47.75.111.0/data/image/index/dot.png' style='width:10px;height:10px'></image>
+          </view>
+          <view style='width:328px;height:100%;'>
+            If you have any discomfort, please stop eating it and consult a professional.
+          </view>
+        </view>
+      </view>
+
+      <view style='width:100%;height:2%;font-size:20px;;margin-top:20px;transform:translateX(-9px)'>【声明】</view>
+      <view style='width:100%;height:1.5%;font-size:13px;;margin-top:10px'>本品不能替代药物</view>
+      <view style='width:100%;height:2%;font-size:18px;;margin-top:20px;transform:translateX(-9px)'>【Declaration】</view>
+      <view style='width:100%;height:1.5%;font-size:12px;;margin-top:10px'>This product can not substitute drug.</view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+</view>

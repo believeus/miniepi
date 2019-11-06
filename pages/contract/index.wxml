@@ -1,0 +1,283 @@
+<view style='width:100%;background-color:#f6f7f9;'>
+
+  <view style='width:100%;height:10px;background-color:f7f7f9;'></view>
+  <!--中文条款-->
+  <view wx:if='{{zh_lang}}'>
+    <view style='width:100%;display:flex;justify-content:center;background-color:edeeef;'>
+      <!--中文条款-->
+      <view style='width:95%;background-color:#ffffff;border:1px solid bdbdbd;border-radius:10px;'>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;border-radius:10px;height:40px;line-height:40px;font-size:14px;display:flex;'>
+            <view style='width:40%;color:#0071bc;'>语言/LANGUAGE:</view>
+            <view data-lang='CN' style='color:{{zh_color}};' bindtap='toLang'>中文</view>|
+            <view style='color:{{en_color}}' data-lang='EN' bindtap='toLang'>EN</view>
+          </view>
+        </view>
+        <view style='width:100%;height:30px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:80%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>埃彼达雅客户数据知情同意单</view>
+        </view>
+        <view style='100%px;height:20px;'></view>
+
+        <view style='width:100%;height:30px;'></view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            尊敬的用户
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            欢迎您使用香港HKG公司基因检测服务,在注册试用前，请您仔细阅读如下服务条款
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            关于EPIAGING APP
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            EPIAGING APP 会帮您在移动端APP及云端数据分析上对您的个人医疗数据保持匿名，并获取您微信小程序上的个人信息(例如头像，性别、称昵等)这需要您的信息及知情同意。您真实的身份将会被屏蔽，取而代之的是我们将提供一个ID号码给您。因此，您的真实个人身份不会被储存在移动端APP或服务器上。所以，在您下载APP后，您会被授予一个ID号码，并通过这个ID号码来检索您的数据并接收健康报告，而无论是我们的APP还是"云端"数据分析引擎都不会记录您真实的个人身份。
+            <view style='100%;height:20px;border：1px solid grey;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            EPIAGING APP用途
+            <view style='100%px;height:20px;'>
+            </view>
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            EpiAging移动端APP旨在通过向您提供基于DNA甲基化分析的真实生物学年龄，同时也提供以改变生活方式来促进健康为目标的著名国内医学协会链接和建议给您，从而帮助您实现利用表观基因组的价值达到健康衰老的目标。总之，一切改变的选择尽在您手中。
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            还是诚挚的邀请您能够与我们匿名分享您通过点击APP上简单的输入按钮而实现的改变，这些数据将被传输至机器学习引擎系统，以分析您生活方式的改变并提供相应的定期报告。
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            通过定期使用我们的DNA甲基化检测来监测您的生物学年龄可帮助您评估相应进展。我们也衷心希望您能够与他人分享您所作出的改变，从而实现您我一起携手共同努力提高您和他人健康的目的。
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            如何丰富健康数据
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            诚然，数据越丰富则越会对您和“EpiAging APP 社区”其他人的分析更具针对性和帮助性。通过"机器学习"来分析许多该APP其他用户的数据，我们将得出可能对降低老化速度有积极影响的生活方式变化的组合。
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            我们认为，良好的健康需要许多朋友伙伴来分享他们的经验和相互学习，而不仅仅是从"博学的"健康指导者向"病人"单向传递健康建议。因为我们知道医学是不完美的，而它的进步则是反复试验的结果。
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            匿名数据共享
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            我们将像"伙伴"一样一起学习，并通过分享经验、评估进展以及使用最好的机器学习技术来分析您提供的数据，同时获得指导进一步改进的反馈。通过向许多与您一样参与进来的朋友学习，我们将能凭借共同努力改善我们和他人的健康。我们理解对您的数据保持绝对“隐匿”，以及对您的个人身份保持匿名的重要性。也只有在严格遵守这些匿名原则的前提下我们才能够自由地参与这一宏大的合作关系。
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            数据安全
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            根据《中国数据保护条例》(CDPR)关于数据保护的规定，您有权要求访问、纠正或删除您的个人数据，或者限制与您的数据有关的处理，或者反对处理以及数据可移动性。您可以通过联系（info@epidia.cn）行使此权利。
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            您的数据会被加密和防火墙保护。同意接受条款之后，您将收到一个纯粹的ID号码，通过该ID号您可以进行数据提供并对系统保持匿名。
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;' bindtap='toIndex'>
+          <button style='width:40%;border-radius:30px;background-color:#0071bc;height:40px;color:white;text-align:center;line-height:40px;font-size:16px;' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="authorize">授权同意</button>
+        </view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;height:20px;'></view>
+      </view>
+    </view>
+  </view>
+  <!--英文条款-->
+  <view wx:if='{{en_lang}}'>
+    <view style='width:100%;display:flex;justify-content:center;background-color:edeeef;'>
+
+      <view style='width:95%;background-color:#ffffff;border:1px solid bdbdbd;border-radius:10px;'>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;border-radius:10px;height:40px;line-height:40px;font-size:14px;display:flex;'>
+            <view style='width:40%;color:#0071bc;'>语言/LANGUAGE:</view>
+            <view data-lang='CN' style='color:{{zh_color}};' bindtap='toLang'>CN</view>|
+            <view style='color:{{en_color}}' data-lang='EN' bindtap='toLang'>EN</view>
+          </view>
+        </view>
+        <view style='width:100%;height:30px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>Epidial Customer Data Consent Form</view>
+        </view>
+        <view style='100%px;height:20px;'></view>
+
+        <view style='width:100%;height:30px;'></view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            Dear Users
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            Welcome to Hong Kong HKG Gene Testing Service. Before registering for trial, please read the following terms of service carefully.
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            About EPIAGING APP
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            EPIAGING APP about to save your “blinded” personal medical data on the EpiAging Mobile App and the data analysis engine in the “cloud”, which requires your information and consent. Your identity is blinded and you will be provided with an ID number. Your
+            personal identity will not be stored in the mobile app or the server. Once you download the app you will be assigned an ID that will allow you to retrieve your data and receive health reports, but your identity will remain unknown either on
+            the app or the “cloud’ analysis engine.
+            <view style='100%;height:20px;border：1px solid grey;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            EPIAGING APP Purpose
+            <view style='100%px;height:20px;'>
+            </view>
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            EpiAging Mobile APP is designed to help you to harness the power of your epigenome for healthy aging by providing you with a DNA methylation-based assessment of your true biological age and by providing you links and recommendations of reputable national
+            medical societies on life style changes that can improve your health. It is your decision what changes to make.
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            However, we are asking you to share with us “anonymously” the changes that you have made using the simple entry buttons in the app, these data will be streamed to a machine learning engine that will analyze your life style changes and provide you with
+            a periodical report.
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            Testing your biological age periodically using our DNA methylation test will help you assess progress. We ask you to share the changes that you have made with others and thus become a partner in a joint effort to improve your and other people health.
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            How to enrich health data
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            You are not obligated to answer the questions on this app and it is your decision what information to provide. Similarly, it is your decision to make or avoid life style changes and to attend or ignore the recommendations of the different medical associations
+            that we are providing you with.
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            However, the richer the data, the better and more helpful the analysis will be to you and others in the “epiaging app community”. By analyzing data streaming from many other app users with “machine learning”, we will derive combinations of life style
+            alterations that may have a positive impact on reducing the speed of aging.
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            Anonymous data sharing
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            We believe that good health requires partnership of many people sharing their experiences and learning from each other rather than a unidirectional flow of instructions from the “learned” health provider to the “patient”. We know that medical science
+            is imperfect, and its progress involves trial and error.We will learn together as “partners” by sharing experiences, assessing progress and using the best of machine learning technology to analyze the data that you provide and get feedbacks
+            that will guide further improvement. By learning from many people that will be engaged as you are, we will be able to work together on improving our and other people health. We understand that it is a strict requirement that your data remains
+            absolutely “blinded” and that your personal identity remains anonymous. Only if these rules of anonymity are strictly adhered to, we will be able to freely participate in this grand partnership.
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
+            Data security
+          </view>
+        </view>
+        <view style='width:100%;height:10px;'></view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            In accordance with the China Data Protection Regulations (CDPR) with regards to data protection, you have the right to request access to and rectification or erasure of your personal data or restriction of processing concerning your data or to object
+            to processing as well as the right to data portability. You can exercise this right by contacting (info@epidia.cn).
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
+          <view style='width:90%;'>
+            Your name and identity will be encrypted and firewalled. Following your signature you will receive a blinded ID that will allow you to provide data and remain anonymous to the system.
+            <view style='100%px;height:20px;'></view>
+          </view>
+        </view>
+
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;' bindtap='toIndex'>
+          <button style='width:40%;border-radius:30px;background-color:#0071bc;height:40px;color:white;text-align:center;line-height:40px;font-size:16px;' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="authorize">AUTHORIZE AGREE</button>
+        </view>
+        <view style='width:100%;font-size:14px;display:flex;justify-content:center;height:20px;'></view>
+      </view>
+    </view>
+  </view>
+
+
+  <view style='width:100%;height:10px;background-color:f7f7f9;'></view>
+</view>

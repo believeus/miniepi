@@ -1,0 +1,116 @@
+<view style="width:{{width}}px;height:2624px;font-family: 'Century Gothic';">
+  <view style='width:100%;height:8.28%;'>
+    <image src='http://47.75.111.0/data/image/index/life/top.jpg' mode="widthFix" style='width:100%'></image>
+  </view>
+
+  <view style='width:100%;height:17.018%;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:15%;font-size:52rpx;color:#333333;margin-top:24px;margin-bottom:24px'>
+        <text decore="true">生活方式\n跟年龄的关系</text>
+      </view>
+      <view style='width:100%;height:15%;font-size:26rpx;color:#666666;line-height:48rpx'>
+        衰老是不可避免的。但是你的年龄取决于很多不同的因素。 你可以放慢这个过程，让自己看起来比实际年龄更加年轻。
+      </view>
+      <view style='width:100%;height:3%;font-size:28rpx;color:#666666;line-height:48rpx;margin-top:16px;margin-bottom:24px'>
+        这六个简单的步骤:
+      </view>
+      <view style='width:100%;height:4.5%;font-size:34rpx;margin-top:41px;'>
+        1. 少吃刺激性食物
+      </view>
+      <view style='width:100%;height:14%;font-size:26rpx;color:#666666;line-height:48rpx;margin-top:16px;margin-bottom:20px'>
+        刺激性食物会增加体内的炎症，而炎症与肥胖、心脏病和癌症有关。减少这些已知的炎性食物可以帮助你避开这些健康问题。
+      </view>
+      <view style='width:100%;height:9%;font-size:26rpx;color:#666666;line-height:48rpx;margin-top:16px;margin-bottom:16px'>
+        避免或减少食用:油炸和加工食品、糖和精制碳水化合物(如糖果、苏打水和白面粉)、酒精、盐、玉米油和红肉。
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:21%;;display:flex;background-color:#f4f4f6'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:44.5%;font-size:52rpx;color:#333333;margin-top:30px;margin-bottom:17px;'>
+        <image src='http://47.75.111.0/data/image/index/life/1.jpg' mode='widthFix' style='width:100%'></image>
+      </view>
+      <view style='width:100%;height:3%;;font-size:34rpx;'>
+        2. 保持水分
+      </view>
+      <view style='width:100%;height:22%;font-size:24rpx;color:#666666;line-height:44rpx;margin-top:16px;margin-bottom:10px;'>
+        你身体的每一个系统都依赖于水。问题是，我们大多数人都吃得不够。男性每天需要13杯液体，女性需要9杯。“另外，随着年龄的增长，我们体内的总含水量也在减少，”古德森说。 “此外，身体失去了感知口渴的能力，”她说。“饮水不足会导致便秘、平衡问题和摔倒、泌尿系统感染、肾脏问题以及伤口愈合缓慢。
+      </view>
+      <view style='width:100%;height:4.5%;;font-size:24rpx;color:#666666;margin-top:37px;line-height:44rpx;'>
+        尿液的颜色可以告诉你是否脱水。理想的颜色应该是淡黄色。颜色越深表明脱水程度不同。
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:9.94%;;display:flex;'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:7%;font-size:34rpx;margin-top:24px;margin-bottom:24px'>
+        3.找到有趣的
+      </view>
+      <view style='width:100%;height:15%;font-size:24rpx;color:#666666;line-height:44rpx;'>
+        2014年的一项研究表明，看滑稽的情景喜剧或电影时大笑不仅让人感觉良好，还能帮助记忆，降低压力荷尔蒙皮质醇。
+      </view>
+      <view style='width:100%;height:37.5%;font-size:24rpx;color:#666666;line-height:44rpx;margin-top:24px;margin-bottom:24px'>
+        洛玛琳达大学的研究人员向一组健康的老年人和一组患有糖尿病的老年人播放了一段20分钟的搞笑视频。然后，研究对象完成了一项记忆评估，并将其与另一组同龄但没有看到搞笑视频的人进行对比。 与没有看视频的人相比，看视频的人在所有记忆评估方面的得分都更高;他们的皮质醇水平也显著提高。
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:16.86%;;display:flex;background-color:#f4f4f6'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:42.2%;margin-top:24px;margin-bottom:24px'>
+        <image src='http://47.75.111.0/data/image/index/life/2.jpg' mode='widthFix' style='width:100%'></image>
+      </view>
+      <view style='width:100%;height:7%;font-size:34rpx;margin-top:30px'>
+        4.避开太阳
+      </view>
+      <view style='width:100%;height:10%;font-size:24rpx;margin-top:15px;margin-bottom:15px;color:#666666;line-height:44rpx'>
+        根据医学杂志《临床、美容和皮肤病学调查》发表的一项研究，如果你想避免皱纹，就要保护自己免受阳光的伤害。
+      </view>
+      <view style='width:100%;height:13.5%;font-size:24rpx;color:#666666;line-height:44rpx;margin-top:0px;margin-bottom:0px'>
+        加州圣莫尼卡普罗维登斯圣约翰健康中心约翰韦恩癌症研究所皮肤科医生兼转化免疫学主任戴尔芬·李博士说:“老化的皮肤与照片老化有关，照片老化与长期紫外线照射和时间有关。”
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10.56%;;display:flex;'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:7%;font-size:34rpx;margin-top:24px;margin-bottom:24px'>
+        5.抛弃香烟
+      </view>
+      <view style='width:100%;height:15%;font-size:24rpx;color:#666666;line-height:44rpx;'>
+        吸烟与许多健康问题有关，如肺癌，但它也加速衰老。 “这可能与老龄化和烟草使用有关，”李说。烟草烟雾含有致癌物质，可导致氧化应激，影响我们体内负责皮肤和头发色素的敏感化学物质。
+      </view>
+      <view style='width:100%;height:37.5%;font-size:24rpx;color:#666666;line-height:44rpx;margin-top:61px;margin-bottom:24px'>
+        吸烟不仅会使你的头发变白，还会引起皱纹。2013年的一项研究涉及一对双胞胎，一个吸烟，另一个不吸烟，从视觉上看，吸烟双胞胎的面部皱纹和其他衰老迹象有所增加。此外，吸烟还会缩短我们染色体上的端粒，这是长寿的标志。
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:16.86%;;display:flex;background-color:#f4f4f6'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:42.2%;margin-top:24px;margin-bottom:24px'>
+        <image src='http://47.75.111.0/data/image/index/life/3.jpg' mode='widthFix' style='width:100%'></image>
+      </view>
+      <view style='width:100%;height:7%;font-size:34rpx;margin-top:30px'>
+        6. 足够的睡眠
+      </view>
+      <view style='width:100%;height:27.5%;font-size:24rpx;color:#666666;line-height:44rpx;margin-top:10px;margin-bottom:0px'>
+        当你睡眠不足时，你的皮肤会付出代价，让你看起来更老。 “睡眠不足的人的眼睛和嘴巴周围会出现细纹和皱纹，这让他们看起来又累又困，”研究表明，睡眠不好的人皮肤老化的迹象更明显(细纹、色素不均匀和弹性更差)，而且从紫外线(UV)等多种环境压力源中恢复的速度更慢。
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+</view>

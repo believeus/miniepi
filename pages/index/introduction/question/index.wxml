@@ -1,0 +1,128 @@
+<view style="width:{{width}}px;height:1415px;">
+
+
+  <view style='width:100%;height:327px;display:flex;background-color:#f6f8f9;'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:117px;display:flex;margin-top:24px;margin-bottom:30px'>
+        <view style='width:70%;height:100%;'>
+          <view style='width:100%;height:28%;;'></view>
+          <view style='width:100%;height:61%;;font-size:40rpx;'>
+            <text decode='true'>填写问卷调查的\n重要性</text>
+          </view>
+        </view>
+        <view style='width:36%;height:100%;;'>
+          <image src='../../../../image/index/introduction/questionnaire-logo.png' mode='widthFix' style='width:90%' />
+        </view>
+      </view>
+      <view style='width:100%;height:34%;;'>
+        <view style='width:100%;height:23%;;font-size:'>
+          我们严格的标准保证了优质的服务
+        </view>
+        <image style='width:20px;height:20px;transform:translateY(4px);' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>领先的illmina芯片分析平台为您的DNA结果提供保障\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>权威科学家和医生专家使用严格的程序来编写这些报告\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>您的个性化报告是基于完善的科学研究\n</text>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+
+  <view style='width:100%;height:327px;display:flex;'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:117px;display:flex;margin-top:24px;margin-bottom:30px'>
+        <view style='width:70%;height:100%;'>
+          <view style='width:100%;height:28%;;'></view>
+          <view style='width:100%;height:61%;;font-size:40rpx;'>
+            <text decode='true'>我们如何进行\n数据分析</text>
+          </view>
+        </view>
+        <view style='width:36%;height:100%;;'>
+          <image src='../../../../image/index/introduction/analysis-logo.png' mode='widthFix' style='width:90%' />
+        </view>
+      </view>
+      <view style='width:100%;height:34%;;'>
+        <view style='width:100%;height:23%;;font-size:'>
+          我们严格的标准保证了优质的服务
+        </view>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>所有的唾液样本都在实验室进行处理，符合当地规定\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>基因分型是一个成熟可靠的DNA分析平台\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d' decode='true'>我们的科学家和医学专家使用严格的程序来编写这些报\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)'></image>
+        <text style='font-size:26rpx;color:#6d6d6d' decode='true'>告您的个性化报告是基于完善的科学研究\n</text>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+
+  <view style='width:100%;height:380px;display:flex;background-color:#f6f8f9;'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:117px;display:flex;margin-top:24px;margin-bottom:30px'>
+        <view style='width:70%;height:100%;'>
+          <view style='width:100%;height:28%;;'></view>
+          <view style='width:100%;height:61%;;font-size:40rpx;'>
+            <text decode='true'>我们如何保证信息\n是保密的</text>
+          </view>
+        </view>
+        <view style='width:36%;height:100%;;'>
+          <image src='../../../../image/index/introduction/secrecy-logo.png' mode='widthFix' style='width:90%' />
+        </view>
+      </view>
+      <view style='width:100%;height:34%;;'>
+        <view style='width:100%;height:41%;;font-size:'>
+          <text decode="true">我们拥有完善的数据隐私和安全保\n护管理体系</text>
+        </view>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>未经您的明确同意，我们不会分享您的任何个人资料\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>我们不会向雇主或健康保险公司提供您的资料或结果\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d' decode='true'>除非我们被要求遵守有效的传票或法庭命令，否则我们\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)'></image>
+        <text style='font-size:26rpx;color:#6d6d6d' decode='true'>不会向执法机关提供资料\n</text>
+        <text style='font-size:26rpx;color:#6d6d6d;'>了解更多关于我们的<text style='color:#f28e1e;'>隐私条款</text></text>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+
+
+  <view style='width:100%;height:380px;display:flex;'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:117px;display:flex;margin-top:24px;margin-bottom:30px'>
+        <view style='width:70%;height:100%;'>
+          <view style='width:100%;height:28%;;'></view>
+          <view style='width:100%;height:61%;;font-size:40rpx;'>
+            <text decode='true'>我们如何保证信息\n是保密的</text>
+          </view>
+        </view>
+        <view style='width:36%;height:100%;;'>
+          <image src='../../../../image/index/introduction/danger-logo.png' mode='widthFix' style='width:90%' />
+        </view>
+      </view>
+      <view style='width:100%;height:34%;;'>
+        <view style='width:100%;height:41%;;font-size:'>
+          <text decode="true">我们拥有完善的数据隐私和安全保\n护管理体系</text>
+        </view>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>未经您的明确同意，我们不会分享您的任何个人资料\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>我们不会向雇主或健康保险公司提供您的资料或结果\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d' decode='true'>除非我们被要求遵守有效的传票或法庭命令，否则我们\n</text>
+        <image style='width:20px;height:20px;transform:translateY(4px)'></image>
+        <text style='font-size:26rpx;color:#6d6d6d' decode='true'>不会向执法机关提供资料\n</text>
+        <text style='font-size:26rpx;color:#6d6d6d;'>了解更多关于我们的<text style='color:#f28e1e;'>隐私条款</text></text>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+</view>

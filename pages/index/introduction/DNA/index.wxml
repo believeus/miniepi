@@ -1,0 +1,171 @@
+<view style="width:{{width}}px;height:1540px">
+
+  <view style='width:100%;height:303.5px;display:flex'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:30.6%;;display:flex;margin-top:24px;margin-bottom:24px'>
+        <view style='width:54.73%;height:100%;'>
+          <view style='width:100%;height:30.6%;'></view>
+          <view style='width:100%;height:68%;;font-size:48rpx;color:#026eb9'>
+            <text decode='true'>DNA甲基化\n生物学年龄检测</text>
+          </view>
+        </view>
+        <view style='width:45%;height:100%;'>
+          <image src='../../../../image/index/DNA/Goods.png' mode='widthFix' style='width:90%' />
+        </view>
+      </view>
+      <view style='width:100%;height:32.73%;'>
+        <image style='width:20px;height:20px;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>通过您的DNA甲基化位点的变化解析您的生物学年龄\n</text>
+        <image style='width:20px;height:20px;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>国外权威专家专利技术，全面解析检查报告\n</text>
+        <image style='width:20px;height:20px;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>专业APP应用为您打造完善的健康生态系统\n</text>
+        <image style='width:20px;height:20px;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>定期检测、通过大数据进行实时分析，并进行干预\n</text>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+
+  <view style='width:100%;height:445px;display:flex;background-color:#f6f8f9;'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:13%;;display:flex;margin-top:24px;margin-bottom:24px;font-size:48rpx;color:#026eb9'>
+        <text decode='true'>DNA甲基化\n生物学年龄检测</text>
+      </view>
+      <view style='width:100%;height:35%;;display:flex;margin-bottom:24px'>
+        <image src='../../../../image/index/DNA/1.png' mode='widthFix' style='width:100%' />
+      </view>
+      <view style='width:100%;height:32.73%;;line-height:20px'>
+        <text style='font-size:26rpx;color:#6d6d6d;'>我们都知道自己的实际年龄。但是我们到底有多大？\n人们衰老的速度不同\n一些人“看起来”和“感觉”比实际年龄大,\n而另一些人看起来比实际年龄小\n虽然人类的整体实际年龄与他们的生物学年龄有关，但并不总是如此</text>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+
+  <view style='width:100%;height:480px;display:flex'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:30.6%;;display:flex;margin-top:24px;margin-bottom:24px'>
+        <view style='width:70%;height:100%;'>
+          <view style='width:100%;height:30.6%;'></view>
+          <view style='width:100%;height:63%;;font-size:40rpx;color:#026eb9'>
+            <text decode='true'>只需1ml唾液样本\n即可检测生物学学龄</text>
+          </view>
+        </view>
+        <view style='width:36%;height:100%;'>
+          <view style='width:100%;height:10.6%;'></view>
+          <image src='../../../../image/index/DNA/2.png' mode='widthFix' style='width:90%' />
+        </view>
+      </view>
+      <view style='width:100%;height:16.73%;;margin-bottom:30px'>
+        <text style='font-size:26rpx;color:#6d6d6d;'>根据说明书上的提示采集好唾液样本并通过到付的形式回寄到我们的实验室，我们会再24个工作日通过APP进行结果推送。</text>
+      </view>
+      <view style='width:100%;height:31%;'>
+        <image src='../../../../image/index/DNA/7.png' mode='widthFix' style='width:100%'></image>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+
+  <view style='width:100%;height:327px;display:flex;background-color:#f6f8f9;'>
+    <view style='width:5%;height:100%'></view>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:30.6%;;display:flex;margin-top:24px;margin-bottom:42px'>
+        <view style='width:70%;height:100%;'>
+          <view style='width:100%;height:16%;'></view>
+          <view style='width:100%;height:80%;;font-size:40rpx;color:#026eb9'>
+            <text decode='true'>我们智能管理体系\n帮您全方位定制个\n性化服务</text>
+          </view>
+        </view>
+        <view style='width:36%;height:100%;'>
+          <image src='../../../../image/index/DNA/3.png' mode='widthFix' style='width:90%' />
+        </view>
+      </view>
+      <view style='width:100%;height:34%;'>
+        <image style='width:20px;height:20px;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>所有的唾液样本严格把关,确保结果的准确性\n</text>
+        <image style='width:20px;height:20px;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>领先的illmina芯片分析平台为您的DNA结果提供保障\n</text>
+        <image style='width:20px;height:20px;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>权威科学家和医生专家使用严格的程序来编写这些报告\n</text>
+        <image style='width:20px;height:20px;transform:translateY(3px)' src='http://47.75.111.0/data/image/mess/DNAMethylation/dot.png'></image>
+        <text style='font-size:26rpx;color:#6d6d6d;'>您的个性化报告是基于完善的科学研究\n</text>
+      </view>
+    </view>
+    <view style='width:5%;height:100%'></view>
+  </view>
+
+  <view style='width:100%;height:508px;;display:flex'>
+
+    <view style='width:5%;height:100%;;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:98px;;display:flex;margin-top:24px;margin-bottom:24px'>
+        <view style='width:70%;height:100%;;'>
+          <view style='font-size:44rpx;color:#026eb9;margin-top:24px'>
+            <text decode='true'>产品能为用户\n提供什么</text>
+          </view>
+          <!--<view style='font-size:22rpx;color:#acacac;'>What does the product offer the user?</view>-->
+        </view>
+        <view style='width:29%;height:100%;'>
+          <image src='../../../../image/index/introduction/offer-logo.png' mode='widthFix' style='width:100%'></image>
+        </view>
+      </view>
+      <view style='width:100%;height:334px;'>
+        <view style='width:100%;height:50%;;display:flex'>
+          <view style='width:40%;height:100%;'>
+            <view style='width:100%;height:39%;;text-align:center'>
+              <image src='../../../../image/index/introduction/offer-1.png' mode='widthFix' style='width:50%'></image>
+            </view>
+            <view style='width:100%;height:11%;text-align:center;;font-size:28rpx;color:#6d6d6d;margin-bottom:10px'>
+              精准评估
+            </view>
+            <view style='width:100%;height:40%;;font-size:26rpx;color:#6d6d6d'>
+              检测精度高，可真实反应生物学衰老状况
+            </view>
+          </view>
+          <view style='width:20%;height:100%;'></view>
+          <view style='width:40%;height:100%;'>
+            <view style='width:100%;height:39%;;text-align:center'>
+              <image src='../../../../image/index/introduction/offer-2.png' mode='widthFix' style='width:50%'></image>
+            </view>
+            <view style='width:100%;height:11%;text-align:center;;font-size:28rpx;color:#6d6d6d;margin-bottom:10px'>
+              跟踪监测
+            </view>
+            <view style='width:100%;height:40%;;font-size:26rpx;color:#6d6d6d'>
+              提供生物学年龄逆转方案通过再检测再评估跟踪衰老改善状况
+            </view>
+          </view>
+        </view>
+        <view style='width:100%;height:50%;;display:flex'>
+          <view style='width:40%;height:100%;'>
+            <view style='width:100%;height:39%;;text-align:center'>
+              <image src='../../../../image/index/introduction/offer-3.png' mode='widthFix' style='width:50%'></image>
+            </view>
+            <view style='width:100%;height:11%;text-align:center;;font-size:28rpx;color:#6d6d6d;margin-bottom:10px'>
+              尖端技术
+            </view>
+            <view style='width:100%;height:40%;;font-size:26rpx;color:#6d6d6d'>
+              基于二代测序检测与人体生物学年龄高度相关的甲基化位点
+            </view>
+          </view>
+          <view style='width:20%;height:100%;'></view>
+          <view style='width:40%;height:100%;'>
+            <view style='width:100%;height:39%;;text-align:center'>
+              <image src='../../../../image/index/introduction/offer-4.png' mode='widthFix' style='width:50%'></image>
+            </view>
+            <view style='width:100%;height:11%;text-align:center;;font-size:28rpx;color:#6d6d6d;margin-bottom:10px'>
+              大数据管理
+            </view>
+            <view style='width:100%;height:40%;;font-size:26rpx;color:#6d6d6d'>
+              通过APP/小程序等多渠道把关，实时关注您的健康，并进行干预
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+
+  </view>
+</view>

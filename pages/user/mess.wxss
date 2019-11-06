@@ -1,0 +1,59 @@
+/* pages/user/mess.wxss */
+@import '../../style/font/CenturyGothic-Bold.wxss';
+
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+
+.page {
+  flex: 1;
+  font-size: 16px;
+  overflow: hidden;
+  font-family: "Century Gothic";
+}
+
+.page .page__hd {
+  padding: 0 15rpx;
+  margin: 30rpx;
+}
+
+.page .page__bd {
+  padding: 0 15rpx;
+  margin: 40rpx;
+}
+
+.page .page__botton {
+  background-color: #2790b8;
+  width: 80%;
+}
+
+.section__title {
+  font-size: 15px;
+}
+
+.unit {
+  font-size: 24rpx;
+}
+
+.icon {
+  width: 39rpx;
+  height: 41rpx;
+  transform: translateY(5rpx);
+  display: inline-block;
+  margin-right: 10rpx;
+}
+
+.line {
+  margin: 0 auto;
+  height: 10px;
+  background-color: #efefef;
+  
+}
+
+.page .top{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  background-color:  #018bd4
+}

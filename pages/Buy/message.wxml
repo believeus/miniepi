@@ -1,0 +1,124 @@
+<view class='page'>
+
+  <scroll-view scroll-y='true' style='height:{{height1-50}}px'>
+    <view style='width:100%;display: flex;flex-direction: row;justify-content: center;'>
+      <view class='top'>
+        <image src='http://47.75.111.0/data/image/buy/Goods.png' style='width:276rpx;height:176rpx'></image>
+        <view class='context'>
+          <view>生物年龄检测试剂</view>
+          <view>￥1000.00</view>
+        </view>
+      </view>
+    </view>
+
+    <view class='br'></view>
+
+    <view style="width:100%;display:flex;flex-direction: row;justify-content: center;">
+      <view class='part1' style='width:90%'>
+        <view style='height:20px'></view>
+        <view style='font-size:14px;width:100%;  display:block;'>
+          <view style='width:30%;float:left'>
+            购买数量
+          </view>
+          <view style='width:70%;float:right;display:flex;justify-content:center'>
+            <view bindtap='minus' style='width:15%;height:25px;border-bottom-left-radius:5px;border-top-left-radius:5px;background-color:#27374e;color:white;text-align:center;font-size:25px;line-height:25px;'>-</view>
+            <view style='width:25%;display;height:25px;text-align:center;font-size:18px;line-height:25px;background-color:#f4f4f4;'>{{size<=0?1:size}}</view>
+            <view bindtap='add' style='width:15%;border-bottom-right-radius:5px;border-top-right-radius:5px;height:25px;background-color:#27374e;color:white;text-align:center;font-size:22px;line-height:25px;'>+</view>
+          </view>
+        </view>
+        <view style='height:40px'></view>
+      </view>
+    </view>
+
+    <view class='br'></view>
+
+    <view style="width:100%;display:flex;flex-direction: row;justify-content: center;">
+      <view class='part1' style='width:90%'>
+        <view style='height:15px'></view>
+        <view class='context'>
+          <text>收货人</text>
+          <input style='border:0.5px solid #e2e2e2;width:75%;display:inline-block;float: right;height:30px;transform: translateY(-5px)'></input>
+        </view>
+        <view style='height:20px;border-bottom:1px solid #e2e2e2;'>
+        </view>
+        <view style='height:15px'></view>
+        <view class='context'>
+          <text>手机号码</text>
+          <input style='border:0.5px solid #e2e2e2;width:75%;display:inline-block;float: right;height:30px;transform: translateY(-5px)'></input>
+        </view>
+        <view style='height:20px;border-bottom:1px solid #e2e2e2;'>
+        </view>
+        <view style='height:15px'></view>
+        <view class='context'>
+          <text>收货地址</text>
+          <input style='border:0.5px solid #e2e2e2;width:75%;display:inline-block;float: right;height:30px;transform: translateY(-5px)'></input>
+        </view>
+        <view style='height:20px'></view>
+      </view>
+    </view>
+
+    <view class='br'></view>
+
+    <view style="width:100%;display:flex;flex-direction: row;justify-content: center;">
+      <view class='part1' style='width:90%'>
+        <view style='height:20px'></view>
+        <view class='context'>
+          优惠码
+          <input style='border:0.5px solid #e2e2e2;width:75%;display:inline-block;float: right;height:30px;transform: translateY(-5px)' placeholder="  输入邀请码"></input>
+        </view>
+        <view style='height:20px'></view>
+      </view>
+    </view>
+
+    <view class='br'></view>
+
+    <view style="width:100%;display:flex;flex-direction: row;justify-content: center;">
+      <view class='part1' style='width:90%'>
+        <view style='height:20px'></view>
+        <view style='height:20px'></view>
+        <view style='font-size:12px;width:100%;  display:block;'>
+          <view style='width:30%;float:left'>
+            需要发票
+          </view>
+          <view style='width:70%;float:left'>
+            <button class='button'>个人</button>
+            <button class='button'>公司</button>
+            <view style='float:right;width:100%'>
+              购买后您如需补开发票，可在付款后60天内至订单页面进行查询和申请
+            </view>
+          </view>
+          <view style='height:40px'></view>
+        </view>
+        <view style='height:20px'></view>
+        <view style='height:20px;border-bottom:1px solid #e2e2e2;'>
+        </view>
+        <view style='height:20px'></view>
+        <view class='context'>
+          留言
+          <input style='border:0.5px solid #e2e2e2;width:75%;display:inline-block;float: right;height:30px;transform: translateY(-5px)' placeholder="  选填"></input>
+        </view>
+        <view style='height:20px'></view>
+      </view>
+    </view>
+
+    <view class='br'></view>
+
+    <view style="width:100%;display:flex;flex-direction: row;justify-content: center;">
+      <view class='part1' style='width:90%'>
+        <view style='height:20px'></view>
+        <view class='context'>
+          总计
+          <text style='float:right'>￥3999.00</text>
+        </view>
+        <view style='height:20px'></view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <view class='bottom'>
+    <view class='left'>
+    <view style="height:25%"></view>价格:￥3999.00</view>
+    <view class='right'>
+    <view style="height:25%"></view>提交订单</view>
+  </view>
+</view>

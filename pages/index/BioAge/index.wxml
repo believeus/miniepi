@@ -1,0 +1,64 @@
+<!--pages/index/BioAge/index.wxml-->
+<view class='page' style='width:{{width}}px;height:{{height}}px'>
+  <view class='top'>
+    <image src='http://47.75.111.0/data/image/index/BioAge/top.png' mode='widthFix' style='width:100%'></image>
+  </view>
+
+  <view class='part1'>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:12%;margin-top:7%;margin-bottom:5%'>
+        <view style='color:#0071b8;font-size:22px;margin-bottom:2%'>每个人体内</view>
+        <view style='color:#0071b8;font-size:22px;'>都有一个DNA时钟</view>
+      </view>
+
+      <view style='width:100%;height:20%;;color:#4d4d4d;font-size:12px'>
+        <view>我们都知道自己的实际年龄。但我们到底有多大?</view>
+        <view>人们衰老速度不同</view>
+        <view>一些人"看起来"和"感觉"比实际年龄大</view>
+        <view>而另一些人看起来比实际年龄小</view>
+        <view>虽然人类的整体实际年龄与他们的生物学年龄有关,</view>
+        <view>但并不总是如此</view>
+      </view>
+
+      <view style='width:100%;height:55%;'>
+        <image src='http://47.75.111.0/data/image/index/BioAge/image-part1.png' mode='widthFix' style='width:100%'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='part2'>
+    <view style='width:90%;height:100%'>
+      <view style='width:100%;height:12%;margin-top:7%;margin-bottom:5%'>
+        <view style='color:#0071b8;font-size:22px;margin-bottom:5px'>生物学年龄比实际年龄</view>
+        <view style='color:#959595;font-size:20px;'>更能反映我们的健康、幸福和寿命</view>
+      </view>
+
+      <view style='width:100%;height:10%;;color:#4d4d4d;font-size:12px'>
+        <view>但是我们如何知道我们的"生物学年龄"呢？</view>
+        <view>人们相信，如果我们能定义真正的"生物学年龄"，</view>
+        <view>我们可能会测试和设计干预措施，以减缓生物老化的速度</view>
+      </view>
+
+      <view style='width:100%;height:70%;'>
+        <image src='http://47.75.111.0/data/image/index/BioAge/image-part2.png' mode='widthFix' style='width:100%'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='part3'>
+    <view style='width:90%;'>
+      <view style='width:100%;height:12%;margin-top:7%;margin-bottom:5%'>
+        <view style='color:#0071b8;font-size:22px;margin-bottom:5px'>香港HKG生物学年龄检测服务</view>
+        <view style='color:#959595;font-size:20px;'>专业解读您的年龄密码</view>
+      </view>
+
+      <view style='width:100%;height:15%;;color:#4d4d4d;font-size:13px'>
+        <view>我们将通过安全便捷的唾液采集的形式来进行全面细致的检测，检测结果将在您寄回采集样本的4周内通过APP的方式发送给您，并且提供完整细致全面的报告解读。</view>
+      </view>
+
+      <view style='width:100%;height:60%;'>
+        <image src='http://47.75.111.0/data/image/index/BioAge/image-part3.png' mode='widthFix' style='width:100%'></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,202 @@
+<!--pages/reagent/index.wxml-->
+<view style='width:100%;background-color:#fff;'>
+  <view style='width:100%;'>
+    <scroll-view scroll-y='true' style=' width: 100%;white-space: nowrap; height:{{height-50}}px;'>
+      <view style='width: 100%;height:225px;'>
+        <view style='width:100%;height:225px;  display: flex;flex-direction: row;justify-content: center;'>
+          <swiper indicator-dots="true" style='height:225px;width:92%;position: absolute;'>
+            <block>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+            </block>
+          </swiper>
+        </view>
+      </view>
+      <view style='width: 100%;height:225px'>
+        <view style='width:100%;height:225px;  display: flex;flex-direction: row;justify-content: center;'>
+          <swiper indicator-dots="true" style='height:225px;width:92%;position: absolute;'>
+            <block>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+            </block>
+          </swiper>
+        </view>
+      </view>
+      <view style='width: 100%;height:225px'>
+        <view style='width:100%;height:225px;  display: flex;flex-direction: row;justify-content: center;'>
+          <swiper indicator-dots="true" style='height:225px;width:92%;position: absolute;'>
+            <block>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+              <swiper-item>
+                <view style='display:flex;flex-direction:row;width:98.5%;height:200px;background-color:#fff;border-radius:15px;border:2px solid #eee;margin-right:2px;'>
+                  <view style='flex:1;height:225px;text-align:center;' bindtap='loadIn'>
+                    <image src='../../image/gin.png' style='width:200rpx;height:260rpx;margin-top:10px;'></image>
+                    <view style='background-color:#ee4d45;width:90px;height:30px;font-size:14px;color:white;line-height:30px;text-align:center;border-radius:5px;margin-left:20%;margin-top:5px;'>
+                      支付购买
+                    </view>
+                  </view>
+                  <view style='flex:1;height:225px;'>
+                    <view style='font-size:18px;font-weight:bold;margin-top:30px;margin-left:10px;'>高级套餐</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.DNA甲基化测试</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.遗传学</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.应用</view>
+                    <view style='font-size:12px;margin-top:5px;margin-left:10px;'>.个性化数据分析</view>
+                    <view style='font-size:20px;margin-top:5px;margin-left:5px;'>$120.00 USD</view>
+                  </view>
+                </view>
+              </swiper-item>
+            </block>
+          </swiper>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view style='width:100%;height:50px;display:flex;flex-direction: row;'>
+    <view bindtap='navto' style='width:35%;height:50px;background-color:#ffaf02;text-align:center;'>
+      <image src='../../image/cart.png' style='width:25px;height:25px;margin-top:5px;'></image>
+      <view style='font-size:12px;color:white;margin-top:-5px;'>购物车({{size}})</view>
+    </view>
+     <view style='width:65%;height:50px;'>
+      <view style='font-size:14px;color:white;background-color:#ee4d45;height:50px;line-height:50px;text-align:center;'>结算</view>
+    </view>
+  </view>
+</view>

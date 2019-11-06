@@ -1,0 +1,155 @@
+<!--pages/user/mess.wxml-->
+<view class="page">
+  <form bindsubmit="formSubmit">
+    <view class='top'>
+      <view style='width:42%;height:100%;'></view>
+      <view style='width:15%;height:100%;'>
+        <view style='width:100%;height:30px;'></view>
+        <view style='width:100%;height:50%;'>
+          <image src='/image/user_info/user_logo.png' mode='widthFix' style='width:100%'></image>
+        </view>
+        <view style='width:100%;height:20%;'></view>
+      </view>
+      <view style='width:42%;height:100%;'></view>
+    </view>
+
+    <view class='line'></view>
+
+    <view class="page__bd">
+      <view class="section section_gap">
+        <text class="section__title">性别</text>
+        <view style='transform:translateY(20rpx)'>
+          <radio-group class="radio-group" name="sex">
+            <label>
+              <radio value='Man' style='width:100px' color='#2790b8'>
+                <text style='font-size:15px'>男</text>
+              </radio>
+            </label>
+            <label>
+              <radio value='Female' color='#2790b8'>
+                <text style='font-size:15px'>女</text>
+              </radio>
+            </label>
+          </radio-group>
+        </view>
+      </view>
+    </view>
+
+    <view class='line'></view>
+
+    <view class="page__bd">
+      <view class="section section_gap">
+        <view class='icon'>
+          <image src='/image/user_info/user_mess/age.png' mode='widthFix' style='width:100%'></image>
+        </view>
+        <text class="section__title">年龄</text>
+        <text class="unit">（Age）</text>
+        <view class="body-view">
+          <slider name="age" min="0" max="150" block-size='20' block-color='#2790b8' activeColor='#2790b8' show-value />
+        </view>
+      </view>
+    </view>
+
+    <view class='line'></view>
+
+    <view class="page__bd">
+      <view class="section section_gap">
+        <view class='icon'>
+          <image src='/image/user_info/user_mess/heartbeat.png' mode='widthFix' style='width:100%'></image>
+        </view>
+        <text class="section__title">心跳</text>
+        <text class="unit">（min/次）</text>
+        <view class="body-view">
+          <slider name="heartbeat" min="40" max="180" block-size='20' block-color='#2790b8' activeColor='#2790b8' show-value/>
+        </view>
+      </view>
+    </view>
+
+    <view class='line'></view>
+
+    <view class="page__bd">
+      <view class="section section_gap">
+        <view class='icon'>
+          <image src='/image/user_info/user_mess/body.png' mode='widthFix' style='width:100%'></image>
+        </view>
+        <text class="section__title">身体素质指数</text>
+        <text class="unit">（kg/m2）</text>
+        <view class="body-view">
+          <slider name="bmi" min="10" max="30" block-size='20' block-color='#2790b8' activeColor='#2790b8' show-value/>
+        </view>
+      </view>
+    </view>
+
+    <view class='line'></view>
+
+    <view class="page__bd">
+      <view class="section section_gap">
+        <view class='icon'>
+          <image src='/image/user_info/user_mess/Cholesterol.png' mode='widthFix' style='width:100%'></image>
+        </view>
+        <text class="section__title">胆固醇</text>
+        <text class="unit">（mg/dL）</text>
+        <view class="body-view">
+          <slider name="Cholesterol" min="100" max="350" block-size='20' block-color='#2790b8' activeColor='#2790b8' show-value/>
+        </view>
+      </view>
+    </view>
+
+    <view class='line'></view>
+
+    <view class="page__bd">
+      <view class="section section_gap">
+        <view class='icon'>
+          <image src='/image/user_info/user_mess/blood_pressure.png' mode='widthFix' style='width:100%'></image>
+        </view>
+        <text class="section__title">血压</text>
+        <text class="unit">（mmHg）</text>
+        <view style='height:12px'></view>
+        <view class="body-view">
+          <text style='font-size:15px;color:#4d4d4d;margin-left:22px'>收缩压</text>
+          <slider name="Systolic" min="70" max="190" block-size='20' block-color='#2790b8' activeColor='#2790b8' show-value/>
+        </view>
+        <view class="body-view">
+          <text style='font-size:15px;color:#4d4d4d;margin-left:22px'>舒张压</text>
+          <slider name="Diastolic" min="40" max="100" block-size='20' block-color='#2790b8' activeColor='#2790b8' show-value/>
+        </view>
+      </view>
+    </view>
+
+    <view class='line'></view>
+
+    <view class="page__bd">
+      <view class="section section_gap">
+        <view class='icon'>
+          <image src='/image/user_info/user_mess/height.png' mode='widthFix' style='width:100%'></image>
+        </view>
+        <text class="section__title">身高</text>
+        <text class="unit">（cm）</text>
+        <view class="body-view">
+          <slider name="height" min="50" max="300" block-size='20' block-color='#2790b8' activeColor='#2790b8' show-value/>
+        </view>
+      </view>
+    </view>
+
+    <view class='line'></view>
+
+    <view class="page__bd">
+      <view class="section section_gap" style='height:70px'>
+        <view class='icon'>
+          <image src='/image/user_info/user_mess/weight.png' mode='widthFix' style='width:100%'></image>
+        </view>
+        <text class="section__title">体重</text>
+        <text class="unit">（Kg）</text>
+        <view class="body-view">
+          <slider name="weight" min="50" max="450" block-size='20' block-color='#2790b8' activeColor='#2790b8' show-value/>
+        </view>
+      </view>
+    </view>
+    <view class='line'></view>
+    <view style='height:20%;  background-color: #efefef;'>
+      <view style='height:5%;width:100%'></view>
+      <button class='page__botton' type='primary' formType="submit">提交</button>
+    </view>
+    <view class='line'></view>
+  </form>
+</view>

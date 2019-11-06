@@ -1,0 +1,190 @@
+<!--pages/user/Buy.wxml-->
+<view class='page' style='width:{{width}}px;height:{{height * 2.6}}px'>
+
+  <view class="part1" style='background-image:url({{background_image}});background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;'>
+    <view style='width:90%;'>
+      <scroll-view scroll-y='true' class='scroll'>
+        <view style='width: 100%;height:100%;'>
+          <view style='width:100%;height:100%;  display: flex;flex-direction: row;justify-content: center;'>
+            <swiper indicator-dots="true" style='height:100%;width:100%' indicator-color='#72b8d2' indicator-active-color='#2690b8'>
+              <block>
+                <swiper-item>
+                  <view class='top'>
+                    <image src='http://47.75.111.0/data/image/buy/Goods.png' mode='widthFix' style='width:80%'></image>
+                  </view>
+                </swiper-item>
+                <swiper-item>
+                  <view class='top'>
+                    <image src='http://47.75.111.0/data/image/buy/Goods.png' mode='widthFix' style='width:80%'></image>
+                  </view>
+                </swiper-item>
+              </block>
+            </swiper>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+  <view class='part2'>
+    <view style='width:100%;height:55%;display:flex;'>
+      <view style='width:10%;height:100%'></view>
+      <view style='width:80%;'>
+        <view style='font-size:45rpx;color:#4d4d4d;margin-top:7%'>DNA甲基化检测标准版2.0</view>
+        <view style='font-size:25rpx;color:#4d4d4d;margin-top:3%'>只需要1ml唾液，您就可以轻松在家获取个人DNA生物学年龄检测报告，官方解读约5-10个核心报告（具体报告以实际检测为准），提供PDF版报告并终身免费更新
+        </view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:40%;display:flex;'>
+      <view style='width:10%;height:100%'></view>
+      <view style='width:80%;'>
+        <view style='width:100%;height:30%;'>
+          <view style='font-size:22px;color: #2791b8;'>￥1000
+            <text style='font-size: 13px;color: #6d6d6d'>/件</text>
+            <text style='text-decoration:line-through;font-size: 33rpx;color: #6d6d6d'>原价￥1199</text>
+          </view>
+        </view>
+        <view style='width:100%;height:30%;margin-top:3%;'>
+          <view style='width:100%'>
+            <text style='font-size:25rpx;color: #6d6d6d;margin:0px'>满2件,</text>
+            <text style='font-size:22px;color: #2791b8;'>￥979</text>
+            <text style='font-size:25rpx;color: #6d6d6d'>/件。满3件及以上,</text>
+            <text style='font-size:22px;color: #2791b8;'>￥969</text>
+            <text style='font-size:25rpx;color: #6d6d6d'>/件。</text>
+          </view>
+        </view>
+      </view>
+      <view style='width:10%;height:100%'></view>
+    </view>
+  </view>
+
+
+  <view class='part3'>
+    <view style='width:80%;height:100%;;'>
+      <view style='width:100%;height:29.1%;'>
+        <view style='width:100%;height:51.1%;'>
+          <view style='width:100%;height:27%;'></view>
+          <view style='width:100%;height:68%;0;color:#4d4d4d;font-size:45rpx'>
+            <view>DNA甲基化检测</view>
+            <view>帮您揭秘年龄密码</view>
+          </view>
+        </view>
+        <view style='width:100%;height:48.5%;'>
+          <view style='width:100%;height:25.1%;'></view>
+          <view style='width:100%;height:74.5%;;font-size:25rpx;color:#4d4d4d'>
+            每个人都对自己的年龄比较关注，尤其作为女性客户，当问及年龄时，我们会有所顾及，当然现在说的是我们的实际年龄，那怎么能知道我们集体的年龄呢？也就是生物学年龄呢,这就需要我们的专业检测项目。
+          </view>
+        </view>
+      </view>
+
+      <view style='width:100%;height:5%;'></view>
+
+      <view style='width:100%;height:64%;'>
+        <view class='column'>
+          <view class='image'>
+            <image src='http://47.75.111.0/data/image/buy/logo-1.png' mode='widthFix' style='width:80%'></image>
+          </view>
+          <view class='context'>
+            <view style='width:100%;height:27.1%;;font-size:17px'>采样便捷</view>
+            <view style='width:100%;height:10%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>仅需少许口腔唾液样本</view>
+            <view style='width:100%;height:5%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>即可进行检测</view>
+          </view>
+        </view>
+
+        <view class='column'>
+          <view class='image'>
+            <image src='http://47.75.111.0/data/image/buy/logo-2.png' mode='widthFix' style='width:80%'></image>
+          </view>
+          <view class='context'>
+            <view style='width:100%;height:27.1%;;font-size:17px'>尖端技术</view>
+            <view style='width:100%;height:10%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>基于二代测序，检测与人体生物学</view>
+            <view style='width:100%;height:5%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>年龄高度相关的甲基化位点</view>
+          </view>
+        </view>
+
+        <view class='column'>
+          <view class='image'>
+            <image src='http://47.75.111.0/data/image/buy/logo-3.png' mode='widthFix' style='width:80%'></image>
+          </view>
+          <view class='context'>
+            <view style='width:100%;height:27.1%;;font-size:17px'>精准评估</view>
+            <view style='width:100%;height:10%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>检测精度高</view>
+            <view style='width:100%;height:5%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>可真实反映生物学衰老状况</view>
+          </view>
+        </view>
+
+        <view class='column'>
+          <view class='image'>
+            <image src='http://47.75.111.0/data/image/buy/logo-4.png' mode='widthFix' style='width:80%'></image>
+          </view>
+          <view class='context'>
+            <view style='width:100%;height:27.1%;;font-size:17px'>疾病预警</view>
+            <view style='width:100%;height:10%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>为自然年龄和生物学年龄相差较大者</view>
+            <view style='width:100%;height:5%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>提供疾病预警和健康指导</view>
+          </view>
+        </view>
+
+        <view class='column'>
+          <view class='image'>
+            <image src='http://47.75.111.0/data/image/buy/logo-5.png' mode='widthFix' style='width:80%'></image>
+          </view>
+          <view class='context'>
+            <view style='width:100%;height:27.1%;;font-size:17px'>跟踪监测</view>
+            <view style='width:100%;height:10%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>提供生物学年龄逆转方案</view>
+            <view style='width:100%;height:5%;'></view>
+            <view style='width:100%;height:20%;;font-size:25rpx;color:#4d4d4d'>通过再检测再评估跟踪衰老改善状况</view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+
+  <view class='part4'>
+    <view style='width:100%;height:81.9%;display:flex;justify-content: center;'>
+      <view style='width:80%;'>
+        <view style='width:100%;height:46.84%;'>
+          <view style='width:100%;height:14%;'></view>
+          <view style='width:100%;height:28%;;font-size:45rpx'>
+            <view>DNA甲基化检测</view>
+            <view>让您更了解真实的自己</view>
+          </view>
+          <view style='width:100%;height:8.65%;'></view>
+          <view style='width:100%;height:33.13%;;font-size:25rpx;color:#4d4d4d'>
+            每个人都对自己的年龄比较关注，尤其作为女性客户，当问及年龄时，我们会有所顾及，当然现在说的是我们的实际年龄，那怎么能知道我们集体的年龄呢？也就是生物学年龄呢,这就需要我们的专业检测项目。
+          </view>
+        </view>
+        <view style='width:100%;height:52.5%;'>
+          <image src='http://47.75.111.0/data/image/buy/bottom-image.png' mode='widthFix' style='width:100%'></image>
+        </view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:18%;'>
+      <view style='width:100%;height:58%;'></view>
+      <view style='width:100%;height:41.15%;justify-content: center;'>
+        <view style='width:100%;height:100%;display:flex;background-color: #0071b1;' bindtap='toBuy'>
+          <view style='width:43%;height:100%;'></view>
+          <view style='width:14%;height:100%;'>
+            <view style='width:100%;height:15%;'></view>
+            <view style='width:100%;height:79%;color:#ffffff'>
+              购买
+            </view>
+          </view>
+          <view style='width:43%;height:100%;'></view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,105 @@
+<view style='width:100%;height:{{height}}px;background-color:#f6f7f9;'>
+  <scroll-view scroll-y='true' style='width: 100%; height:{{height-50}}px;white-space: normal;'>
+
+    <view style='width:100%;text-align:center;background-color:white;height:130px;'>
+      <image src='../../image/gin.png' style='width:100px;height:120px;'></image>
+    </view>
+    <view style='width:100%;background-color:#50b0fa;'>
+      <view style='margin-left:20px;font-size:12px;height:100px;width:100%;'>
+        <view style='height:5px;'></view>
+        <view style='text-decoration:line-through;color:white;margin-top:5px;'>
+          原价：￥499
+        </view>
+        <view style='color:white;display:flex;flex-direction:row;margin-top:5px;'>
+          <view>一件售价优惠：</view>
+          <view style='font-size:13px;font-weight: bold;'>￥399</view>
+        </view>
+        <view style='color:white;display:flex;flex-direction:row;margin-top:5px;'>
+          <view>二件售价优惠：</view>
+          <view style='font-size:13px;font-weight: bold;'>￥374</view>
+        </view>
+        <view style='color:white;display:flex;flex-direction:row;margin-top:5px;'>
+          <view>三件售价优惠：</view>
+          <view style='font-size:13px;font-weight: bold;'>￥349</view>
+        </view>
+      </view>
+      <view style='width:100%;height:10px;'></view>
+      <view style='width:100%;height:120px;background-color:#ffffff;'>
+        <view style='font-size:18px;margin-top:5px;margin-left:20px;height:40px;line-height:50px;'>基因甲基化检测标准版2.0</view>
+        <view style='font-size:12px;margin-top:5px;margin-left:20px;font-family:"微软雅黑"'>只需要1ml唾液,您就可以轻松在家获取个人基因生物学年龄检测报告,官方解读约5~10个核心报告（具体报告数以实际检测为准），提供PDF版报告并终身免费更新</view>
+      </view>
+      <view style='width:100%;height:10px;'></view>
+      <view style='width:100%;background-color:#ffffff;height:190px;'>
+        <view style='margin-left:20px;font-size:16px;height:50px;line-height:50px;'>服务流程</view>
+        <view style='width:100%;'>
+          <view style='width:100%;display:flex;'>
+            <view style='width:5%;'></view>
+            <view style='width:10%;text-align:center;'>
+              <image src='../../image/cart.png' style='width:50rpx;height:50rpx;margin-top:5px;'></image>
+            </view>
+            <view style='width:10%;'></view>
+            <view style='width:10%;text-align:center;'>
+              <image src='../../image/bind.png' style='width:50rpx;height:50rpx;margin-top:5px;'></image>
+            </view>
+            <view style='width:10%;'></view>
+            <view style='width:10%;text-align:center;'>
+              <image src='../../image/saliva.png' style='width:50rpx;height:50rpx;margin-top:0px;'></image>
+            </view>
+            <view style='width:10%;'></view>
+            <view style='width:10%;text-align:center;'>
+              <image src='../../image/reback.png' style='width:50rpx;height:50rpx;margin-top:5px;'></image>
+            </view>
+            <view style='width:10%'></view>
+            <view style='width:10%;text-align:center;'>
+              <image src='../../image/file.png' style='width:50rpx;height:50rpx;margin-top:5px;'></image>
+            </view>
+            <view style='width:5%;'></view>
+          </view>
+          <view style='display:flex;font-size:12px;'>
+            <view style='width:5%;'></view>
+            <view style='width:10%;text-align:center;height:35px;'>
+              <text decode='true'>购买\n检测</text>
+            </view>
+            <view style='height:35px;width:10%;text-align:center;text-align:center;line-height:35px;font-size:14px;color:grey;font-weight: bold;'>
+              <text decode='ture'>&gt;</text>
+            </view>
+            <view style='width:10%;text-align:center;height:35px;'>
+              <text decode='true'>绑定\n账号</text>
+            </view>
+            <view style='height:35px;width:10%;text-align:center;text-align:center;line-height:35px;font-size:14px;color:grey;font-weight: bold;'>
+              <text decode='ture'>&gt;</text>
+            </view>
+            <view style='width:10%;text-align:center;height:35px;'>
+              <text decode='true'>唾液\n采样</text>
+            </view>
+            <view style='height:35px;width:10%;text-align:center;text-align:center;line-height:35px;font-size:14px;color:grey;font-weight: bold;'>
+              <text decode='ture'>&gt;</text>
+            </view>
+            <view style='width:10%;text-align:center;height:35px;'>
+              <text decode='true'>回寄\n试管</text>
+            </view>
+            <view style='height:35px;width:10%;text-align:center;text-align:center;line-height:35px;font-size:14px;color:grey;font-weight: bold;'>
+              <text decode='ture'>&gt;</text>
+            </view>
+            <view style='width:10%;text-align:center;height:35px;'>
+              <text decode='true'>查看\n报告</text>
+            </view>
+            <view style='width:5%;'></view>
+
+          </view>
+          <view style='width:100%;height:20px;'></view>
+          <view style='display:flex;flex-direction:row;'>
+            <view style='width:33.33%;height:25px;'></view>
+            <view style='width:33.33%;height:25px;border-radius: 10px;background-color:#50b0fa;color:white;line-height:25px;font-size:12px;text-align:center;'>如何生成报告</view>
+            <view style='width:33.33%;height:25px;'></view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view style='width:100%;height:20px;'></view>
+  </scroll-view>
+  <view style='width:100%;height:50px;background-color:#ff9595;text-align:center;line-height:50px;color:white;font-size:14px;'>
+    立即购买
+  </view>
+</view>

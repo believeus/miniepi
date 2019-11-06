@@ -1,0 +1,76 @@
+<view style="width:{{width}}px;">
+  <view style='width:100%;height:10px;;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:276px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:33%;;display:flex;margin-top:20px'>
+        <view style='width:60%;height:100%; position: relative;'>
+          <view style='width:100%;height:30%;;font-size:19px;position: absolute;top: 40%;margin: -15% 0 0 0;'>生物学年龄检测</view>
+          <view style='width:100%;height:40%;;font-size:14px;color:#808080;position: absolute;top: 75%;margin: -15% 0 0 0;'>Biological age detection Saliva collection kit</view>
+        </view>
+        <view style='width:50%;height:100%;;text-align:center'>
+          <image src='http://47.75.111.0/data/image/Buy/Order/1.jpg' style='width:93px;height:93px'></image>
+        </view>
+      </view>
+      <view style='width:100%;height:25%;;font-size:12px;color:#808080;margin-top:20px;line-height:21px'>
+        通过1ml唾液采集就可以精确检测出您的生物学年龄，通过先进的高精准illmina测序技术,APP和小程序的健康管理体系帮您进行干预和指导，最后出具权威信息报告，帮您提供健康干预。
+      </view>
+      <view style='width:100%;height:12%;;margin-top:20px'>
+        <view style='width:26%;height:100%;float:right;text-align:center;font-size:18px;color:#0071bc;line-height:30px;font-weight:800'>￥1000</view>
+        <view style='width:26%;height:100%;border-radius:17px;background-color:#0071bc;color:#ffffff;float:right;text-align:center;font-size:18px;line-height:30px'>购买</view>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:276px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:33%;;display:flex;margin-top:20px'>
+        <view style='width:60%;height:100%; position: relative;'>
+          <view style='width:100%;height:30%;;font-size:19px;position: absolute;top: 40%;margin: -15% 0 0 0;'>S-腺苷蛋氨酸补充剂</view>
+          <view style='width:100%;height:40%;;font-size:14px;color:#808080;position: absolute;top: 75%;margin: -15% 0 0 0;'>epiSAM-e</view>
+        </view>
+        <view style='width:50%;height:100%;;text-align:center'>
+          <image src='http://47.75.111.0/data/image/Buy/Order/2.jpg' style='width:93px;height:93px'></image>
+        </view>
+      </view>
+      <view style='width:100%;height:25%;;font-size:12px;color:#808080;margin-top:20px;line-height:21px'>
+        采用肠内包衣形式，能有效保护S-腺苷蛋氨酸活性，减轻胃负担，帮助S-腺苷蛋氨酸在小肠内分解释放，使人体更易吸收。同时本品还添加了维生素C及核黄素，以帮助人体内S-腺苷蛋氨酸的合成。
+      </view>
+      <view style='width:100%;height:12%;;margin-top:20px'>
+        <view style='width:26%;height:100%;float:right;text-align:center;font-size:18px;color:#0071bc;line-height:30px;font-weight:800'>￥320</view>
+        <view style='width:26%;height:100%;border-radius:17px;background-color:#0071bc;color:#ffffff;float:right;text-align:center;font-size:18px;line-height:30px'>购买</view>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+  <view style='width:100%;height:10px;;background-color:#edeeef'></view>
+
+
+  <view style='width:100%;height:276px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:33%;;display:flex;margin-top:20px'>
+        <view style='width:60%;height:100%; position: relative;'>
+          <view style='width:100%;height:30%;;font-size:19px;position: absolute;top: 40%;margin: -15% 0 0 0;'>生物学年龄检测</view>
+          <view style='width:100%;height:40%;;font-size:14px;color:#808080;position: absolute;top: 75%;margin: -15% 0 0 0;'>Biological age detection Saliva collection kit</view>
+        </view>
+        <view style='width:50%;height:100%;;text-align:center'>
+          <image src='http://47.75.111.0/data/image/Buy/Order/1.jpg' style='width:93px;height:93px'></image>
+        </view>
+      </view>
+      <view style='width:100%;height:25%;;font-size:12px;color:#808080;margin-top:20px;line-height:21px'>
+        通过1ml唾液采集就可以精确检测出您的生物学年龄，通过先进的高精准illmina测序技术,APP和小程序的健康管理体系帮您进行干预和指导，最后出具权威信息报告，帮您提供健康干预。
+      </view>
+      <view style='width:100%;height:12%;;margin-top:20px'>
+        <view style='width:26%;height:100%;float:right;text-align:center;font-size:18px;color:#0071bc;line-height:30px;font-weight:800'>￥1000</view>
+        <view style='width:26%;height:100%;border-radius:17px;background-color:#0071bc;color:#ffffff;float:right;text-align:center;font-size:18px;line-height:30px'>购买</view>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+</view>

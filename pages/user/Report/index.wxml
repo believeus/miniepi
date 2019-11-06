@@ -1,0 +1,447 @@
+<view style="width:{{width}}px;height:3550px;">
+
+  <view style='width:100%;height:10px;background-color:#efefef'></view>
+
+  <view style='width:100%;height:650px;'>
+    <view style='width:100%;height:14.5%;margin-top:80px;display:flex'>
+      <view style='width:5%;height:100%;'></view>
+      <view style='width:90%;height:100%;display:flex'>
+        <view style='width:28.45%;height:100%;border-radius:50%; background-color:#808080'></view>
+        <view style='width:60%;height:100%;margin-left:20px;line-height:55px'>
+          <view style='width:100%;height:24px;font-size:22px'>我的报告</view>
+          <view style='width:100%;height:20px;font-size:18px;margin-top:4px;color:#808080'>My Profile</view>
+        </view>
+      </view>
+      <view style='width:5%;height:100%;'></view>
+    </view>
+
+    <view style='width:100%;height:35%;margin-top:258px;display:flex;background-color:#F7F7F9'>
+
+      <view style='width:5%;height:100%;'></view>
+      <view style='width:90%;height:100%;'>
+
+        <view style='width:100%;height:58.19px;border-bottom:1px solid #efefef'>
+        <view style='width:100%;height:28.19px;display:flex'></view>
+          <view style='width:100%;height:30px;display:flex'>
+            <view style='width:20%;height:100%;font-size:16px'>ID</view>
+            <view style='width:30%;height:100%;'></view>
+            <view style='width:50%;height:100%;float:right;font-size:16px'>0000000001</view>
+          </view>
+        </view>
+        <view style='width:100%;height:58.19px;border-bottom:1px solid #efefef;margin-top:10px'>
+          <view style='width:100%;height:41%;display:flex'>
+            <view style='width:20%;height:100%;font-size:16px'>性别</view>
+            <view style='width:30%;height:100%;'></view>
+            <view style='width:50%;height:100%;float:right;font-size:16px'>女</view>
+
+          </view>
+          <view style='width:100%;height:50%;display:flex'>
+            <view style='width:20%;height:100%;font-size:14px;color:#808080'>Male/Female</view>
+            <view style='width:30%;height:100%;'></view>
+            <view style='width:50%;height:100%;float:right;font-size:14px;color:#808080'>Female</view>
+
+          </view>
+        </view>
+        <view style='width:100%;height:58.19px;border-bottom:1px solid #efefef;margin-top:10px'>
+          <view style='width:100%;height:41%;display:flex'>
+            <view style='width:20%;height:100%;font-size:16px'>年龄</view>
+            <view style='width:30%;height:100%;'></view>
+            <view style='width:50%;height:100%;float:right;font-size:16px'>58 岁</view>
+
+          </view>
+          <view style='width:100%;height:50%;display:flex'>
+            <view style='width:20%;height:100%;;font-size:14px;color:#808080'>Age</view>
+            <view style='width:30%;height:100%;'></view>
+            <view style='width:50%;height:100%;float:right;font-size:14px;color:#808080'>58 Years old</view>
+
+          </view>
+        </view>
+      </view>
+      <view style='width:5%;height:100%;'></view>
+
+    </view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:195px;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:49px;;margin-top:20px;margin-bottom:20px'>
+        <view style='width:100%;height:49%;;font-size:18px'>健康生活方式</view>
+        <view style='width:100%;height:49%;;font-size:16px;color:#808080'>Health & Life Style</view>
+      </view>
+      <view style='width:100%;height:98px;'>
+
+        <view style='width:100%;height:30%;;font-size:17px;display:flex'>
+          <view style='width:50%;height:100%;'>
+            身高
+            <text style='font-size:14px;color:#808080'>Height(lb)</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+        <view style='width:100%;height:30%;;font-size:17px;display:flex'>
+          <view style='width:50%;height:100%;'>
+            体重
+            <text style='font-size:14px;color:#808080'>Weight(cm)</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+        <view style='width:100%;height:30%;;font-size:17px;display:flex'>
+          <view style='width:50%;height:100%;'>
+            身体质量指数
+            <text style='font-size:14px;color:#808080'>BMI</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:160px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;'>心率（次/分钟）
+        <text style='font-size:14px;color:#808080'>Heart rate(beats/min)</text>
+      </view>
+
+      <view style='width:100%;height:47%;;margin-top:20px'>
+        <image src='http://47.75.111.0/data/image/user_info/Report/1.png' mode='widthFix' style='width:124px'></image>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:322px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;'>血压（毫米汞柱）
+        <text style='font-size:14px;color:#808080'>Blood pressure(mmHG)</text>
+      </view>
+      <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;display:flex'>
+        <view style='width:50%;height:100%;;display:flex'>
+          <image src='http://47.75.111.0/data/image/index/dot.png' style='width:25px;height:25px'></image>
+          <view>收缩压
+            <text style='font-size:14px;color:#808080' decode='true'>  Systolic BP</text>
+          </view>
+        </view>
+        <view style='width:50%;height:100%;;display:flex'>
+          <image src='http://47.75.111.0/data/image/index/dot_00a99d.png' style='width:25px;height:25px'></image>
+          <view>舒张压
+            <text style='font-size:14px;color:#808080' decode='true'>  Diastolic BP</text>
+          </view>
+        </view>
+      </view>
+
+      <view style='width:100%;height:61%;;margin-top:20px'>
+        <image src='http://47.75.111.0/data/image/user_info/Report/2.png' mode='widthFix' style='width:100%'></image>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:217px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;'>胆固醇（毫克）
+        <text style='font-size:14px;color:#808080'>Cholesterol(mg/dL)</text>
+      </view>
+      <view style='width:100%;height:143.39px;;margin-top:20px'>
+
+        <view style='width:100%;height:24%;;font-size:15px;display:flex'>
+          <view style='width:50%;height:100%;'>
+            低密度脂蛋白
+            <text style='font-size:12px;color:#808080'>LDL</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+        <view style='width:100%;height:24%;;font-size:15px;display:flex'>
+          <view style='width:50%;height:100%;'>
+            高密度脂蛋白
+            <text style='font-size:12px;color:#808080'>HDL</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+        <view style='width:100%;height:24%;;font-size:15px;display:flex'>
+          <view style='width:50%;height:100%;'>
+            总胆固醇
+            <text style='font-size:12px;color:#808080'>Total Cholesterol</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+        <view style='width:100%;height:24%;;font-size:15px;display:flex'>
+          <view style='width:50%;height:100%;'>
+            甘油三酸酯
+            <text style='font-size:12px;color:#808080'>Triglycerides</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:289px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:124px;border-bottom:1px solid #edeeef'>
+        <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;'>睡眠时间
+          <text style='font-size:14px;color:#808080'>Sleep(hour/day)</text>
+        </view>
+
+        <view style='width:100%;height:47%;;margin-top:20px'>
+          <image src='http://47.75.111.0/data/image/user_info/Report/3.png' mode='widthFix' style='width:124px'></image>
+        </view>
+      </view>
+      <view style='width:100%;height:142px;'>
+        <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;'>冥想
+          <text style='font-size:14px;color:#808080'>Meditation(hour/day)</text>
+        </view>
+
+        <view style='width:100%;height:47%;;margin-top:20px'>
+          <image src='http://47.75.111.0/data/image/user_info/Report/4.png' mode='widthFix' style='width:124px'></image>
+        </view>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:178px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;'>性生活
+        <text style='font-size:14px;color:#808080'>Sex life</text>
+      </view>
+      <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;display:flex'>
+        <view style='width:50%;height:100%;;display:flex;font-size:13px;'>
+          <image src='http://47.75.111.0/data/image/index/dot_7f47dd.png' style='width:25px;height:25px'></image>
+          <view>年均次
+            <text style='font-size:13px;color:#808080' decode='true'> （yrs of active）</text>
+          </view>
+        </view>
+        <view style='width:50%;height:100%;;display:flex;font-size:13px'>
+          <image src='http://47.75.111.0/data/image/index/dot_00a99d.png' style='width:25px;height:25px'></image>
+          <view>满意指数
+            <text style='font-size:13px;color:#808080' decode='true'>  （Ratings)</text>
+          </view>
+        </view>
+      </view>
+
+      <image src='http://47.75.111.0/data/image/user_info/Report/11.png' mode='widthFix' style='width:124px'></image>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:90px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+
+      <view style='width:100%;height:50%;;margin-top:20px'>
+
+
+        <view style='width:100%;height:30px;;display:flex'>
+          <view style='width:50%;height:100%;;font-size:15px;'>
+            吸烟
+            <text style='font-size:12px;color:#808080'>Smoking(stick/day)</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+        <view style='width:100%;height:30px;;display:flex'>
+          <view style='width:50%;height:100%;;font-size:15px;'>
+            酒精
+            <text style='font-size:12px;color:#808080'>Alcohol(bottle/day)</text>
+          </view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:150px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+      <view style='width:100%;height:25.56px;;font-size:17px;margin-top:20px;'>维生素
+        <text style='font-size:14px;color:#808080'>Vitamin(mg/day)</text>
+      </view>
+
+      <view style='width:100%;height:50%;;margin-top:20px'>
+        <view style='width:100%;height:30%;border:1px solid　#000;display:flex'>
+          <view style='width:50%;height:100%;;font-size:12px;color:#808080'>维生素A VitaminA(mg/day)</view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+        <view style='width:100%;height:30%;border:1px solid　#000;display:flex'>
+          <view style='width:50%;height:100%;;font-size:12px;color:#808080'>维生素B VitaminB(mg/day)</view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/8.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+        <view style='width:100%;height:30%;border:1px solid　#000;display:flex'>
+          <view style='width:50%;height:100%;;font-size:12px;color:#808080'>维生素C VitaminC(mg/day)</view>
+          <view style='width:50%;height:100%;'>
+            <image src='http://47.75.111.0/data/image/user_info/Report/7.png' mode='widthFix' style='width:100%'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:700px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+
+      <view style='width:100%;height:180px;'>
+        <image src='http://47.75.111.0/data/image/user_info/Report/5.png' mode='widthFix' style='width:100%'></image>
+      </view>
+
+      <view style='width:100%;height:70px;;display:flex'>
+        <view style='width:38.5%;height:100%;;'>
+          <view style='width:60%;height:100%;;margin:0 auto;'>
+            <view style='width:100%;height:50%;;line-height:14px'>
+              <view decode='true' style='font-size:14px;text-align:center'>您的</view>
+              <view decode='true' style='font-size:14px;text-align:center'>生物学年龄</view>
+            </view>
+            <view style='width:100%;height:50%;;text-align:center;font-size:22px;font-weight:800;color:#f15a24'>66</view>
+          </view>
+        </view>
+        <view style='width:23.07%;height:100%;'></view>
+        <view style='width:38.5%;height:100%;;'>
+          <view style='width:60%;height:100%;;margin:0 auto;'>
+            <view style='width:100%;height:50%;;line-height:14px'>
+              <view decode='true' style='font-size:14px;text-align:center'>您的</view>
+              <view decode='true' style='font-size:14px;text-align:center'>实际年龄</view>
+            </view>
+            <view style='width:100%;height:50%;;text-align:center;font-size:22px;font-weight:800;color:#00a99d'>58</view>
+          </view>
+        </view>
+
+
+      </view>
+      <view style='width:100%;height:40px;;margin-top:20px;display:flex'>
+
+        <view style='width:40px;height:100%;'>
+          <image src='http://47.75.111.0/data/image/user_info/Report/emmm.png' style='width:30px;height:30px' />
+        </view>
+        <view style='width:{{width - 40}}px;height:100%;'>
+          <view style='width:100%;height:41.9%;;font-size:15px;color:#f15a24'>您的生理年龄偏差大于5岁,建议您提高警惕</view>
+          <view style='width:100%;height:21.9%;;font-size:9px;color:#808080;margin-top:3px'>Your biological age is more than 5 years of chronological age.</view>
+        </view>
+
+
+      </view>
+
+      <view style='width:100%;height:334px;;margin-top:20px'>
+        <image src='http://47.75.111.0/data/image/user_info/Report/6.png' mode='widthFix' style='width:100%'></image>
+      </view>
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+
+  <view style='width:100%;height:10px;background-color:#edeeef'></view>
+
+  <view style='width:100%;height:407px;;display:flex'>
+    <view style='width:5%;height:100%;'></view>
+    <view style='width:90%;height:100%;'>
+
+      <view style='width:100%;height:40px;border-bottom:1px solid #edeeef;margin-top:20px;display:flex'>
+        <view style='width:50%;height:100%;;display:flex'>
+          <image src='http://47.75.111.0/data/image/index/dot.png' style='width:25px;height:25px'></image>
+          <view style='line-height:14px'>
+            <text style='font-size:12px;' decode='true'>情绪自我评价得分\n</text>
+            <text style='font-size:9px;color:#808080' decode='true'>Mood Self Assessment Score</text>
+          </view>
+        </view>
+        <view style='width:50%;height:100%;;display:flex'>
+          <image src='http://47.75.111.0/data/image/index/dot_7f47dd.png' style='width:25px;height:25px'></image>
+          <view style='line-height:14px'>
+            <text style='font-size:12px;' decode='true'>麦吉尔疼痛问卷得分\n</text>
+            <text style='font-size:9px;color:#808080' decode='true'>McGill Pain Questionnaire Score</text>
+          </view>
+        </view>
+      </view>
+
+      <view style='width:100%;height:84%;'>
+
+        <view class="swiper-tab">
+          <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">Week 1</view>
+          <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">Week 2</view>
+          <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">Week 3</view>
+          <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">Week 4</view>
+        </view>
+
+        <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+          <!-- Week 1 -->
+          <swiper-item>
+            <view>2019-2 Week 1</view>
+            <image src='http://47.75.111.0/data/image/user_info/Report/10.png' mode='widthFix' style='width:100%'></image>
+          </swiper-item>
+          <!-- Week 2 -->
+          <swiper-item>
+            <view>2019-2 Week 2</view>
+            <image src='http://47.75.111.0/data/image/user_info/Report/10.png' mode='widthFix' style='width:100%'></image>
+          </swiper-item>
+          <!-- Week 3 -->
+          <swiper-item>
+            <view>2019-2 Week 3</view>
+            <image src='http://47.75.111.0/data/image/user_info/Report/10.png' mode='widthFix' style='width:100%'></image>
+          </swiper-item>
+          <!-- Week 4 -->
+          <swiper-item>
+            <view>2019-2 Week 4</view>
+            <image src='http://47.75.111.0/data/image/user_info/Report/10.png' mode='widthFix' style='width:100%'></image>
+          </swiper-item>
+        </swiper>
+
+      </view>
+
+    </view>
+    <view style='width:5%;height:100%;'></view>
+  </view>
+</view>

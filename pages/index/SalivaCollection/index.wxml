@@ -1,0 +1,182 @@
+<!--pages/index/TestProcess/index.wxml-->
+<view class='page' style="width:{ScreenWidth}}px;height:{{ScreenHeight * 2}}px;background-image:url({{backgroundimage}});background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
+  <view class='top'>
+    <view style='width:100%;height:35%;'></view>
+    <view style='width:100%;height:30%;;display:flex'>
+      <view style='width:5%;height:100%;'></view>
+      <view style='width:1.3%;height:80%;background-color:#036ea0;margin-top:1%'></view>
+      <view style='width:2%;height:100%;'></view>
+      <view style='width:90%;height:100%;color:#036ea0;font-size:17px'>唾液样本采集流程</view>
+    </view>
+    <view style='width:100%;height:30%;'></view>
+  </view>
+
+  <view class='column'>
+    <view style='width:80%;height:100%;'>
+      <view style='width:100%;height:40%;;margin-bottom:2%;display:flex'>
+        <view style='width:30%;height:100%;'>
+          <image src='http://47.75.111.0/data/image/index/SalivaConllection/01.png' mode='widthFix' style='width:90%'></image>
+        </view>
+        <view style='width:70%;height:100%;'>
+
+          <view style='width:100%;height:15%;'></view>
+          <view style='width:100%;height:40%;;color:#0071b7;font-size:36px;font-weight:900;font-family: "Century Gothic"'>
+            01
+          </view>
+
+          <view style='width:100%;height:20%;'></view>
+        </view>
+      </view>
+      <view style='width:100%;height:55%;'>
+        <view style='width:80%;height:100%;;font-size:14px;color:#666666;'>
+          在采集唾液样本前30分钟，请用清洁饮用水（建议纯净水、矿泉水）将口腔内的杂物洗漱干净。
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='column' style='transform:translateY(-15%)'>
+    <view style='width:80%;height:100%;'>
+      <view style='width:100%;height:40%;;margin-bottom:2%;margin-left:19%;display:flex;'>
+        <view style='width:30%;height:100%;'>
+          <image src='http://47.75.111.0/data/image/index/SalivaConllection/02.png' mode='widthFix' style='width:90%'></image>
+        </view>
+        <view style='width:50%;height:100%;;float:right'>
+
+          <view style='width:100%;height:15%;'></view>
+          <view style='width:100%;height:40%;;color:#0071b7;font-size:36px;font-weight:900;font-family: "Century Gothic"'>
+            02
+          </view>
+
+          <view style='width:100%;height:20%;'></view>
+        </view>
+      </view>
+      <view style='width:100%;height:55%;;margin-left:19%;'>
+        <view style='width:80%;height:100%;;font-size:14px;color:#666666'>
+          用舌尖抵住上颚或下颚齿根以富集唾液，并用舌头在口腔内壁搅动15秒，向采集漏斗中轻轻吐入唾液，直至唾液液体总体积（非气泡）达到1ml刻度线高度。
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='column'>
+    <view style='width:80%;height:100%;'>
+      <view style='width:100%;height:40%;;margin-bottom:2%;display:flex'>
+        <view style='width:30%;height:100%;'>
+          <image src='http://47.75.111.0/data/image/index/SalivaConllection/03.png' mode='widthFix' style='width:90%'></image>
+        </view>
+        <view style='width:50%;height:100%;'>
+
+          <view style='width:100%;height:15%;'></view>
+          <view style='width:100%;height:40%;;color:#0071b7;font-size:36px;font-weight:900;font-family: "Century Gothic"'>
+            03
+          </view>
+
+          <view style='width:100%;height:20%;'></view>
+        </view>
+      </view>
+      <view style='width:100%;height:55%;'>
+        <view style='width:85%;height:100%;;font-size:14px;color:#666666'>
+          手持唾液采集管，确保其处于直立状态，并用另一只手协助旋开唾液保存液管的紫色管盖。
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='column'>
+    <view style='width:80%;height:100%;'>
+      <view style='width:100%;height:40%;;margin-bottom:2%;margin-left:19%;display:flex'>
+        <view style='width:30%;height:100%;'>
+          <image src='http://47.75.111.0/data/image/index/SalivaConllection/04.png' mode='widthFix' style='width:90%'></image>
+        </view>
+        <view style='width:50%;height:100%;'>
+
+          <view style='width:100%;height:15%;'></view>
+          <view style='width:100%;height:40%;;color:#0071b7;font-size:36px;font-weight:900;font-family: "Century Gothic"'>
+            04
+          </view>
+
+          <view style='width:100%;height:20%;'></view>
+        </view>
+      </view>
+      <view style='width:100%;height:55%;;margin-left:19%;'>
+        <view style='width:85%;height:100%;;font-size:14px;color:#666666'>
+          保持唾液采集管直立，并将唾液保存液缓缓倒入采集漏斗内，直至唾液保存液完全流入采集漏斗下边的采集管中。
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='column'>
+    <view style='width:80%;height:100%;'>
+      <view style='width:100%;height:40%;;margin-bottom:2%;display:flex'>
+        <view style='width:30%;height:100%;'>
+          <image src='http://47.75.111.0/data/image/index/SalivaConllection/05.png' mode='widthFix' style='width:90%'></image>
+        </view>
+        <view style='width:50%;height:100%;'>
+
+          <view style='width:100%;height:15%;'></view>
+          <view style='width:100%;height:40%;;color:#0071b7;font-size:36px;font-weight:900;font-family: "Century Gothic"'>
+            05
+          </view>
+
+          <view style='width:100%;height:20%;'></view>
+        </view>
+      </view>
+      <view style='width:100%;height:55%;'>
+        <view style='width:80%;height:100%;;font-size:14px;color:#666666'>
+          继续保持采集漏斗及采集管盖处于直立状态，小心从采集管上旋下采集漏斗。
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='column'>
+    <view style='width:80%;height:100%;'>
+      <view style='width:100%;height:40%;;margin-bottom:2%;margin-left:19%;display:flex'>
+        <view style='width:30%;height:100%;'>
+          <image src='http://47.75.111.0/data/image/index/SalivaConllection/06.png' mode='widthFix' style='width:90%'></image>
+        </view>
+        <view style='width:50%;height:100%;'>
+
+          <view style='width:100%;height:15%;'></view>
+          <view style='width:100%;height:40%;;color:#0071b7;font-size:36px;font-weight:900;font-family: "Century Gothic"'>
+            06
+          </view>
+
+          <view style='width:100%;height:20%;'></view>
+        </view>
+      </view>
+      <view style='width:100%;height:55%;;margin-left:19%;'>
+        <view style='width:80%;height:100%;;font-size:14px;color:#666666'>
+          用蓝色的采集管盖子将采集管盖好拧紧。请勿用力过大，稍拧紧即可，以免唾液采集管及管盖损坏。
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='column'>
+    <view style='width:80%;height:100%;'>
+      <view style='width:100%;height:40%;;margin-bottom:2%;display:flex'>
+        <view style='width:30%;height:100%;'>
+          <image src='http://47.75.111.0/data/image/index/SalivaConllection/07.png' mode='widthFix' style='width:90%'></image>
+        </view>
+        <view style='width:50%;height:100%;'>
+
+          <view style='width:100%;height:15%;'></view>
+          <view style='width:100%;height:40%;;color:#0071b7;font-size:36px;font-weight:900;font-family: "Century Gothic"'>
+            07
+          </view>
+
+          <view style='width:100%;height:20%;'></view>
+        </view>
+      </view>
+      <view style='width:100%;height:55%;'>
+        <view style='width:80%;height:100%;;font-size:14px;color:#666666'>
+          上下轻柔颠倒采集管5次，使唾液与唾液保存液充分混匀，并确认无漏液体，丢弃使用过的采集漏斗与保存液空管。
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

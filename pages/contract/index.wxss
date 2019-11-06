@@ -1,0 +1,3 @@
+/* pages/contract/index.wxss */
+@import '../../style/font/CenturyGothic-Bold.wxss';
+
