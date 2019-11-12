@@ -1,15 +1,20 @@
 //index.js
 //获取应用实例
 const app = getApp()
+
 Page({
   data: {
     height: "",
     width: "",
     L: "",
+    username:"xxxx",
+    
+  
     Urls: [{
         img: 'http://47.75.111.0/data/image/index/image-1.jpg',
         url: '/pages/index/Swiper/lifestyle/index'
       },
+      
       {
         img: 'http://47.75.111.0/data/image/index/image-2.jpg',
         url: ''
@@ -31,6 +36,7 @@ Page({
     selectData: ['中', '繁', 'En', 'Ru'], //下拉列表的数据
     index: 0, //选择的下拉列表下标
   },
+
   onLoad: function() {
     var _height = wx.getSystemInfoSync().screenHeight;
     var _width = wx.getSystemInfoSync().screenWidth;
@@ -100,6 +106,12 @@ Page({
       url: '/pages/user/Report/index',
     })
   },
+  // 跳转页面
+  Testreport :function(){
+    wx.navigateTo({
+      url: '/pages/index/TestProcess/index',
+    })
+  },
 
   white1: function() {
     console.log("while1")
@@ -128,6 +140,13 @@ Page({
       index: Index,
       selectShow: !this.data.selectShow
     });
-  }
+  },
+
   //语言选择菜单 --end
+
+
+
+
+
 })
+
