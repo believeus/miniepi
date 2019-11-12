@@ -45,7 +45,6 @@
     "pages/user/investigation",
     "pages/report/index",
     "pages/cart/index"
-   
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -83,5 +82,6 @@
         "selectedIconPath": "image/tabbar/user-1.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
