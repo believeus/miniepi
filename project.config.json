@@ -12,13 +12,15 @@
 		"autoAudits": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.9.2",
 	"appid": "wx4f53ae05242a3e7b",
 	"projectname": "epi",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -28,13 +30,63 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "主页",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/reagent/index",
+					"pathName": "pages/reagent/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/cart/index",
+					"pathName": "pages/cart/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/index/TestProcess/index",
+					"pathName": "pages/index/TestProcess/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/aaa/test",
+					"pathName": "pages/aaa/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mess/TechnicalSupport/new/MoShe",
+					"pathName": "pages/mess/TechnicalSupport/new/MoShe",
+					"scene": null
+				}
+			]
 		}
 	}
 }

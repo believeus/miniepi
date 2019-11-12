@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText": "Test Process",
+  "navigationBarBackgroundColor": "#0FA567",
+  "enablePullDownRefresh": true,
+  "navigationBarTextStyle": "black",
+  "backgroundTextStyle": "light"
+  
 }

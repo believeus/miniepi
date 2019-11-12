@@ -6,6 +6,7 @@
 .page .head {
   width: 100%;
   height: 22%;
+  
 }
 
 .page .part1 {
@@ -81,6 +82,97 @@
   padding: 10rpx;
 }
 
+ /* 头部轮播图 */
+.headFor image{
+  width: 100%;
+  height: 100%;
+}
+
+/* 四幅图的介绍 */
+.photo4{
+  width:100vw;
+  height:280px;
+  background:#0070BA;
+  display:flex;
+  flex-wrap:wrap;
+  align-content:space-around;
+  /* margin-top:40px; */
+  line-height: 10px;
+}
+.photo4andtext{
+  text-align: center;
+}
+ .photo4>view>view>view>text{
+   font-size: 12px;
+   color: #8D8D8D;
+ }
+
+
+/* 底部的小图片 */
+.list{
+  background-color:#EFF1F0;
+  width:90%;
+  margin:15px 0 0 16px;
+  padding:8px 0 8px 0;
+  border-radius:10px ;
+  color: #0071bc;
+  position:relative
+}
+.list>image{
+  margin-left:15px;
+}
+.list1{
+  background-color:#EFF1F0;
+  width:90%;
+  margin:40px 0 0 16px;
+  padding:8px 0 8px 0;
+  color: #0071bc;
+  border-radius:10px ;
+  /* display: flex;
+  justify-content: space-around; */
+
+}
+
+.image2{
+  width:30px;
+  height:30px;
+}
+
+.aboutus{
+  color: white;
+  position: absolute;
+  bottom: 36%;
+  left: 20%;
+}
+.lifestyle{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  font-size: 12px;
+}
+.testprocess{
+  color: white;
+  position: absolute;
+  bottom: 36%;
+  right: 20%;
+}
+.health{
+  color: white;
+  position: absolute;
+  bottom: 23%;
+  left: 20%;
+}
+.myreport{
+   color:black;
+  font-size: 12px;
+}
+.question{
+   color: white;
+  position: absolute;
+  bottom: 30%;
+  right: 20%;
+}
 /*
   选择器样式 -------End
 */

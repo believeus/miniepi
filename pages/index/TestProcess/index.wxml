@@ -1,162 +1,72 @@
-<view style='width:{{width}}px;height:810px;'>
-  <view style='width:100%;height:10px;background-color:#f5f5f5'></view>
-  <view style='width:{{width}}px;height:800px;;display:flex'>
-    <view style='width:10%;height:100%'>
-      <view style='width:100%;height:50px;border-bottom:1px solid #bfbfbf'></view>
-      <view style='width:100%;height:90px;border-bottom:1px solid #bfbfbf'></view>
-      <view style='width:100%;height:90px;border-bottom:1px solid #bfbfbf'></view>
-      <view style='width:100%;height:90px;border-bottom:1px solid #bfbfbf'></view>
-      <view style='width:100%;height:89px;border-bottom:1px solid #bfbfbf'></view>
-      <view style='width:100%;height:88px;border-bottom:1px solid #bfbfbf'></view>
-      <view style='width:100%;height:87px;border-bottom:1px solid #bfbfbf'></view>
-      <view style='width:100%;height:86px;border-bottom:1px solid #bfbfbf'></view>
-    </view>
-    <view style='width:80%;height:100%;'>
-      <view style='width:100%;height:18px;'></view>
-      <view style='width:100%;height:64px;;display:flex;margin-top:4px;margin-bottom:4px'>
-        <view style='width:86px;height:64px;;text-align:center'>
-          <image src='http://47.75.111.0/data/image/index/Technological_process/Download.png' mode="widthFix" style='width:70%'></image>
-        </view>
-        <view style='width:70%;height:100%;;display: flex;justify-content: center; align-items: center;'>
-          <view style='width:100%;'>
-            <view style='width:100%;height:30%;font-size:36rpx;'>
-              应用下载
-            </view>
-            <view style='width:100%;height:20%;font-size:22rpx;color:#808080;'>
-              APP download
-            </view>
-          </view>
-        </view>
-      </view>
-      <view style='width:100%;height:18px;'>
-
-      </view>
-      <view style='width:100%;height:64px;;display:flex;margin-top:4px;margin-bottom:4px'  bindtap='ToMarket'>
-        <view style='width:86px;height:64px;;text-align:center'>
-          <image src='http://47.75.111.0/data/image/index/Technological_process/Buy.png' mode="widthFix" style='width:70%'></image>
-        </view>
-        <view style='width:70%;height:100%;;display: flex;justify-content: center; align-items: center;'>
-          <view style='width:100%;'>
-            <view style='width:100%;height:30%;font-size:36rpx;'>
-              购买
-            </view>
-            <view style='width:100%;height:20%;font-size:22rpx;color:#808080;'>
-              Buy
-            </view>
-          </view>
-        </view>
-      </view>
-      <view style='width:100%;height:18px;'>
-
-      </view>
-      <view style='width:100%;height:64px;;display:flex;margin-top:4px;margin-bottom:4px;' bindtap='ToQuestionnaire'>
-        <view style='width:86px;height:64px;;text-align:center'>
-          <image src='http://47.75.111.0/data/image/index/Technological_process/Questionnaire.png' mode="widthFix" style='width:70%'></image>
-        </view>
-        <view style='width:70%;height:100%;;display: flex;justify-content: center; align-items: center;'>
-          <view style='width:100%;'>
-            <view style='width:100%;height:30%;font-size:36rpx;'>
-              问卷调查
-            </view>
-            <view style='width:100%;height:20%;font-size:22rpx;color:#808080;'>
-              Questionnaire
-            </view>
-          </view>
-        </view>
-      </view>
-      <view style='width:100%;height:18px;'>
-
-      </view>
-      <view style='width:100%;height:64px;;display:flex;margin-top:4px;margin-bottom:4px' bindtap='ToInformation'>
-        <view style='width:86px;height:64px;;text-align:center'>
-          <image src='http://47.75.111.0/data/image/index/Technological_process/InformationSecurity.png' mode="widthFix" style='width:70%'></image>
-        </view>
-        <view style='width:70%;height:100%;;display: flex;justify-content: center; align-items: center;'>
-          <view style='width:100%;'>
-            <view style='width:100%;height:30%;font-size:36rpx;'>
-              信息安全
-            </view>
-            <view style='width:100%;height:20%;font-size:22rpx;color:#808080;'>
-              Information Security
-            </view>
-          </view>
-        </view>
-      </view>
-      <view style='width:100%;height:18px;'>
-
-      </view>
-      <view style='width:100%;height:64px;;display:flex;margin-top:4px;margin-bottom:4px' bindtap='ToSaliva'>
-        <view style='width:86px;height:64px;;text-align:center'>
-          <image src='http://47.75.111.0/data/image/index/Technological_process/SalivaCollection.png' mode="widthFix" style='width:70%'></image>
-        </view>
-        <view style='width:70%;height:100%;;display: flex;justify-content: center; align-items: center;'>
-          <view style='width:100%;'>
-            <view style='width:100%;height:30%;font-size:36rpx;'>
-              唾液采集
-            </view>
-            <view style='width:100%;height:20%;font-size:22rpx;color:#808080;'>
-              Saliva Collection
-            </view>
-          </view>
-        </view>
-      </view>
-      <view style='width:100%;height:18px;'>
-
-      </view>
-      <view style='width:100%;height:64px;;display:flex;margin-top:4px;margin-bottom:4px'>
-        <view style='width:86px;height:64px;;text-align:center'>
-          <image src='../../../image/index/Technological_process/BacktoSend.png' mode="widthFix" style='width:70%'></image>
-        </view>
-        <view style='width:70%;height:100%;;display: flex;justify-content: center; align-items: center;'>
-          <view style='width:100%;'>
-            <view style='width:100%;height:30%;font-size:36rpx;'>
-              回寄
-            </view>
-            <view style='width:100%;height:20%;font-size:22rpx;color:#808080;'>
-              Back To Send
-            </view>
-          </view>
-        </view>
-      </view>
-      <view style='width:100%;height:18px;'>
-
-      </view>
-      <view style='width:100%;height:64px;;display:flex;margin-top:4px;margin-bottom:4px' bindtap='ToDNA'>
-        <view style='width:86px;height:64px;;text-align:center'>
-          <image src='http://47.75.111.0/data/image/index/Technological_process/DNAExtractionAnalysis.png' mode="widthFix" style='width:70%'></image>
-        </view>
-        <view style='width:70%;height:100%;;display: flex;justify-content: center; align-items: center;'>
-          <view style='width:100%;'>
-            <view style='width:100%;height:30%;font-size:36rpx;'>
-              DNA提取分析
-            </view>
-            <view style='width:100%;height:20%;font-size:22rpx;color:#808080;'>
-              DNA Extraction Analysis
-            </view>
-          </view>
-        </view>
-      </view>
-      <view style='width:100%;height:18px;'>
-
-      </view>
-      <view style='width:100%;height:64px;;display:flex;margin-top:4px;margin-bottom:4px'>
-        <view style='width:86px;height:64px;;text-align:center'>
-          <image src='http://47.75.111.0/data/image/index/Technological_process/InspectionResultReport.png' mode="widthFix" style='width:70%'></image>
-        </view>
-        <view style='width:70%;height:100%;;display: flex;justify-content: center; align-items: center;'>
-          <view style='width:100%;'>
-            <view style='width:100%;height:30%;font-size:36rpx;'>
-              检查结果报告
-            </view>
-            <view style='width:100%;height:20%;font-size:22rpx;color:#808080;'>
-              Inspection Result Report
-            </view>
-          </view>
-        </view>
-      </view>
-      <view style='width:100%;height:18px;'></view>
-
-    </view>
-    <view style='width:10%;height:100%;'></view>
+<view style='width:{{width}}px;'>
+  <!-- test process图片 -->
+  <view style="width:100vw;height:160px;background-image: url(/image/icons/tp1.png);background-size:100% 100%;background-repeat:no-repeat;display:flex;position:relative">
+      <text class="test1">TEST PROCESS</text>
   </view>
+  <!-- 流程布局 -->
+  <view style="100vw;font-size:12px">
+        <!-- 下载 -->
+      <view style="background:#FFFFFF;width:100%;position:relative;height:160px">
+          <image src="/image/icons/tp2.png" class="imgapp"></image>
+          <text style="position:absolute;left: 24%;margin-top:100px;">              1.Download the APP
+          </text>
+          <image src="/image/icons/tpa.png" class="imgapp2"></image>
+          <view class="gray1"></view>    
+       </view>
+      <!-- shopping -->
+      <view style="background:#FFFFFF;width:100%;position:relative;height:120px">
+          <image src="/image/icons/tp3.png" class="imgshop" bindtap=""></image>
+          <text style="position:absolute;left:12%;margin-top:80px;">                2.Purchase the kit
+          </text>
+          <view class="gray2"></view> 
+          <image src="/image/icons/tpb.png" class="imgshop2"></image> 
+       </view>
+      <!-- question -->
+      <view style="background:#FFFFFF;width:100%;position:relative;height:120px;margin-top:34px">
+          <image src="/image/icons/tp4.png" class="imgquestion"></image>
+          <text style="position:absolute;left:12%;margin-top:70px;">                3.Fill up the question-naire(Optional)
+          </text>
+          <view class="gray4"></view> 
+       </view>
+        <!-- collect -->
+       <view style="background:#FFFFFF;width:100%;position:relative;height:120px;margin-top:10px">
+          <image src="/image/icons/tp5.png" class="imgapp"></image>
+          <text style="position:absolute;left:14%;margin-top:90px;">                4.Collect your saliva sample
+          </text>
+          <view class="gray5"></view> 
+       </view>
+       <!-- sample -->
+       <view style="background:#FFFFFF;width:100%;position:relative;height:125px;margin-top:30px">
+          <image src="/image/icons/tp6.png" class="imgshop"></image>
+          <text style="position:absolute;left:12%;margin-top:80px;">                5.Ship the sample back to us
+          </text>
+           <view class="gray3"></view> 
+            <image src="/image/icons/tpc.png" class="imgsample"></image>
+       </view>
+      <!-- DNA extraction -->
+       <view style="background:#FFFFFF;width:100%;position:relative;height:140px;">
+          <image src="/image/icons/tp7.png" class="imgdna"></image>
+          <text style="position:absolute;left:40%;margin-top:94px;">                6.DNA extraction and analysis
+          </text>
+           <view class="gray6"></view> 
+           <image src="/image/icons/tpd.png" class="imgdna1"></image>
+        </view>
+        <!-- view the report -->
+        <view style="background:#FFFFFF;width:100%;position:relative;height:140px;">
+           <image src="/image/icons/tp8.png" class="imgreport" bindtap=""></image>
+           <text style="position:absolute;left:20%;margin-top:94px;">                7.View the report through the App
+           </text>
+           <view class="gray5"></view> 
+        </view>
+        <!-- 空白 -->
+        <view style="background:#FFFFFF;width100%;height:10px"></view>
+        <view style="background:#FFFFFF;width100%;height:20px;text-align: center;color:#333333">
+          @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+        </view>
+  </view>
+ 
+
+
+
+
 </view>

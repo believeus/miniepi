@@ -44,15 +44,18 @@
     "pages/detail/index",
     "pages/user/investigation",
     "pages/report/index",
-    "pages/cart/index"
-   
+    "pages/cart/index",
+    "pages/aaa/test"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "埃彼达雅医学诊断",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "default"
+    "navigationStyle": "default",
+    "backgroundColor": "orange",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "selectedColor": "#036eae",
@@ -83,5 +86,6 @@
         "selectedIconPath": "image/tabbar/user-1.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
