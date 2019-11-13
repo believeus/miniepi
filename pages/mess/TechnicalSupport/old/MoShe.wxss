@@ -54,7 +54,6 @@
     font-weight: 600;
 }
 .swiper-tab-item{
-
     color:#434343;
 }
 .active{

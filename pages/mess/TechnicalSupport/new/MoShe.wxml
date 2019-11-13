@@ -1,109 +1,191 @@
-<view class="page" style='width:{{width}}px;height:{{height}}px'>
-
-  <view style='width:100%;height:25%;border:1px solid #000000;'>
-    <view style='width:100%;height:30%;border:1px solid #000000;'></view>
-    <view style='width:100%;height:54%;border:1px solid #000000;display:flex'>
-      <view style='width:10%;height:100%;border:1px solid #000000;'></view>
-      <view style='width:22%;height:100%;border:1px solid #000000;'>
-        <image src='http://47.75.111.0/data/image/mess/Moshe_Szyf.png' mode="widthFix" style='width:100%;'></image>
+<view class="page" style="width:100%;height:3000px">
+  <view style="height:100%;flex-direction: column;">
+    <!--头像布局-->
+    <view style="justify-content: center;display:flex">
+      <image src="/image/icons/prof.png" style='height:25%;width:25%;' mode='widthFix'></image>
+    </view>
+    <view style="justify-content: center;display:flex">
+      <text style="color:#0071bc">Moshe Szyf, Prof.</text>
+    </view>
+    <view style="width:100vw;height:10px;"></view>
+    <view style="justify-content: center;display:flex">
+      <text class="font">Chairman & CEO</text>
+    </view>
+    <!--justify-content: center;display:flex 居中-->
+    <view style="justify-content: center;display:flex">
+      <text class="font">HKG epiTHERAPEUTICS Ltd.</text>
+    </view>
+    <view>
+      <!--空隙-->
+      <view style="width:100vw;height:10px;"></view>
+      <!--灰色条纹带字-->
+      <view style="width:100vw;height:60px;background-color:#eaeaea">
+        <text style="line-height:50px;font-size:12px;margin-left:15px">| PROFESSIONAL EXPERIENCES</text>
       </view>
-      <view style='width:9%;height:100%;border:1px solid #000000;'></view>
-      <view style='width:58%;height:100%;border:1px solid #000000;'>
-        <view style='width:100%;height:22%;border:1px solid #000000;'></view>
-        <view style='width:100%;height:20.41%;border:1px solid #000000;font-size:36rpx;font-weight:700;color:#4f4f4f'>
-          HKG公司 CEO
+      <!--padding-left左移动-->
+      <view style="width:100vw;height:20px;"></view>
+      <text class="font" style="padding-left:18px">--</text>
+      <text class="font" style="padding-left:15px">Pioneer of the field of epigenetics</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <text class="font" style="padding-left:18px">--</text>
+      <text class="font" style="padding-left:15px">Inventor of the first broad patents in the field</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <text class="font" style="padding-left:18px">--</text>
+      <text class="font" style="padding-left:15px">Inventor of the first patents on DNA methylation</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <view style=" flex-direction: row;">
+        <view style='padding-left:18px'>
+          <text class="font">--</text>
+          <text class="font" style='padding-left:15px;width:80%'>Founder of the field of behavioral and psychiatry </text>
         </view>
-        <view style='width:100%;height:6.5%;border:1px solid #000000;'></view>
-        <view style='width:100%;height:20.41%;border:1px solid #000000;font-size:36rpx;color:#4f4f4f'>
-          摩西·西夫 院士
+      </view>
+      <text class="font" style="padding-left:45px">epigenetics</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <text class="font" style="padding-left:18px">--</text>
+      <text class="font" style="padding-left:15px">Thought leader, published 295 papers in the area</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <text class="font" style="padding-left:18px">--</text>
+      <text class="font" style="padding-left:15px">Fellow of the Royal Society of Canada</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <text class="font" style="padding-left:18px">--</text>
+      <text class="font" style="padding-left:15px">Fellow of the Canadian Academy of Health Sciences</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <view style=" flex-direction: row;">
+        <view style='padding-left:18px'>
+          <text class="font">--</text>
+          <text class="font" style='padding-left:15px;'>Professor Department of Pharmacology and</text>
         </view>
+      </view>
+      <text class="font" style="padding-left:45px">Therapeutics McGill University Montreal Canada</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <view style=" flex-direction: row;">
+        <view style='padding-left:18px'>
+          <text class="font">--</text>
+          <text class="font" style='padding-left:15px;'>Resident chief scientist of Beijing epidial medical</text>
+        </view>
+      </view>
+      <text class="font" style="padding-left:45px">diagnostic technology co., LTD.</text>
+
+      <view style="width:100vw;height:10px;"></view>
+      <view style=" flex-direction: row;">
+        <view style='padding-left:18px'>
+          <text class="font">--</text>
+          <text class="font" style='padding-left:15px;'>Director of epigenetic institute, Beijing yizhuang</text>
+        </view>
+      </view>
+      <text class="font" style="padding-left:45px">innovation institute</text>
+    </view>
+
+
+    <!--灰色中的视频-->
+    <view style="width:100vw;height:30px;"></view>
+    <view style="width:100vw;height:1185px;background-color:#eaeaea">
+      <view style="width:100vw;height:20px;"></view>
+      <text class="font" style="padding-left:20px">RELATED VIDEOS</text>
+      <view style="width:100vw;height:30px;"></view>
+      <view style=" flex-direction: row;">
+        <view style='padding-left:20px'>
+          <text class="font">Healthtech O2O Summit Dr. Moshe Szyf, HKG</text>
+          <text class="font">Epitherapeutics.mp4</text>
+        </view>
+
+
+        <!--视频1-->
+        <view style="width:100vw;height:10px;"></view>
+        <!--margin-left:20px外边距-->
+        <view style="width:100vw;">
+          <video poster="/image/icons/vid1.png" style="width:90%;margin-left:5%" src="https://app.beijingepidial.com/Healthtech_O2O_Summit_Dr_Moshe_Szyf_HKG_Epitherapeutics.mp4" controls='controls' vcIsPlay='false' show-fullscreen-btn='true'>
+          </video>
+        </view>
+
+        <view style="width:100vw;height:10px;"></view>
+        <text class="font" style="padding-left:20px">Dr. Moshe Szyf , Science of Hope Conference 2017.mp4</text>
+
+        <!--视频2-->
+        <view style="width:100vw;height:10px;"></view>
+        <view style="width:100vw;">
+          <video poster="/image/icons/vid2.png" style="width:90%;margin-left:5%" src="https://app.beijingepidial.com/Keynote_Dr_Moshe_Szyf_Science_of_Hope_Conference_2017.mp4" controls='controls' vcIsPlay='false' show-fullscreen-btn='true'>
+          </video>
+        </view>
+
+        <view style="width:100vw;"></view>
+        <view style=" flex-direction: row;">
+          <view style='padding-left:20px'>
+            <text class="font">Dr. Moshe Szyf, What is epigenetic and why knowing it</text>
+            <text class="font">will change your life .mp4</text>
+          </view>
+        </view>
+
+        <!--视频3-->
+        <view style="width:100vw;height:10px;"></view>
+        <view style="width:100vw;">
+          <video poster="/image/icons/vid3.png" style="width:90%;margin-left:5%" src="https://app.beijingepidial.com/What_is_epigenetic_and_why_knowing_it_will_change_your_life_Dr_Moshe_Szyf.mp4" controls='controls' vcIsPlay='false' show-fullscreen-btn='true'>
+          </video>
+        </view>
+
+        <view style="width:100vw;height:10px;"></view>
+        <text class="font" style="padding-left:20px"> Moshe Szyf, Behavioral Epigenetics.mp4</text>
+
+        <!--视频4-->
+        <view style="width:100vw;height:10px;"></view>
+        <view style="width:100vw;">
+          <video poster="/image/icons/vid4.png" style="width:90%;margin-left:5%" src="https://app.beijingepidial.com/Moshe_Szyf_Behavioral_Epigenetics.mp4" controls='controls' vcIsPlay='false' show-fullscreen-btn='true'>
+          </video>
+        </view>
+
+        <view style="width:100vw;height:10px;"></view>
+        <!--介绍-->
+        <view style='flex-direction: row;width:100vw;height:40px;background-color:#0071bc'>
+          <view style='height:10px;'></view>
+          <view class="swiper-tab">
+            <text class="swiper-tab-item {{currentTab==0?'active':''}}" style='width: 21%;padding-left:40px;color:#FFFAFA;font-size: 28rpx; opacity:0.7' data-current="0" bindtap="clickTab">CAREER</text>
+            <text class="swiper-tab-item {{currentTab==1?'active':''}}" style='width: 21%;padding-left:50px;color:#FFFAFA;font-size: 28rpx; opacity:0.7' data-current="1" bindtap="clickTab">HONORS</text>
+            <text class="swiper-tab-item {{currentTab==2?'active':''}}" style='width: 32%;padding-left:50px;color:#FFFAFA;font-size: 28rpx; opacity:0.7' data-current="2" bindtap="clickTab">SPONSORED</text>
+          </view>
+
+          <swiper current="{{currentTab}}" duration="600" bindchange="swiperTab">
+            <view style='height:20px;'></view>
+            <swiper-item>
+            
+            <view style="width:100px;height:30%;border-right: solid 1px #7c7777;opacity:0.5"></view>
+              <view style="width:100%;height:30%;display:flex ">
+              <text style="padding-left:18px;width:23%; font-size: 28rpx;color: #7c7777;height:30%">2007-2018</text>
+              <text style="width:5%;height:32%;border-radius: 50%;background-color:#104E8B"></text>
+             <text style="padding-left:18px; font-size: 28rpx;color: #7c7777;height:30%">Pharmacology of GlaxoSmithKline</text>
+              </view>
+            </swiper-item>
+            <!---------------------->
+            
+            <swiper-item>
+              <view style='height:50px;'></view>
+            </swiper-item>
+            <!---------------------->
+            <swiper-item>
+              <view style='height:50px;'></view>
+            </swiper-item>
+
+          </swiper>
+
+        </view>
+
+
+
       </view>
     </view>
-  </view>
 
-  <view style='width:100%;height:1.2%;background-color:#e2e2e2;border:1px solid #000000;'></view>
 
-  <view style='width:100%;height:41.5%;border:1px solid #000000;'>
-    <view style='width:100%;height:7.5%;border:1px solid #000000;'></view>
-    <view style='width:100%;height:83%;border:1px solid #000000;display:flex'>
-      <view style='width:10%;height:100%;border:1px solid #000000;'></view>
-      <view style='width:79%;height:100%;border:1px solid #000000;'>
-        <view class='font'>加拿大皇家科学院院士</view>
-        <view class='font'>加拿大麦吉尔大学一级终身教授</view>
-        <view class='font'>国际癌症相关DNA甲基化研究领域首批专利发明人</view>
-        <view class='font'>全球表观遗传学领域拥有最广泛专利的发明人</view>
-        <view class='font'>香港HKG精准医学技术公司首席科学家</view>
-        <view class='font'>北京埃彼达雅医学诊断技术有限公司科学家</view>
-        <view class='font'>行为和心里表观遗传学奠基人</view>
-        <view class='font'>相关研究领域著名思想传播领袖</view>
-        <view class='font'>已发表280多篇论文，论文他引33000次</view>
-        <view class='font'>5年内18500次，H-index值90</view>
-      </view>
-      <view style='width:10%;height:100%;border:1px solid #000000;'></view>
-    </view>
-    <view style='width:100%;height:7.5%;border:1px solid #000000;'></view>
-  </view>
 
-  <view style='width:100%;height:1.2%;background-color:#e2e2e2;border:1px solid #000000;'></view>
 
-  <view style='width:100%;height:60%;border:1px solid #000000;'>
-    <view style='width:100%;height:3.8%;border:1px solid #000000;'></view>
 
-    <view style='width:100%;height:4%;border:1px solid #000000;display:flex;'>
-      <view style='height:100%;width:5%;'></view>
-      <view style='height:90%;width:1%;background-color:#036ea6;'></view>
-      <view style='height:100%;width:2%;'></view>
-      <view style='height:100%;width:92%;font-size:30rpx;transform:translateY(-3px);color:#0071ad;font-weight:700'>
-        职业经历
-      </view>
-    </view>
-    <view style='width:100%;height:80%;border:1px solid #000000;display:flex'>
-      <view style='width:10%;height:100%;border:1px solid #000000'></view>
-      <view style='width:80%;height:100%;border:1px solid #000000;font-size:10px'>
 
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:22%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:7%'>2007-至今</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>葛兰素史可-加拿大健康研究所药理学主席</view>
-        </view>
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:22%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:7%'>2003-至今</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>詹姆斯·麦吉尔荣誉教授</view>
-        </view>
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:22%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:7%'>2000-至今</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>麦吉尔大学医学院药理学系，教授</view>
-        </view>
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1993-2000</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>麦吉尔大学医学院药理学系，副教授</view>
-        </view>
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1989-1993</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>麦吉尔大学医学院药理学系，助理教授</view>
-        </view>
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1988-1989</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>哈佛医学院遗传学系，博士后研究员</view>
-        </view>
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1985-1988</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>希伯来大学，生物化学讲师</view>
-        </view>
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1984-1985</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>希伯来大学，生物化学助教</view>
-        </view>
-        <view style='display:flex;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:7%'>1981-1983</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>希伯来大学学生会主席</view>
-        </view>
-        <view style='display:flex;flex-direction: row;justify-content: left;border-bottom:1px solid #e2e2e2;height:24px'>
-          <view style='width:23%;color:#026db5;font-weight:800;transform: translateY(3px);margin-right:6%'>1978-1979</view>
-          <view style='width:70%;color:#595757;text-align:left;transform: translateY(3px);'>希伯来大学学生会副主席</view>
-        </view>
 
-      </view>
-      <view style='width:10%;height:100%;border:1px solid #000000'></view>
-    </view>
   </view>
 </view>

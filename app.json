@@ -44,13 +44,8 @@
     "pages/detail/index",
     "pages/user/investigation",
     "pages/report/index",
-<<<<<<< HEAD
-    "pages/cart/index"
-=======
     "pages/cart/index",
-    "pages/aaa/test"
-    
->>>>>>> 0caedc4b72b5a3e2f2976acc845c62181f9d22fb
+    "pages/mess/TechnicalSupport/new"
   ],
   "window": {
     "backgroundTextStyle": "light",
