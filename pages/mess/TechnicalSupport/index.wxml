@@ -6,72 +6,118 @@
     <view style='width:100%;height:4%;'></view>
     <view style='width:100%;height:85%;;display:flex'>
       <view style='width:30%;height:100%;margin-left:5%;margin-right:4%'>
-        <image src='http://47.75.111.0/data/image/mess/TechnicalSupport/professor/MoShe.png' mode='widthFix' style='width:100%;margin-top:6%'></image>
+        <image src='/image/icons/prof1.png' mode='widthFix' style='width:100%;margin-top:6%'></image>
       </view>
       <view style='width:55%;height:100%'>
-        <view style='width:100%;height:25%;font-size:15px;margin-top:4%;color: #036ea3;'>MoShe Szyf</view>
+        <view style='width:100%;height:25%;font-size:15px;margin-top:4%;color: #036ea3;'>MoShe Szyf Prof</view>
         <view style='width:100%;height:20%;font-size:12px'>
-          <view style='width:55%;border-bottom:1px solid #e2e2e2;;color: #036ea3;'>摩西·西夫 院士</view>
+          <view style='width:65%;color: #036ea3;'>Chairman &CEO</view>
         </view>
         <view style='width:100%;height:4%;'></view>
-        <view style='width:100%;height:30%;font-size:12px;color:#666666;'>HKG公司 CEO</view>
+        <view style='width:100%;height:30%;font-size:12px;color:#666666;'>HKG epiTHERAPEUTICS Ltd.</view>
       </view>
       <view style='width:15%;height:100%;;'>
         <view style='width:100%;height:33.5%;;'></view>
-        <image src='http://47.75.111.0/data/image/user_info/left_grey_array.png' mode='widthFix' style='width:23.5%'></image>
+        <image src='/image/icons/right.png' mode='widthFix' style='width:23.5%'></image>
       </view>
     </view>
     <view style=' width:100%;height:10%;background-color:#f5f5f5'></view>
   </view>
 
+  <!-- david -->
+  <view class='column' bindtap="">
+    <view style='width:100%;height:4%;'></view>
+    <view style='width:100%;height:85%;;display:flex'>
+      <view style='width:30%;height:100%;margin-left:5%;margin-right:4%'>
+        <image src='/image/icons/david1.png' mode='widthFix' style='width:100%;margin-top:6%'></image>
+      </view>
+      <view style='width:55%;height:100%'>
+        <view style='width:100%;height:25%;font-size:15px;margin-top:4%;color: #036ea3;'>David Cheishvili Ph.D.</view>
+        <view style='width:100%;height:20%;font-size:12px'>
+          <view style='width:80%;;color: #036ea3;'>Senior Scientific Adviser</view>
+        </view>
+        <view style='width:100%;height:4%;'></view>
+        <view style='width:100%;height:30%;font-size:12px;color:#666666;'>HKG epiTHERAPEUTICS Ltd.</view>
+      </view>
+      <view style='width:15%;height:100%;;'>
+        <view style='width:100%;height:33.5%;;'></view>
+        <image src='/image/icons/right.png' mode='widthFix' style='width:23.5%'></image>
+      </view>
+    </view>
+    <view style=' width:100%;height:10%;background-color:#f5f5f5'></view>
+  </view>
+  <!-- lihui -->
   <view class='column'>
     <view style='width:100%;height:4%;'></view>
     <view style='width:100%;height:85%;;display:flex'>
       <view style='width:30%;height:100%;margin-left:5%;margin-right:4%'>
-        <image src='http://47.75.111.0/data/image/mess/TechnicalSupport/professor/David.png' mode='widthFix' style='width:100%;margin-top:6%'></image>
+        <image src='/image/icons/huili1.png' mode='widthFix' style='width:100%;margin-top:6%'></image>
       </view>
       <view style='width:55%;height:100%'>
-        <view style='width:100%;height:25%;font-size:15px;margin-top:4%;color: #036ea3;'>David</view>
+        <view style='width:100%;height:25%;font-size:15px;margin-top:4%;color: #036ea3;'>Hui Li Ph.D.</view>
         <view style='width:100%;height:20%;font-size:12px'>
-          <view style='width:65%;border-bottom:1px solid #e2e2e2;;color: #036ea3;'>戴维·琦仕维利 博士</view>
+          <view style='width:50%;color: #036ea3;'>Hui Li Ph.D.</view>
         </view>
         <view style='width:100%;height:4%;'></view>
-        <view style='width:100%;height:30%;font-size:12px;color:#666666;'>HKG公司 高级科学顾问</view>
+        <view style='width:100%;height:30%;font-size:12px;color:#666666;'>HKG epiTHERAPEUTICS Ltd.</view>
       </view>
       <view style='width:15%;height:100%;;'>
         <view style='width:100%;height:33.5%;;'></view>
-        <image src='http://47.75.111.0/data/image/user_info/left_grey_array.png' mode='widthFix' style='width:23.5%'></image>
+        <image src='/image/icons/right.png' mode='widthFix' style='width:23.5%'></image>
       </view>
     </view>
     <view style=' width:100%;height:10%;background-color:#f5f5f5'></view>
   </view>
-
-  <view class='column'>
-    <view style='width:100%;height:4%;'></view>
-    <view style='width:100%;height:85%;;display:flex'>
-      <view style='width:30%;height:100%;margin-left:5%;margin-right:4%'>
-        <image src='http://47.75.111.0/data/image/mess/TechnicalSupport/professor/HuiLi.png' mode='widthFix' style='width:100%;margin-top:6%'></image>
-      </view>
-      <view style='width:55%;height:100%'>
-        <view style='width:100%;height:25%;font-size:15px;margin-top:4%;color: #036ea3;'>Hui Li</view>
-        <view style='width:100%;height:20%;font-size:12px'>
-          <view style='width:55%;border-bottom:1px solid #e2e2e2;;color: #036ea3;'>李惠 博士</view>
-        </view>
-        <view style='width:100%;height:4%;'></view>
-        <view style='width:100%;height:30%;font-size:12px;color:#666666;'>HKG公司 实验室经理</view>
-      </view>
-      <view style='width:15%;height:100%;;'>
-        <view style='width:100%;height:33.5%;;'></view>
-        <image src='http://47.75.111.0/data/image/user_info/left_grey_array.png' mode='widthFix' style='width:23.5%'></image>
-      </view>
-    </view>
-    <view style=' width:100%;height:10%;background-color:#f5f5f5'></view>
-  </view>
-
   <view style='width:100%;height:6px;background-color:#00000 '></view>
 
+  <!-- CF -->
+  <view class='column'>
+    <view style='width:100%;height:4%;'></view>
+    <view style='width:100%;height:85%;;display:flex'>
+      <view style='width:30%;height:100%;margin-left:5%;margin-right:4%'>
+        <image src='/image/icons/chifat1.png' mode='widthFix' style='width:100%;margin-top:6%;border-radius: 10%'></image>
+      </view>
+      <view style='width:55%;height:100%'>
+        <view style='width:100%;height:25%;font-size:15px;margin-top:4%;color: #036ea3;'>Chi Fat Wong Ph.D.</view>
+        <view style='width:100%;height:20%;font-size:12px'>
+          <view style='width:90%;color: #036ea3;'>Senior Research Scientist</view>
+        </view>
+        <view style='width:100%;height:4%;'></view>
+        <view style='width:100%;height:30%;font-size:12px;color:#666666;'>HKG epiTHERAPEUTICS Ltd.</view>
+      </view>
+      <view style='width:15%;height:100%;;'>
+        <view style='width:100%;height:33.5%;;'></view>
+        <image src='/image/icons/right.png' mode='widthFix' style='width:23.5%'></image>
+      </view>
+    </view>
+    <view style=' width:100%;height:10%;background-color:#f5f5f5'></view>
+  </view>
+    <!-- jason -->
+    <view class='column'>
+    <view style='width:100%;height:4%;'></view>
+    <view style='width:100%;height:85%;;display:flex'>
+      <view style='width:30%;height:100%;margin-left:5%;margin-right:4%'>
+        <image src='/image/icons/jason1.png' mode='widthFix' style='width:100%;margin-top:6%;border-radius: 10%'></image>
+      </view>
+      <view style='width:55%;height:100%'>
+        <view style='width:100%;height:25%;font-size:15px;margin-top:4%;color: #036ea3;'>Zhiyuan Lv Ph.D.</view>
+        <view style='width:100%;height:20%;font-size:12px'>
+          <view style='width:90%;color: #036ea3;'>Laboratory Manager(GZ)</view>
+        </view>
+        <view style='width:100%;height:4%;'></view>
+        <view style='width:100%;height:30%;font-size:12px;color:#666666;'>Beijing Epidial Medical Diagnostie Technology Co.Ltd</view>
+      </view>
+      <view style='width:15%;height:100%;;'>
+        <view style='width:100%;height:33.5%;;'></view>
+        <image src='/image/icons/right.png' mode='widthFix' style='width:23.5%'></image>
+      </view>
+    </view>
+    <view style=' width:100%;height:10%;background-color:#f5f5f5'></view>
+  </view>
+
+
   <view style='width:100%;display: flex;flex-direction: row;justify-content: center; '>
-    <view style='color:#959595;font-size:12px '>没有更多了</view>
+    <view style='color:#959595;font-size:12px '>@2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved</view>
   </view>
 
 </view>

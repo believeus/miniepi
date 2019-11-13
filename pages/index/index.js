@@ -106,13 +106,17 @@ Page({
       url: '/pages/user/Report/index',
     })
   },
-  // 跳转页面
-  Testreport :function(){
-    wx.navigateTo({
-      url: '/pages/index/TestProcess/index',
+  // 只能转跳到tabbar
+  tous:function(){
+    wx.switchTab({
+      url: '/pages/mess/index',
     })
   },
-
+  Testreport :function(){
+    wx.navigateTo({
+      url: '/pages/index/TestProcess/index',   
+    })
+  },
   white1: function() {
     console.log("while1")
   },
@@ -143,10 +147,5 @@ Page({
   },
 
   //语言选择菜单 --end
-
-
-
-
-
 })
 

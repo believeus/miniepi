@@ -30,7 +30,7 @@
 
     <view style='width:100%;height:100%;;'>
       <swiper class="headFor" style="height:100%;width:100%; " autoplay='true' interval='2000' duration='1000' circular='true'>
-        <block wx:for="{{Urls}}">
+        <!-- <block wx:for="{{Urls}}"> -->
           <swiper-item>
             <image src='/image/enpic/1-HKG微信小程序整合-55.png'></image>
           </swiper-item>
@@ -46,7 +46,7 @@
           <swiper-item>
             <image src='/image/enpic/1-HKG微信小程序整合-59.png'></image>
           </swiper-item>
-        </block>
+        <!-- </block> -->
       </swiper>
     </view>
   </view>
@@ -59,7 +59,7 @@
         <!-- 太极容器上2结构  -->
     <view style="display:flex;justify-content:space-around;width:100%;flex-basis:100%;">
         <!-- about us -->
-        <view style="width:32%;height:144px;border-radius:14px;position:relative" bindtap=""> 
+        <view style="width:32%;height:144px;border-radius:14px;position:relative;" bindtap="tous"> 
           <text class="aboutus">About us</text>
         </view>
         <!-- lifestyle -->
@@ -67,7 +67,7 @@
           <text class="lifestyle">Lifestyle</text>
         </view>
         <!-- testprocess -->
-        <view style="width:32%;height:144px;border-radius:14px;position:relative" bindtap="Testreport">
+        <view style="width:32%;height:144px;border-radius:14px;position:relative;" bindtap="Testreport">
           <text class="testprocess">Testprocess</text>
         </view>
     </view>

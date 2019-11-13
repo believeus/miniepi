@@ -46,6 +46,7 @@
     "pages/report/index",
     "pages/cart/index",
     "pages/mess/TechnicalSupport/new"
+
   ],
   "window": {
     "backgroundTextStyle": "light",

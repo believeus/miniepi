@@ -12,4 +12,5 @@
 .page .column{
   width: 100%;
   height: 20%;
+  
 }

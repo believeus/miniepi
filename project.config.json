@@ -81,9 +81,31 @@
 					"scene": null
 				},
 				{
+					"id": 5,
+					"name": "pages/mess/index",
+					"pathName": "pages/mess/index",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
-					"name": "pages/mess/TechnicalSupport/new/MoShe",
-					"pathName": "pages/mess/TechnicalSupport/new/MoShe",
+					"name": "pages/mess/Company/index",
+					"pathName": "pages/mess/Company/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "pages/mess/TechnicalSupport/index",
+					"pathName": "pages/mess/TechnicalSupport/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mess/Company/index",
+					"pathName": "pages/mess/Company/index",
+					"query": "",
 					"scene": null
 				}
 			]
