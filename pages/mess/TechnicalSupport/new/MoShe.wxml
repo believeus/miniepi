@@ -19,8 +19,8 @@
       <!--空隙-->
       <view style="width:100vw;height:10px;"></view>
       <!--灰色条纹带字-->
-      <view style="width:100vw;height:60px;background-color:#eaeaea">
-        <text style="line-height:50px;font-size:12px;margin-left:15px">| PROFESSIONAL EXPERIENCES</text>
+      <view style="width:100vw;height:50px;background-color:#eaeaea">
+        <text style="line-height:50px;color: #7c7777;font-size:12px;margin-left:5%">| PROFESSIONAL EXPERIENCES</text>
       </view>
       <!--padding-left左移动-->
       <view style="width:100vw;height:20px;"></view>
@@ -53,8 +53,13 @@
       <text class="font" style="padding-left:15px">Fellow of the Royal Society of Canada</text>
 
       <view style="width:100vw;height:10px;"></view>
-      <text class="font" style="padding-left:18px">--</text>
-      <text class="font" style="padding-left:15px">Fellow of the Canadian Academy of Health Sciences</text>
+      <view style=" flex-direction: row;">
+        <view style='padding-left:18px'>
+          <text class="font">--</text>
+          <text class="font" style='padding-left:15px;width:80%'>Fellow of the Canadian Academy of Health</text>
+        </view>
+      </view>
+      <text class="font" style="padding-left:45px"> Sciences</text>
 
       <view style="width:100vw;height:10px;"></view>
       <view style=" flex-direction: row;">
@@ -106,8 +111,13 @@
           </video>
         </view>
 
-        <view style="width:100vw;height:10px;"></view>
-        <text class="font" style="padding-left:20px">Dr. Moshe Szyf , Science of Hope Conference 2017.mp4</text>
+        <view style="width:100vw;"></view>
+        <view style=" flex-direction: row;">
+          <view style='padding-left:20px'>
+            <text class="font">Dr. Moshe Szyf , Science of Hope Conference </text>
+            <text class="font">2017.mp4</text>
+          </view>
+        </view>
 
         <!--视频2-->
         <view style="width:100vw;height:10px;"></view>
@@ -151,33 +161,353 @@
             <text class="swiper-tab-item {{currentTab==2?'active':''}}" style='width: 32%;padding-left:50px;color:#FFFAFA;font-size: 28rpx; opacity:0.7' data-current="2" bindtap="clickTab">SPONSORED</text>
           </view>
 
-          <swiper current="{{currentTab}}" duration="600" bindchange="swiperTab">
+          <!--点击切换-->
+          <swiper current="{{currentTab}}" duration="300" bindchange="swiperTab" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
             <view style='height:20px;'></view>
+            <swiper-item style="width:100%;">
+              <scroll-view style="height: {{clientHeight?clientHeight+'px':'auto'}}" bindscrolltolower="scrollbot">
+                <!--布局1-->
+                <view style="width:100%;height:8%;display:flex;">
+                  <view style="width:31%;height:100%;border-right: solid 1px #7c7777;opacity:0.5;"></view>
+                </view>
+                <!--布局2-->
+                <view style="width:100%;height:15px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2007-2018</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Pharmacology of GlaxoSmithKline</text>
+                </view>
+
+                <!--布局3-->
+                <view style="width:100%;height:13%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;">
+                    <text class="font" style="width:100%;padding-left:17%;height:54%;">-Canadian Institute of Health</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">Chairman</text>
+                  </view>
+                </view>
+
+                <!--布局4-->
+                <view style="width:100%;height:3%;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2003-2018</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text class="font" style="padding-left:6%;height:30%">Jemes McGill</text>
+                </view>
+
+                <!--布局5-->
+                <view style="width:100%;height:13%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <text style="width:100%;padding-left:9%;height:54%;font-size: 28rpx;color:#0071bc; margin-top: 2%">Professor</text>
+                </view>
+
+                <!--布局6-->
+                <view style="width:100%;height:15px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2000-now</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Department of Pharmacology and</text>
+                </view>
+
+                <!--布局7-->
+                <view style="width:100%;height:13%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;">
+                    <text class="font" style="width:100%;padding-left:20%;height:54%;">Therapeutics McGill</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">Professor</text>
+                  </view>
+                </view>
+
+                <!--布局8-->
+                <view style="width:100%;height:15px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">1993-2000</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Department of Pharmacology and</text>
+                </view>
+
+                <!--布局9-->
+                <view style="width:100%;height:13%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;">
+                    <text class="font" style="width:100%;padding-left:18%;height:54%;">McGill Medical School</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">Associate Professor</text>
+                  </view>
+                </view>
+
+                <!--布局10-->
+                <view style="width:100%;height:15px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">1989-1993</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Department of Pharmacology and</text>
+                </view>
+
+                <!--布局11-->
+                <view style="width:100%;height:13%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;">
+                    <text class="font" style="width:100%;padding-left:18%;height:54%;">McGill Medical School</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">Associate Professor</text>
+                  </view>
+                </view>
+              </scroll-view>
+
+            </swiper-item>
             <swiper-item>
-            
-            <view style="width:100px;height:30%;border-right: solid 1px #7c7777;opacity:0.5"></view>
-              <view style="width:100%;height:30%;display:flex ">
-              <text style="padding-left:18px;width:23%; font-size: 28rpx;color: #7c7777;height:30%">2007-2018</text>
-              <text style="width:5%;height:32%;border-radius: 50%;background-color:#104E8B"></text>
-             <text style="padding-left:18px; font-size: 28rpx;color: #7c7777;height:30%">Pharmacology of GlaxoSmithKline</text>
+              <view style="height:100%;width:100%;flex-direction: column;">
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">2013 -- Member of the Royal Society of Canada</view>
+                <view class="font" style="padding-left:4%;height:8%;width:100%;">2011 -- CCNP Neuropsychopharmacology, Innovation Award</view>
+                <view class="font" style="padding-left:4%;height:6%;width:100%;">2009 -- Radio Canada Annual Scientist Award</view>
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">2009 -- Carolinska Speech at the Nobel Forum</view>
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">2007 -- GlaxoSmithKline Pharmacology</view>
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">2003-- Honorary Professor James McGill</view>
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">2001 -- Medical College Teaching Honors List</view>
+                <view class="font" style="padding-left:4%;height:2%;width:100%;">1999 -- Carrie Derek Graduate Teaching Guidance</view>
+                 <view class="font" style="padding-left:4%;height:6%;width:100%;"> Award</view>
+                <view class="font" style="padding-left:4%;height:8%;width:100%;">1999 -- Israel  Cancer  Research Foundation Eliot  'Eliot Osseman Outstanding Contribution Award'</view>
+                <view class="font" style="padding-left:4%;height:8%;width:100%;">1989-1995 -- Canadian National Cancer Institute,' Outstanding Young Professor Award'</view>
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">1987 -- American Cancer Society Scholarship</view>
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">1984 -- Rothschild Scholarship</view>
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">1980 -- Medical Scholarship of Hebrew University</view>
+                <view class="font" style="padding-left:4%;height:5%;width:100%;">1980 -- Distinguished master</view>
               </view>
             </swiper-item>
             <!---------------------->
-            
-            <swiper-item>
-              <view style='height:50px;'></view>
-            </swiper-item>
-            <!---------------------->
-            <swiper-item>
-              <view style='height:50px;'></view>
+            <swiper-item style="width:100%;">
+                 <scroll-view style="height: {{clientHeight?clientHeight+'px':'auto'}}" bindscrolltolower="scrollbot">
+                <!--布局1-->
+                <view style="width:100%;height:7%;display:flex;">
+                  <view style="width:31%;height:100%;border-right: solid 1px #7c7777;opacity:0.5;"></view>
+                </view>
+                <!--布局2-->
+                <view style="width:100%;height:15px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2010-2013</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:20%;">Canadian Health Research</text>
+                </view>
+
+                <!--布局3-->
+                 <view style="width:100%;height:14%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;height:5%">
+                    <text class="font" style="width:100%;padding-left:12%;height:54%;">Institute- Canadian Health research </text> 
+                    <text class="font" style="width:100%;padding-left:12%;height:54%;">Cooperative Team in China</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%; margin-top:5%">C$141,000</text>
+                  </view>
+                </view>
+
+               <!--布局4-->
+                <view style="width:100%;height:16px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2007-2012</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Canadian National Cancer</text>
+                </view>
+
+                <!--布局5-->
+                <view style="width:100%;height:12%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;">
+                    <text class="font" style="width:100%;padding-left:16%;height:54%;">Institute-Demethylase Analysis</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">C$141,000</text>
+                  </view>
+                </view>
+
+               <!--布局2-->
+                <view style="width:100%;height:15px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2005-2010</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:20%;">Canadian Institute of health-DNA </text>
+                </view>
+
+                <!--布局3-->
+                 <view style="width:100%;height:15%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;height:5%">
+                    <text class="font" style="width:100%;padding-left:12%;height:54%;">Methyltransferase I Inhibitor and</text> 
+                    <text class="font" style="width:100%;padding-left:12%;height:54%;">its Therapeutic Prospect</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%; margin-top:5%">C$168,158</text>
+                  </view>
+                </view>
+
+                <!--布局8-->
+                <view style="width:100%;height:15px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">1997-2000</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Canadian council for Natural</text>
+                </view>
+
+                <!--布局9-->
+                <view style="width:100%;height:15%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;">
+                    <text class="font" style="width:100%;padding-left:14%;height:54%;">science and engineering research</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">C$145,500</text>
+                  </view>
+                </view>
+
+                <!--布局10-->
+                <view style="width:100%;height:15px;display:flex;">
+                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">1989-1992</text>
+                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Canadian National Cancer Institute</text>
+                </view>
+
+                <!--布局11-->
+                <view style="width:100%;height:14%;display:flex;">
+                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
+                  <view style="display:grid;">
+                    <text class="font" style="width:100%;padding-left:16%;height:54%;"> and McGill Medical School</text>
+                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">C$74,592/year</text>
+                  </view>
+                </view>
+              </scroll-view>
             </swiper-item>
 
           </swiper>
+  <!--空隙-->
+      <view style="width:100vw;height:10px;"></view>
+      <!--灰色条纹带字-->
+      <view style="width:100vw;height:50px;background-color:#eaeaea">
+        <text style="line-height:50px;color: #7c7777;font-size:12px;margin-left:5%">| PUBLISHED PAPERS </text>
+      </view>
+      <!--蓝色布局-->
+      <view style="width:100vw;height:700px;background-color:#4682B4">
+         <view style="width:100vw;height:2%;"></view>
+         <view style="width:100%;height:12%;display:flex">
+         <view style="width:80%;height:100%;">
+          <view style="display:grid;padding-left:6%">
+          <text style='font-size: 28rpx;color:#FFFAFA'>Epigenetic programming by maternal</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">behavior.Aug 1st 2004  Nature Neuroscience</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">volume 7 issue 8 pp 847-854</text>
+      </view>
+         </view>
+         <view style="width:20%;height:100%;">
+      <view style="display:grid">
+          <text style='width:80%;font-size: 28rpx;color:#FFFAFA'>5530</text>
+              <text  style="font-size: 28rpx;color:#FFFAFA">Citations</text>
+      </view>
+         </view>
+         </view>
 
+<!--第二段-->
+<view style="width:100%;height:14%;display:flex">
+         <view style="width:80%;height:100%;">
+          <view style="display:grid;padding-left:6%">
+          <text style='font-size: 28rpx;color:#FFFAFA'>Epigenetic regulation of the glucocorticoid</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">receptor in human brain associates with </text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">childhood abuse. Nat Neurosci .2009 Mar;</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">12(3): 342–348.</text>
+      </view>
+         </view>
+         <view style="width:20%;height:100%;">
+      <view style="display:grid">
+          <text style='width:80%;font-size: 28rpx;color:#FFFAFA'>2892</text>
+              <text  style="font-size: 28rpx;color:#FFFAFA">Citations</text>
+      </view>
+         </view>
+         </view>
+
+         <!--第三段-->
+<view style="width:100%;height:12%;display:flex">
+         <view style="width:80%;height:100%;">
+          <view style="display:grid;padding-left:6%">
+          <text style='font-size: 28rpx;color:#FFFAFA'>A mammalian protein with specific </text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">demethylase activity for mCpG DNA.</text>
+           <text  style="font-size: 28rpx;color:#FFFAFA"> Nature .1999 Feb 18</text>
+      </view>
+         </view>
+         <view style="width:20%;height:100%;">
+      <view style="display:grid">
+          <text style='width:80%;font-size: 28rpx;color:#FFFAFA'>528</text>
+              <text  style="font-size: 28rpx;color:#FFFAFA">Citations</text>
+      </view>
+         </view>
+         </view>
+
+          <!--第四段-->
+<view style="width:100%;height:12%;display:flex">
+         <view style="width:80%;height:100%;">
+          <view style="display:grid;padding-left:6%">
+          <text style='font-size: 28rpx;color:#FFFAFA'>Promoter-wide hypermethylation of the</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA"> ribosomal RNA gene promoter in the suicide</text>
+           <text  style="font-size: 28rpx;color:#FFFAFA"> brain.PLoS One . 2008 May 7</text>
+      </view>
+         </view>
+         <view style="width:20%;height:100%;">
+      <view style="display:grid">
+          <text style='width:80%;font-size: 28rpx;color:#FFFAFA'>351</text>
+              <text  style="font-size: 28rpx;color:#FFFAFA">Citations</text>
+      </view>
+         </view>
+         </view>
+
+           <!--第五段-->
+<view style="width:100%;height:12%;display:flex">
+         <view style="width:80%;height:100%;">
+          <view style="display:grid;padding-left:6%">
+          <text style='font-size: 28rpx;color:#FFFAFA'>Broad epigenetic signature of maternal</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA"> care in the brain of adult rats.</text>
+           <text  style="font-size: 28rpx;color:#FFFAFA">PLoS One .2011 Feb 28</text>
+      </view>
+         </view>
+         <view style="width:20%;height:100%;">
+      <view style="display:grid">
+          <text style='width:80%;font-size: 28rpx;color:#FFFAFA'>347</text>
+              <text  style="font-size: 28rpx;color:#FFFAFA">Citations</text>
+      </view>
+         </view>
+         </view>
+
+           <!--第六段-->
+<view style="width:100%;height:12%;display:flex">
+         <view style="width:80%;height:100%;">
+          <view style="display:grid;padding-left:6%">
+          <text style='font-size: 28rpx;color:#FFFAFA'>Expression of antisense to DNA</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">demethylation and inhibits tumorigenesis.</text>
+           <text  style="font-size: 28rpx;color:#FFFAFA">J Biol Chem. 1995 Apr 7</text>
+      </view>
+         </view>
+         <view style="width:20%;height:100%;">
+      <view style="display:grid">
+          <text style='width:80%;font-size: 28rpx;color:#FFFAFA'>256</text>
+              <text  style="font-size: 28rpx;color:#FFFAFA">Citations</text>
+      </view>
+         </view>
+         </view>
+
+           <!--第七段-->
+<view style="width:100%;height:12%;display:flex">
+         <view style="width:80%;height:100%;">
+          <view style="display:grid;padding-left:6%">
+          <text style='font-size: 28rpx;color:#FFFAFA'>Epigenetics, DNA methylation,and chromatin</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">modifying drugs. Annu Rev Pharmacol</text>
+           <text  style="font-size: 28rpx;color:#FFFAFA">Toxicol. 2009;49</text>
+      </view>
+         </view>
+         <view style="width:20%;height:100%;">
+      <view style="display:grid">
+          <text style='width:80%;font-size: 28rpx;color:#FFFAFA'>432</text>
+              <text  style="font-size: 28rpx;color:#FFFAFA">Citations</text>
+      </view>
+         </view>
+         </view>
+
+<!--第八段-->
+<view style="width:100%;height:14%;display:flex">
+         <view style="width:80%;height:100%;">
+          <view style="display:grid;padding-left:6%">
+          <text style='font-size: 28rpx;color:#FFFAFA'>Maternal care effects on the hippocampal</text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">transcriptome and anxiety-mediated </text>
+          <text  style="font-size: 28rpx;color:#FFFAFA">behaviors in the offspring that are </text>
+          <text  style="font-size: 28rpx;color:#FFFAFA"> reversible in adulthood. Proc Natl</text>
+      </view>
+         </view>
+         <view style="width:20%;height:100%;">
+      <view style="display:grid">
+          <text style='width:80%;font-size: 28rpx;color:#FFFAFA'>786</text>
+              <text  style="font-size: 28rpx;color:#FFFAFA">Citations</text>
+      </view>
+         </view>
+         </view>
+
+      </view>
         </view>
-
-
-
       </view>
     </view>
 
