@@ -1,0 +1,226 @@
+<!--pages/mess/TechnicalSupport/david/david.wxml-->
+<view class="page">  
+   <!--头像布局-->
+    <view style="justify-content: center;display:flex">
+        <image src="/image/icons/david.png" style='height:25%;width:25%;' mode='widthFix'>
+        </image>
+    </view>
+    <view style="justify-content: center;display:flex">
+      <text style="color:#0071bc">David Cheishvili Ph.D.</text>
+    </view>
+    <view style="width:100vw;height:10px;"></view>
+    <view style="justify-content: center;display:flex">
+      <text class="font">Senior Scientific Cinsultant</text>
+    </view>
+    <!--justify-content: center;display:flex 居中-->
+    <view style="justify-content: center;display:flex">
+      <text class="font1">HKG epiTHERAPEUTICS Ltd.</text>
+    </view>
+     <!--空隙-->
+    <view style="width:100vw;height:10px;"></view>
+      <!--灰色条纹带字-->
+    <view style="width:100vw;height:60px;background-color:#eaeaea">
+        <text style="line-height:60px;font-size:14px;margin-left:15px;">| PROFESSIONAL EXPERIENCES</text>
+    </view>
+
+  <!-- 个人简历 -->
+    <view style="width:100%;height:30px"></view>
+    <!-- 2017-now -->
+    <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex;">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2017-now</view>
+        <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">HKG EpiTHERAPEUTICS,Hong Kong
+            <text style="color:#0071bc">Senior Scientific Consultant</text>
+        </view>     
+     </view>
+    <!-- 2016-now -->
+    <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2016-now</view>
+        <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Montreal EpiTerapia Inc Montreal Canada
+            <text style="color:#0071bc">Co-Founder</text>
+        </view>     
+     </view>
+  <!-- 2016-2017 -->
+      <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2016-2017</view>
+        <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and Therapeutics McGill University
+            <text style="color:#0071bc">Research Associate</text>
+        </view>     
+     </view>
+    <!-- 2011-2016 -->
+    <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2011-2016</view>
+        <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and Therapeutics McGill University
+            <text style="color:#0071bc">Postdoctoral Fellow</text>
+        </view>     
+     </view>
+<!-- 2004-2011 -->
+      <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+     </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2011-2016</view>
+        <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Hebrew University Hadassah Medical School
+            <text style="color:#0071bc">Research Assistant</text>
+        </view>     
+     </view>
+      <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+     </view>
+  <!-- 切换 -->
+  <view style='height:10px;'></view>
+  <view style='flex-direction: row;width:100vw;height:40px;background-color:#0071bc'>
+     <view style='height:10px;'></view>
+      <view class="swiper-tab">
+            <text class="swiper-tab-item {{currentTab==0?'active':''}}" style='width: 21%;padding-left:40px;color:#FFFAFA;font-size: 28rpx; opacity:0.7' data-current="0" bindtap="clickTab">PATENTS&HONORS</text>
+            <text class="swiper-tab-item {{currentTab==1?'active':''}}" style='width: 21%;padding-left:50px;color:#FFFAFA;font-size: 28rpx; opacity:0.7' data-current="1" bindtap="clickTab">CONFERENCES</text>
+      </view>
+       <swiper current="{{currentTab}}" duration="500" bindchange="swiperTab" style="width:100%;height:550px;">
+          <view style='height:20px;'></view>
+            <!-- 滑块honors -->
+          <swiper-item>
+          <!-- 62/774 -->
+            <view style="width:100%;height:10%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>US patent 62/774,</view>
+              <view>994 DNA Methylation Markers for Early Detection of  Cervical Cancer (Filed 04-Dec-2018)
+              </view>
+            </view>
+            <!-- 62/695 -->
+            <view style="width:100%;height:10%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>US patent 62/695,</view>
+              <view>429 DNA Methylation Markers for Noninvasive Detection of Cancer (Filed 07-Sept-2018)
+              </view>
+            </view>
+        <!-- 2011 -->
+             <view style="width:100%;height:10%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>Postdoctoral Fellow of the Israel Cancer Research Foundation</view>
+            </view>
+
+         <!-- 2010 -->
+            <view style="width:100%;height:5%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>2010 -- Toronto Alumni and Alumni Medical Excellence Award</view>
+            </view>
+
+            <!-- 2009 -->
+            <view style="width:100%;height:5%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>2009 -- Toronto Alumni and Friends Medical Excellence Award</view>
+            </view>
+          </swiper-item> 
+            <!-- 滑块conference -->
+          <swiper-item>
+               <!-- 2017India -->
+            <view style="width:100%;height:3%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>2017 Sixth Asian Chromatin and Chromosome Forum (Hyderabad, India)</view>
+            </view>
+            <!-- 2016 Canada -->
+            <view style="width:100%;height:3%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>2016 3rd Canadian Conference on Epigenetics of Development and Diseases(Canada)</view>
+            </view>
+            <!-- 2011 first Scientific -->
+            <view style="width:100%;height:3%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>2011 Family Autonomic Neurological Dysfunction Foundation Basic Scientific Research Conference(New York, USA)</view>
+            </view>
+            <!-- 2010 Erat -->
+            <view style="width:100%;height:3%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>2010 First Scientific Conference of the Medical Research Institute of Hebrew University in Israel-Hadassah Medical College, Canada(Erat, Israel)</view>
+            </view>
+            <!--2010 oslo norway -->
+            <view style="width:100%;height:3%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>Twenty-first European Union for Cancer Research Conference, 2010(Oslo, Norway)</view>
+            </view>
+            <!--2009 paris france -->
+            <view style="width:100%;height:3%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>The 8th European Conference on Glial Cell Health and Diseases, 2009(Paris, France)</view>
+            </view>
+            <!-- 2008 usa -->
+            <view style="width:100%;height:3%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>2008 Family Autonomic Neurological Dysfunction Foundation Basic Scientific Research Conference(New York, USA)</view>
+            </view>
+            <!-- uk -->
+            <view style="width:100%;height:3%"></view>
+            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
+              <view>The 8th European Conference on Gliocyte Health and Diseases, 2007(London, UK)</view>
+            </view>
+          </swiper-item>        
+        </swiper>
+      </view>
+    <view style="width:100vw;height:60px;background-color:#eaeaea;margin-top:545px">
+        <text style="line-height:60px;font-size:14px;margin-left:15px;">|            PUBLISHED PAPERS
+        </text>
+    </view>
+    <view style="width:100vw;background:#27809d;">
+
+         <view style="width:100%;height:30px"></view>
+            <view style="width:90%;height:50px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
+              <view>Identification of an Epigenetic Signature of Osteoporosis in Blood DNA of Postmenopausal Women. JBMR. 2018;</view>
+          </view>
+
+          <view style="width:100%;height:20px"></view>
+            <view style="width:90%;height:50px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
+              <view>DNA methylation signatures of breast cancer in peripheral T-cells. BMC  Cancer.2018;</view>
+            </view>
+
+            <view style="width:100%;height:20px"></view>
+            <view style="width:90%;height:50px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
+              <view>The signature of liver cancer in immune cells DNA methylation. Clin Epigenetics.2018;</view>
+            </view>
+
+            <view style="width:100%;height:20px"></view>
+            <view style="width:90%;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
+              <view>Personalized cardio-metabolic responses to an anti-inflammatory nutrition intervention in obese adolescents: a randomized controlled crossover trial.</view>
+            </view>
+
+           <view style="width:100%;height:20px"></view>
+            <view style="width:90%;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
+              <view>Genetic polymorphisms in ESR1 and VDR genes do not correlate with osteoporosis with familial dysautonomia.  J Clin Densitom.2018;</view>
+            </view> 
+
+            <view style="width:100%;height:20px"></view>
+            <view style="width:90%;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
+              <view>Methyl donor S-adenosylmethionine (SAM) supplementation attenuates breast cancer growth, invasion, and metastasis in vivo; therapeutic and chemopreventive applications.Oncotarget. 2017;                   </view>
+            </view> 
+
+            <view style="width:100%;height:20px"></view>
+            <view style="width:90%;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
+              <view>Epigenetic mechanisms underlie the crosstalk between growth factors and a steroid hormone.Nucleic Acids Res. 2017;                            </view>
+            </view>
+
+            <view style="width:100%;height:20px"></view>
+            <view style="width:90%;height:80px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
+              <view>DNA methylation controls unmethylated transcription start sites in the genome in trans”. Epigenomics . 2017;                                  </view>
+            </view>
+    </view>
+     
+    <view style="width:100%;height:40px;text-align:center;color:#7c7777;font-size:12px;line-height:40px">
+        @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+    </view>
+
+
+
+
+
+
+
+</view>

@@ -5,17 +5,17 @@ Page({
   },
   toMoShe: function () {
     wx.navigateTo({
-      url: '../../../../professor/MoShe'
+      url: '../../../../new/MoShe'
     })
   },
   toDavid: function () {
     wx.navigateTo({
-
+      url: '../../../../david/index'
     })
   },
   toHui: function () {
     wx.navigateTo({
-
+      url: '../../../../huili/index'
     })
   },
   onLoad: function (options) {

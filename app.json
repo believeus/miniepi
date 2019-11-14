@@ -45,8 +45,9 @@
     "pages/user/investigation",
     "pages/report/index",
     "pages/cart/index",
-    "pages/mess/TechnicalSupport/new"
-
+    "pages/mess/TechnicalSupport/new",
+    "pages/mess/TechnicalSupport/david/index",
+    "pages/mess/TechnicalSupport/huili/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

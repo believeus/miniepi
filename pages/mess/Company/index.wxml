@@ -1,92 +1,50 @@
-<view style="width:{{width}}px;height:1088px;">
-  <view style='width:100%;height:19%;'>
+<view style="width:{{width}}px;height:500px;">
+  <view style='width:100%;height:40%;'>
     <image src='/image/enpic/company.jpg' mode='widthFix' style='width:100%'></image>
   </view>
+  <!-- we are developing next -->
+  <view class="develop">
+    <view style="width:3%;height:100%;"></view>
 
-  <view style='width:100%;height:82%;;display:flex'>
-    <view style='width:5%;height:100%;'></view>
-    <view style='width:90%;height:100%;'>
-      <view style='width:100%;height:32.2%;'>
-        <view style='width:100%;height:10.8%;'></view>
-        <view style='width:100%;height:14%;;font-size:28rpx;color:#666666;line-height:48rpx'>
-          北京埃彼达雅医学诊断技术有限责任公司是一家专业从事表观遗传诊断及研发的新型尖端技术企业。
+    <view style="width:88%;height:80%;justify-content:space-between;display: flex;border-bottom: 1px solid #CACACA;">
+      
+        <view style="" class="texteng">
+            We are developing next generation DNA methylation biomarkers for early cancer detection and healthy aging.
         </view>
-        <view style='width:100%;height:10.3%;'></view>
-        <view style='width:100%;height:54.28%;;font-size:28rpx;color:#666666;line-height:48rpx'>
-          公司专注于肿瘤、生物学年龄评估、自身免疫性疾病、精神类疾病等多种疾病的甲基化诊断技术的开发，已经成功研发出针对多种肿瘤的甲基化诊断技术，不仅可以有效超早期诊断肿瘤发生，还可以分期诊断肿瘤、评估治疗效果、辅助病理诊断。除此之外，公司还在甲基化诊断技术的基础上筛选药物靶点，开发相关抗癌、治疗疾病有效药物。
-        </view>
-        <view style='width:100%;height:6%;'></view>
-      </view>
-
-      <view style='width:100%;height:24%;;border-top:1px solid #e2e2e2'>
-        <view style='width:100%;height:14.3%;'></view>
-        <view style='width:100%;height:34%;;display:flex'>
-          <view style='width:57%;height:100%;'>
-            <view style='width:100%;height:50%;;font-size:32rpx;font-weight:800;color:#333333'>
-              <text decode='true'>超早期癌症\nDNA甲基化精准诊断技术</text>
-            </view>
-            <view style='width:100%;height:10%;'></view>
-            <view style='width:100%;height:36%;;font-size:18rpx;color:#808080;font-weight:600'>
-              <text decode='true'>Superearly cancer\nAccurate diagnosis of DNA methylation</text>
-            </view>
-          </view>
-          <view style='width:6%;height:100%;'></view>
-          <view style='width:34%;height:100%;;'>
-            <image src='http://47.75.111.0/data/image/mess/Company/1.jpg' mode='widthFix' style='width:100%'></image>
-          </view>
-        </view>
-        <view style='width:100%;height:11.12%;'></view>
-        <view style='width:100%;height:26.55%;;font-size:28rpx;color:#666666'>
-          通过精准检测人体外周血细胞中DNA的甲基化修饰状态，高效评估并精确预测超早期癌症的发生风险，并精确评估肿瘤的发生、进展阶段以及治疗干预效果。
-        </view>
-      </view>
-
-      <view style='width:100%;height:24%;;border-top:1px solid #e2e2e2'>
-        <view style='width:100%;height:14.3%;'></view>
-        <view style='width:100%;height:34%;;display:flex'>
-          <view style='width:57%;height:100%;'>
-            <view style='width:100%;height:50%;;font-size:32rpx;font-weight:800;color:#333333'>
-              <text decode='true'> 生物学年龄\n甲基化诊断技术</text>
-            </view>
-            <view style='width:100%;height:10%;'></view>
-            <view style='width:100%;height:36%;;font-size:18rpx;color:#808080;font-weight:600'>
-              <text decode='true'>Biological age\nMethylation diagnostic technique</text>
-            </view>
-          </view>
-          <view style='width:6%;height:100%;'></view>
-          <view style='width:34%;height:100%;;'>
-            <image src='http://47.75.111.0/data/image/mess/Company/2.jpg' mode='widthFix' style='width:100%'></image>
-          </view>
-        </view>
-        <view style='width:100%;height:11.12%;'></view>
-        <view style='width:100%;height:26.55%;;font-size:28rpx;color:#666666'>
-          通过对人体生物学年龄高度相关甲基化位点的检测，精确计算人体生物学年龄。
-        </view>
-      </view>
-
-      <view style='width:100%;height:24%;;border-top:1px solid #e2e2e2'>
-        <view style='width:100%;height:14.3%;'></view>
-        <view style='width:100%;height:34%;;display:flex'>
-          <view style='width:57%;height:100%;'>
-            <view style='width:100%;height:50%;;font-size:32rpx;font-weight:800;color:#333333'>
-              <text decode='true' style=''>DHEA辅助戒毒技术</text>
-            </view>
-            <view style='width:100%;height:10%;'></view>
-            <view style='width:100%;height:36%;;font-size:18rpx;color:#808080;font-weight:600'>
-              <text decode='true'>DHEA assisted detoxification\ntechnology</text>
-            </view>
-          </view>
-          <view style='width:6%;height:100%;'></view>
-          <view style='width:34%;height:100%;;'>
-            <image src='http://47.75.111.0/data/image/mess/Company/3.jpg' mode='widthFix' style='width:100%'></image>
-          </view>
-        </view>
-        <view style='width:100%;height:11.12%;'></view>
-        <view style='width:100%;height:26.55%;;font-size:28rpx;color:#666666'>
-          公司与北京高新医院合作研发脱氢表雄酮（DHEA）的附加治疗及其对表观遗传学标志物依赖的成瘾者生活质量和社会心理因素的影响试验。
-        </view>
-      </view>
+          <image src="/image/enpic/company1.jpg" style="width:40%;;height:86%"></image>    
     </view>
-    <view style='width:5%;height:100%;'></view>
+    <view style="width:3%;height:100%;"></view>
   </view>
+  <!-- We are working -->
+  <view class="develop">
+    <view style="width:3%;height:100%;"></view>
+
+    <view style="width:88%;height:80%;justify-content:space-between;display: flex;border-bottom: 1px solid #CACACA;">
+       
+        <view style="" class="texteng">
+           We are working on building a new health ecosystem that will guide personalized management of healthy life.
+        </view>
+          <image src="/image/enpic/company2.jpg" style="width:40%;;height:86%"></image>    
+    </view>
+    <view style="width:3%;height:100%;"></view>
+  </view>
+
+  <!-- We believe -->
+  <view class="develop">
+    <view style="width:3%;height:100%;"></view>
+
+    <view style="width:88%;height:94%;justify-content:space-between;display: flex;border-bottom: 1px solid #CACACA;">
+      
+        <view style="" class="texteng">
+           We believe that with the help of IT technology and DNA methylation testing people should be able to take ownership of their health.
+        </view>
+          <image src="/image/enpic/company3.jpg" style="width:40%;;height:90%"></image>    
+    </view>
+    <view style="width:3%;height:100%;"></view>
+  </view>
+  <view style="width:100%;height:25%"></view>
+  <view style="width:100%;height:10%;text-align: center;font-size:12px;color:#333333">@2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved</view>
+
+
+
 </view>
