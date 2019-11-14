@@ -74,13 +74,6 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/aaa/test",
-					"pathName": "pages/aaa/test",
-					"query": "",
-					"scene": null
-				},
-				{
 					"id": 5,
 					"name": "pages/mess/index",
 					"pathName": "pages/mess/index",
@@ -106,6 +99,19 @@
 					"name": "pages/mess/Company/index",
 					"pathName": "pages/mess/Company/index",
 					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mess/TechnicalSupport/david/index",
+					"pathName": "pages/mess/TechnicalSupport/david/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mess/TechnicalSupport/huili/index",
+					"pathName": "pages/mess/TechnicalSupport/huili/index",
 					"scene": null
 				}
 			]
