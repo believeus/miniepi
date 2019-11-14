@@ -96,8 +96,8 @@
 				},
 				{
 					"id": 7,
-					"name": "pages/mess/TechnicalSupport/index",
-					"pathName": "pages/mess/TechnicalSupport/index",
+					"name": "pages/mess/TechnicalSupport/new/MoShe",
+					"pathName": "pages/mess/TechnicalSupport/new/MoShe",
 					"query": "",
 					"scene": null
 				},

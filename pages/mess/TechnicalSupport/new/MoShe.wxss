@@ -6,9 +6,11 @@
   font-size: 28rpx;
   color: #7c7777;
   margin-bottom: 1%;
+  
 }
 .swiper-tab-item{
     color:#434343;
-    
-   
+}
+swiper-item {
+  overflow: scroll;
 }

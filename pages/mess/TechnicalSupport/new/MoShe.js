@@ -29,5 +29,15 @@ Page({
         currentTab: e.target.dataset.current
       })
     }
+  },
+    onLoad: function () {
+    var that = this
+    wx.getSystemInfo({
+      success: function (res) {
+        that.setData({
+          clientHeight: res.windowHeight +  20
+        });
+      }
+    })
   }
 })
