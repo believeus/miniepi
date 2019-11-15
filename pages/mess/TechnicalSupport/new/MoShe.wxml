@@ -170,7 +170,7 @@
     <view style="width:31%;height:6%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex;">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2007-2018</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">2007-2018</view>
           <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Pharmacology of GlaxoSmithKlin -Canadian Institute of Health
             <view style="color:#0071bc;margin-top: 15px;">Chairman</view>
@@ -180,7 +180,7 @@
     <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2003-2018</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">2003-2018</view>
          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Jemes McGill
             <view style="color:#0071bc;margin-top: 15px;">Professor</view>
@@ -190,7 +190,7 @@
       <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2000-now</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">2000-now</view>
           <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and Therapeutics McGill
             <view style="color:#0071bc;margin-top: 15px;">Professor</view>
@@ -200,7 +200,7 @@
     <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">1993-2000</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">1993-2000</view>
           <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and McGill Medical School
            <view style="color:#0071bc;margin-top: 15px;">Associate Professor</view>
@@ -210,7 +210,7 @@
       <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
      </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">1989-1993</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">1989-1993</view>
           <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and McGill Medical School
             <view style="color:#0071bc;margin-top: 15px;">Associate Professor</view>
@@ -246,7 +246,7 @@
     <view style="width:31%;height:6%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex;">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2010-2013</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">2010-2013</view>
           <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian Health Research Institute- Canadian Health research Cooperative Team in China
             <view style="color:#0071bc;margin-top: 15px;">C$141,00</view>
@@ -256,7 +256,7 @@
     <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2007-2012</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">2007-2012</view>
          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian National Cancer Institute-Demethylase Analysis
             <view style="color:#0071bc;margin-top: 15px;">C$141,000</view>
@@ -266,7 +266,7 @@
       <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2005-2010</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">2005-2010</view>
           <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian Institute of health-DNA Methyltransferase I Inhibitor and its Therapeutic Prospect
             <view style="color:#0071bc;margin-top: 15px;">C$168,158</view>
@@ -276,7 +276,7 @@
     <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">1997-2000</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">1997-2000</view>
           <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian council for Natural science and engineering research
            <view style="color:#0071bc;margin-top: 15px;">C$145,500</view>
@@ -286,7 +286,7 @@
       <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
      </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">1989-1992</view>
+        <view style="width:29%;height:100%;color:#7c7777;font-size:12px; text-align: center">1989-1992</view>
           <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian National Cancer Institute  and McGill Medical School
             <view style="color:#0071bc;margin-top: 15px;">C$74,592/year</view>
