@@ -88,7 +88,21 @@
 					"scene": null
 				},
 				{
+					"id": 6,
+					"name": "pages/mess/TechnicalSupport/david/index",
+					"pathName": "pages/mess/TechnicalSupport/david/index",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": 7,
+					"name": "pages/mess/Customer/index",
+					"pathName": "pages/mess/Customer/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
 					"name": "pages/mess/TechnicalSupport/new/MoShe",
 					"pathName": "pages/mess/TechnicalSupport/new/MoShe",
 					"query": "",
@@ -96,8 +110,15 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/mess/Company/index",
-					"pathName": "pages/mess/Company/index",
+					"name": "pages/mess/TechnicalSupport/huili/index",
+					"pathName": "pages/mess/TechnicalSupport/huili/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mess/TechnicalSupport/fat/chafat",
+					"pathName": "pages/mess/TechnicalSupport/fat/chafat",
 					"query": "",
 					"scene": null
 				},
@@ -106,12 +127,6 @@
 					"name": "pages/mess/TechnicalSupport/david/index",
 					"pathName": "pages/mess/TechnicalSupport/david/index",
 					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/mess/TechnicalSupport/huili/index",
-					"pathName": "pages/mess/TechnicalSupport/huili/index",
 					"scene": null
 				}
 			]

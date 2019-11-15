@@ -165,89 +165,60 @@
           <swiper current="{{currentTab}}" duration="300" bindchange="swiperTab" style="height: {{clientHeight?clientHeight+'px':'auto'}}">
             <view style='height:20px;'></view>
             <swiper-item style="width:100%;">
-              <scroll-view style="height: {{clientHeight?clientHeight+'px':'auto'}}" bindscrolltolower="scrollbot">
-                <!--布局1-->
-                <view style="width:100%;height:8%;display:flex;">
-                  <view style="width:31%;height:100%;border-right: solid 1px #7c7777;opacity:0.5;"></view>
-                </view>
-                <!--布局2-->
-                <view style="width:100%;height:15px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2007-2018</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Pharmacology of GlaxoSmithKline</text>
-                </view>
-
-                <!--布局3-->
-                <view style="width:100%;height:13%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;">
-                    <text class="font" style="width:100%;padding-left:17%;height:54%;">-Canadian Institute of Health</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">Chairman</text>
-                  </view>
-                </view>
-
-                <!--布局4-->
-                <view style="width:100%;height:3%;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2003-2018</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text class="font" style="padding-left:6%;height:30%">Jemes McGill</text>
-                </view>
-
-                <!--布局5-->
-                <view style="width:100%;height:13%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <text style="width:100%;padding-left:9%;height:54%;font-size: 28rpx;color:#0071bc; margin-top: 2%">Professor</text>
-                </view>
-
-                <!--布局6-->
-                <view style="width:100%;height:15px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2000-now</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Department of Pharmacology and</text>
-                </view>
-
-                <!--布局7-->
-                <view style="width:100%;height:13%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;">
-                    <text class="font" style="width:100%;padding-left:20%;height:54%;">Therapeutics McGill</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">Professor</text>
-                  </view>
-                </view>
-
-                <!--布局8-->
-                <view style="width:100%;height:15px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">1993-2000</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Department of Pharmacology and</text>
-                </view>
-
-                <!--布局9-->
-                <view style="width:100%;height:13%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;">
-                    <text class="font" style="width:100%;padding-left:18%;height:54%;">McGill Medical School</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">Associate Professor</text>
-                  </view>
-                </view>
-
-                <!--布局10-->
-                <view style="width:100%;height:15px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">1989-1993</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Department of Pharmacology and</text>
-                </view>
-
-                <!--布局11-->
-                <view style="width:100%;height:13%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;">
-                    <text class="font" style="width:100%;padding-left:18%;height:54%;">McGill Medical School</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">Associate Professor</text>
-                  </view>
-                </view>
-              </scroll-view>
-
+              <view style="width:100%;height:30px"></view>
+    <!-- 2017-now -->
+    <view style="width:31%;height:6%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex;">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2007-2018</view>
+          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Pharmacology of GlaxoSmithKlin -Canadian Institute of Health
+            <view style="color:#0071bc;margin-top: 15px;">Chairman</view>
+        </view>     
+     </view>
+    <!-- 2016-now -->
+    <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2003-2018</view>
+         <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Jemes McGill
+            <view style="color:#0071bc;margin-top: 15px;">Professor</view>
+        </view>     
+     </view>
+  <!-- 2016-2017 -->
+      <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2000-now</view>
+          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and Therapeutics McGill
+            <view style="color:#0071bc;margin-top: 15px;">Professor</view>
+        </view>     
+     </view>
+    <!-- 2011-2016 -->
+    <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">1993-2000</view>
+          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and McGill Medical School
+           <view style="color:#0071bc;margin-top: 15px;">Associate Professor</view>
+        </view>     
+     </view>
+<!-- 2004-2011 -->
+      <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
+     </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">1989-1993</view>
+          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and McGill Medical School
+            <view style="color:#0071bc;margin-top: 15px;">Associate Professor</view>
+        </view>     
+      
+     </view>
+<view style="width:31%;height:18%;border-right: solid 1px #7c7777;opacity:0.5">
+     </view>
             </swiper-item>
             <swiper-item>
               <view style="height:100%;width:100%;flex-direction: column;">
@@ -270,93 +241,60 @@
             </swiper-item>
             <!---------------------->
             <swiper-item style="width:100%;">
-                 <scroll-view style="height: {{clientHeight?clientHeight+'px':'auto'}}" bindscrolltolower="scrollbot">
-                <!--布局1-->
-                <view style="width:100%;height:7%;display:flex;">
-                  <view style="width:31%;height:100%;border-right: solid 1px #7c7777;opacity:0.5;"></view>
-                </view>
-                <!--布局2-->
-                <view style="width:100%;height:15px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2010-2013</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:20%;">Canadian Health Research</text>
-                </view>
-
-                <!--布局3-->
-                 <view style="width:100%;height:14%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;height:5%">
-                    <text class="font" style="width:100%;padding-left:12%;height:54%;">Institute- Canadian Health research </text> 
-                    <text class="font" style="width:100%;padding-left:12%;height:54%;">Cooperative Team in China</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%; margin-top:5%">C$141,000</text>
-                  </view>
-                </view>
-
-               <!--布局4-->
-                <view style="width:100%;height:16px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2007-2012</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Canadian National Cancer</text>
-                </view>
-
-                <!--布局5-->
-                <view style="width:100%;height:12%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;">
-                    <text class="font" style="width:100%;padding-left:16%;height:54%;">Institute-Demethylase Analysis</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">C$141,000</text>
-                  </view>
-                </view>
-
-               <!--布局2-->
-                <view style="width:100%;height:15px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">2005-2010</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:20%;">Canadian Institute of health-DNA </text>
-                </view>
-
-                <!--布局3-->
-                 <view style="width:100%;height:15%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;height:5%">
-                    <text class="font" style="width:100%;padding-left:12%;height:54%;">Methyltransferase I Inhibitor and</text> 
-                    <text class="font" style="width:100%;padding-left:12%;height:54%;">its Therapeutic Prospect</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%; margin-top:5%">C$168,158</text>
-                  </view>
-                </view>
-
-                <!--布局8-->
-                <view style="width:100%;height:15px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">1997-2000</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Canadian council for Natural</text>
-                </view>
-
-                <!--布局9-->
-                <view style="width:100%;height:15%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;">
-                    <text class="font" style="width:100%;padding-left:14%;height:54%;">science and engineering research</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">C$145,500</text>
-                  </view>
-                </view>
-
-                <!--布局10-->
-                <view style="width:100%;height:15px;display:flex;">
-                  <text style="padding-left:6%;width:23%; font-size: 28rpx;color: #7c7777;height:50%;">1989-1992</text>
-                  <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
-                  <text style="padding-left:6%; font-size: 28rpx;color: #7c7777;height:30%">Canadian National Cancer Institute</text>
-                </view>
-
-                <!--布局11-->
-                <view style="width:100%;height:14%;display:flex;">
-                  <text style="height:100%;border-right: solid 1px #7c7777;opacity:0.5;padding-left:31%;"></text>
-                  <view style="display:grid;">
-                    <text class="font" style="width:100%;padding-left:16%;height:54%;"> and McGill Medical School</text>
-                    <text style="padding-left:18%; font-size: 28rpx;color:#0071bc;height:40%">C$74,592/year</text>
-                  </view>
-                </view>
-              </scroll-view>
+                      <view style="width:100%;height:30px"></view>
+    <!-- 2017-now -->
+    <view style="width:31%;height:6%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex;">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2010-2013</view>
+          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian Health Research Institute- Canadian Health research Cooperative Team in China
+            <view style="color:#0071bc;margin-top: 15px;">C$141,00</view>
+        </view>     
+     </view>
+    <!-- 2016-now -->
+    <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2007-2012</view>
+         <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian National Cancer Institute-Demethylase Analysis
+            <view style="color:#0071bc;margin-top: 15px;">C$141,000</view>
+        </view>     
+     </view>
+  <!-- 2016-2017 -->
+      <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2005-2010</view>
+          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian Institute of health-DNA Methyltransferase I Inhibitor and its Therapeutic Prospect
+            <view style="color:#0071bc;margin-top: 15px;">C$168,158</view>
+        </view>     
+     </view>
+    <!-- 2011-2016 -->
+    <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
+    </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">1997-2000</view>
+          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian council for Natural science and engineering research
+           <view style="color:#0071bc;margin-top: 15px;">C$145,500</view>
+        </view>     
+     </view>
+<!-- 2004-2011 -->
+      <view style="width:31%;height:15%;border-right: solid 1px #7c7777;opacity:0.5">
+     </view>
+     <view style="width:100%;height:1%;display:flex">
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">1989-1992</view>
+          <view style="width:15px;height:15px;border-radius: 50%;background-color:#104E8B"></view>
+        <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Canadian National Cancer Institute  and McGill Medical School
+            <view style="color:#0071bc;margin-top: 15px;">C$74,592/year</view>
+        </view>     
+      
+     </view>
+<view style="width:31%;height:18%;border-right: solid 1px #7c7777;opacity:0.5">
+     </view>
             </swiper-item>
 
           </swiper>
@@ -489,7 +427,7 @@
          </view>
 
 <!--第八段-->
-<view style="width:100%;height:14%;display:flex">
+<view style="width:100%;height:12%;display:flex">
          <view style="width:80%;height:100%;">
           <view style="display:grid;padding-left:6%">
           <text style='font-size: 28rpx;color:#FFFAFA'>Maternal care effects on the hippocampal</text>
@@ -506,6 +444,9 @@
          </view>
          </view>
 
+  <view style="width:100%;height:40px;text-align:center;color:#7c7777;font-size:10px;line-height:40px">
+        @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+    </view>
       </view>
         </view>
       </view>
