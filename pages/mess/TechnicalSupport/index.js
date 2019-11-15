@@ -18,6 +18,16 @@ Page({
       url: '../../../../huili/index'
     })
   },
+  CF: function () {
+    wx.navigateTo({
+      url: '../../../../fat/chafat'
+    })
+  },
+  jason: function () {
+    wx.navigateTo({
+      url: '../../../../lv/index'
+    })
+  },
   onLoad: function (options) {
     var _height = wx.getSystemInfoSync().screenHeight;
     var _width = wx.getSystemInfoSync().screenWidth;
