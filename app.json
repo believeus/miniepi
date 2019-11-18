@@ -50,7 +50,8 @@
     "pages/mess/TechnicalSupport/huili/index",
     "pages/mess/TechnicalSupport/fat/chafat",
     "pages/mess/TechnicalSupport/lv/index",
-    "pages/mess/Customer/index"
+    "pages/mess/Customer/index",
+    "pages/mess/Biological/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

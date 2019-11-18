@@ -56,10 +56,10 @@
       </view>
     </view>
 
-    <view style='width:100%;height:76%;;display:flex' bindtap='toDNAMethylation'>
+    <view style='width:100%;height:76%;;display:flex'>
       <view style='width:5%;height:100%;;'></view>
       <view style='width:89%;height:100%;position: relative;'>
-        <image src='/image/enpic/au3.png' mode='widthFix' style='width:100%'></image>
+        <image src='/image/enpic/au3.png' mode='widthFix' style='width:100%' bindtap='toDNAMethylation'></image>
         <text class="font">DNA Methylation
          </text>
       </view>
@@ -82,7 +82,7 @@
     <view style='width:100%;height:76%;;display:flex'>
       <view style='width:5%;height:100%;;'></view>
       <view style='width:89%;height:100%;position: relative;'>
-        <image src='/image/enpic/au5.png' mode='widthFix' style='width:100%' bindtap=''></image>
+        <image src='/image/enpic/au5.png' mode='widthFix' style='width:100%' bindtap='biological'></image>
         <text class="font"> Biologicl Age
          </text>
       </view>
@@ -105,7 +105,7 @@
     <view style='width:100%;height:76%;;display:flex'>
       <view style='width:5%;height:100%;'></view>
       <view style='width:89%;height:100%;position: relative;'>
-        <image src='/image/enpic/au4.png' mode='widthFix' style='width:100%' bindtap=''></image>
+        <image src='/image/enpic/au4.png' mode='widthFix' style='width:100%' bindtap='consent'></image>
         <text class="font">Consent Form
          </text>
       </view>

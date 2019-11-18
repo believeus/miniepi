@@ -32,17 +32,17 @@
         <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2017-now</view>
         <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">HKG EpiTHERAPEUTICS,Hong Kong SRC,China
-            <text style="color:#0071bc">\n Lab Manage</text>
+            <text style="color:#0071bc">Lab Manage</text>
         </view>     
      </view>
     <!-- 2009-2016 -->
-    <view style="width:31%;height:5%;border-right: solid 1px #7c7777;opacity:0.5">
+    <view style="width:31%;height:3.5%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1.5%;display:flex">
         <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2009-2016</view>
         <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">McGill University, Canada
-            <text style="color:#0071bc">\n Ph.D. and Research</text>
+            <text style="color:#0071bc">Ph.D. and Research</text>
         </view>     
      </view>
   <!-- 2013-2014 -->
@@ -52,171 +52,21 @@
         <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2013-2014</view>
         <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">McGill Chinese Graduate Student Association McGill University Montreal, Canada
-            <text style="color:#0071bc">\n President</text>
+            <text style="color:#0071bc">President</text>
         </view>     
      </view>
     <!-- 2012-2013 -->
-    <view style="width:31%;height:5%;border-right: solid 1px #7c7777;opacity:0.5">
+    <view style="width:31%;height:3.5%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1.5%;display:flex">
         <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2012-2013</view>
         <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">McGill Chinese Graduate Student Association McGill University Montreal, Canada
-            <text style="color:#0071bc">\n Vice President Event</text>
+            <text style="color:#0071bc">Vice President Event</text>
         </view>     
      </view>
-      <view style="width:31%;height:5%;border-right: solid 1px #7c7777;opacity:0.5">
+      <view style="width:31%;height:3.5%;border-right: solid 1px #7c7777;opacity:0.5">
      </view>
      
-     <!-- 滑块 -->
-      <view style='height:10px;'></view>
-  <view style='flex-direction: row;width:100vw;height:40px;background-color:#0071bc'>
-     <view style='height:10px;'></view>
-      <view class="swiper-tab">
-            <text class="swiper-tab-item {{currentTab==0?'active':''}}" style='width: 40%;padding-left:50px;color:#FFFAFA;font-size: 28rpx; opacity:0.7' data-current="0" bindtap="clickTab">HONORS</text>
-            <text class="swiper-tab-item {{currentTab==1?'active':''}}" style='width: 40%;padding-left:100px;color:#FFFAFA;font-size: 28rpx; opacity:0.7' data-current="1" bindtap="clickTab">CONFERENCES</text>
-      </view>
-       <swiper current="{{currentTab}}" duration="500" bindchange="swiperTab" style="width:100%;height:550px;">
-          <view style='height:20px;'></view>
-            <!-- 滑块honors -->
-          <swiper-item>
-              <view style="width:100%;height:30px"></view>
-              <!-- 2015 -->
-              <view style="width:31%;height:10%;border-right: solid 1px #7c7777;opacity:0.5">
-              </view>
-              <view style="width:100%;height:3%;display:flex;">
-                  <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2015</view>
-                  <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
-                  <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Experimental Medicine Productivity Award McGill University
-                      <text style="color:#0071bc">\n Grand Excellence Award</text>
-                  </view>     
-              </view>
-              <!-- 2013 -->
-              <view style="width:31%;height:10%;border-right: solid 1px #7c7777;opacity:0.5">
-              </view>
-              <view style="width:100%;height:3%;display:flex">
-                  <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2013</view>
-                  <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
-                  <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">The Research Institute of the McGill University Health Center
-                      <text style="color:#0071bc">\n Studentship</text>
-                  </view>     
-              </view>
-
-                <!-- 2012 -->
-              <view style="width:31%;height:10%;border-right: solid 1px #7c7777;opacity:0.5">
-              </view>
-              <view style="width:100%;height:3%;display:flex">
-                  <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2012</view>
-                  <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
-                  <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">The Research Institute of the McGill University Health Center Studentship
-                      <text style="color:#0071bc">McGill Endocrine Retreat Poster Award 
-                      </text>
-                      <text style="color:#0071bc">McGill University Travel Award 
-                      </text>
-                      <text style="color:#0071bc">McGill University Graduate Excel Fellowship 
-                      </text>
-                  </view>     
-              </view>
-
-              <!-- 2011 -->
-              <view style="width:31%;height:20%;border-right: solid 1px #7c7777;opacity:0.5">
-              </view>
-              <view style="width:100%;height:3%;display:flex">
-                  <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2011</view>
-                  <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
-                  <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">The Research Institute of the McGill University Health Center
-                      <text style="color:#0071bc">\n McGill University Travel Award</text>
-                  </view>     
-              </view>
-
-              <!-- 2010 -->
-              <view style="width:31%;height:10%;border-right: solid 1px #7c7777;opacity:0.5">
-              </view>
-              <view style="width:100%;height:3%;display:flex">
-                  <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2010</view>
-                  <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;">
-                  </view>
-                  <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">The Research Institute of the McGill University Health Center 
-                      <text style="color:#0071bc;">\n Studentship \n
-                      </text>
-                      <text style="color:#7c7777;">McGill University Claude J.P. Giroud \n</text>
-                      <text style="color:#0071bc">Fellowship McGill University Principal's Graduate Fellowship</text>
-                  </view>     
-              </view>
-              <view style="width:31%;height:20%;border-right: solid 1px #7c7777;opacity:0.5"></view>
-              <!-- 灰色线 -->
-           
-          </swiper-item> 
-            <!-- 滑块conference -->
-          <swiper-item>
-               <!-- 2015bing -->
-            <view style="width:100%;height:3%"></view>
-            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
-              <view>Hui Li ,Bing Li and Louise Larose. Silencing Nck1 prevents activation of the IRE1α-JNK-miR-122 pathway that controls PTP1B expression. 2015.McGill Endocrine Retreat (Montreal, Canada)</view>
-            </view>
-            <!-- 2014 louise -->
-            <view style="width:100%;height:5%"></view>
-            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
-              <view>Hui Liand Louise Larose. The adaptor protein Nck1 negatively regulates the PI3K/Akt pathway through protein tyrosine phosphatase 1B. 2014.McGill Endocrine Retreat (Montreal, Canada)</view>
-            </view>
-            <!-- 2013 canadian -->
-            <view style="width:100%;height:5%"></view>
-            <view style="width:90%;height:80px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
-              <view>Hui Li and Louise Larose. Identification of the adaptor protein Nck1 as a negative regulator of the PI3K/Akt pathway through PTP1B and IRE1α. 2013.Canadian Diabetes Association Professional Conference (Montreal, Canada)</view>
-            </view>
-            <!-- 2012 er -->
-            <view style="width:100%;height:5%"></view>
-            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
-              <view>Hui Li and Louise Larose. Akt phosphorylation/activation is modulated by the adaptor protein Nck1 through its ability to regulate the Endoplasmic Reticulum (ER) stress sensor IRE1α. 2012.</view>
-            </view>
-            <!--2012  usa -->
-            <view style="width:100%;height:5%"></view>
-            <view style="width:90%;height:50px;color:#7c7777;font-size:12px;padding-left:5%;padding-right:5%;">
-              <view>McGill Endocrine Retreat Montreal, Canada ( Poster Award)and Louise Larose. Nck1—an adaptor protein modulating expression of the Endoplasmic Reticulum (ER) stress sensor IRE1α. 2012.Experimental Biology 2012 (San Diego, USA)</view>
-            </view>
-           
-          
-          </swiper-item>        
-        </swiper>
-      </view>
-
-        <!-- 文献 -->
-      <view style="width:100vw;height:60px;background-color:#eaeaea;margin-top:580px">
-        <text style="line-height:60px;font-size:14px;margin-left:15px;">|            PUBLISHED PAPERS
-        </text>
-    </view>
-      <view style="width:100vw;height:500px;background:#27809d;">
-           <view style="width:100%;height:30px"></view>
-            <view style="width:90%;height:50px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
-                <view>IRE1α links Nck1 deficiency to attenuated PTP1B expression in HepG2 cells.Cellular Signaling. 2017;
-                </view>
-           </view>
-           <view style="width:100%;height:20px"></view>
-            <view style="width:90%;height:70px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
-                <view>Nck1 depletion induces activation of the PI3K/Akt pathway by attenuating PTP1B protein expression. Cell Communication and Signaling. 2014;
-                </view>
-           </view>
-           <view style="width:100%;height:20px"></view>
-            <view style="width:90%;height:50px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
-                <view>NHepatocellular carcinoma induced specific angiogenesis.Chinese Clinical Oncology . 2009;
-                </view>
-           </view>
-
-           <view style="width:100%;height:20px"></view>
-            <view style="width:90%;height:80px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
-                <view>A novel peptide isolated from phage display peptides library recognized by an antibody against connective tissue growth factor. International  Immunopharmacology. 2009;
-                </view>
-           </view>
-
-           <view style="width:100%;height:30px"></view>
-            <view style="width:90%;height:70px;color:#ffffff;font-size:14px;padding-left:5%;padding-right:5%;">
-                <view>Effects of cations and PH on antimicrobial activity of Thanatin and s-Thanatin against Escherichia coli ATCC25922 and B. subtilis ATCC 21332. Current Microbiology. 2008;
-                </view>
-           </view>
-      </view>
-      <!-- foot -->
-      <view style="width:100%;height:40px;text-align:center;color:#7c7777;font-size:12px;line-height:40px">
-        @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
-    </view>
 
 </view>

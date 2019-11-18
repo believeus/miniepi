@@ -18,7 +18,16 @@ Page({
       url: '/pages/mess/DNAMethylation/index'
     })
   },
-
+  consent: function () {
+    wx.navigateTo({
+      url: '/pages/mess/Customer/index'
+    })
+  },
+  biological: function () {
+    wx.navigateTo({
+      url: '/pages/mess/Biological/index'
+    })
+  },
   onLoad: function (options) {
     var _height = wx.getSystemInfoSync().windowHeight;
     var _width = wx.getSystemInfoSync().windowWidth;

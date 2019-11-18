@@ -1,4 +1,4 @@
-// pages/mess/TechnicalSupport/huili/index.js
+// pages/mess/Biological/index.js
 Page({
 
   /**

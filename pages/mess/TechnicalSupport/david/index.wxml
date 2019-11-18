@@ -42,21 +42,21 @@
         <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2016-now</view>
         <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Montreal EpiTerapia Inc Montreal Canada
-            <text style="color:#0071bc">\n Co-Founder</text>
+            <text style="color:#0071bc">Co-Founder</text>
         </view>     
      </view>
   <!-- 2016-2017 -->
-      <view style="width:31%;height:3%;border-right: solid 1px #7c7777;opacity:0.5">
+      <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex">
         <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2016-2017</view>
         <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Department of Pharmacology and Therapeutics McGill University
-            <text style="color:#0071bc">\n Research Associate</text>
+            <text style="color:#0071bc">Research Associate</text>
         </view>     
      </view>
     <!-- 2011-2016 -->
-    <view style="width:31%;height:2.5%;border-right: solid 1px #7c7777;opacity:0.5">
+    <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
     </view>
      <view style="width:100%;height:1%;display:flex">
         <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2011-2016</view>
@@ -69,13 +69,13 @@
       <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
      </view>
      <view style="width:100%;height:1%;display:flex">
-        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2004-2011</view>
+        <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2011-2016</view>
         <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
         <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Hebrew University Hadassah Medical School
-            <text style="color:#0071bc">\n Research Assistant</text>
+            <text style="color:#0071bc">Research Assistant</text>
         </view>     
      </view>
-      <view style="width:31%;height:2.5%;border-right: solid 1px #7c7777;opacity:0.5">
+      <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
      </view>
   <!-- 切换 -->
   <view style='height:10px;'></view>
@@ -166,7 +166,6 @@
           </swiper-item>        
         </swiper>
       </view>
-    <!-- 文献 -->
     <view style="width:100vw;height:60px;background-color:#eaeaea;margin-top:545px">
         <text style="line-height:60px;font-size:14px;margin-left:15px;">|            PUBLISHED PAPERS
         </text>
