@@ -43,7 +43,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 15,
+			"current": -1,
 			"list": [
 				{
 					"id": 0,
@@ -68,8 +68,8 @@
 				},
 				{
 					"id": 3,
-					"name": "pages/index/TestProcess/index",
-					"pathName": "pages/index/TestProcess/index",
+					"name": "pages/index/DataSecurity/index",
+					"pathName": "pages/index/DataSecurity/index",
 					"query": "",
 					"scene": null
 				},
@@ -151,9 +151,24 @@
 					"scene": null
 				},
 				{
+					"id": 15,
+					"name": "pages/index/QA/EpiAging/index",
+					"pathName": "pages/index/QA/EpiAging/index",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
-					"name": "ques",
-					"pathName": "pages/Buy/index",
+					"name": "pages/index/QA/",
+					"pathName": "pages/index/QA/Howto/howto",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/QA/Howto/howto",
+					"pathName": "pages/index/QA/Howto/howto",
+					"query": "",
 					"scene": null
 				}
 			]

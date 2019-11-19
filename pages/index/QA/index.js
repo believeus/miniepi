@@ -1,32 +1,27 @@
- // pages/Buy/index.js
+// pages/index/QA/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    width :"",
-    height: ""
-  },
 
-  ToDNA : function(){
-    wx.navigateTo({
-      url: '/pages/Buy/DNAMethylation',
-    })
   },
-  toNutriList: function () {
+ep :function(){
+  wx.navigateTo({
+    url: '/pages/index/QA/EpiAging/index',
+  })
+},
+  ho :function () {
     wx.navigateTo({
-      url: '/pages/Buy/nutrilist',
+      url: '/pages/index/QA/Howto/howto',
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-      this.setData({
-        width : wx.getSystemInfoSync().windowWidth,
-        height: wx.getSystemInfoSync().windowHeight
-      })
+
   },
 
   /**

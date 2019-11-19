@@ -1,0 +1,146 @@
+<!--pages/index/DataSecurity/index.wxml-->
+<view class="page">
+<view class="font">
+<view style="background-color:#F6F8F9;border:solid 1px #F6F8F9;padding-left:5%;" >
+<view style="width:100%;height:2%"></view>
+<view style="  display: flex; text-align: center;">
+<view style="width:70%;margin-top:8%;">
+Importance of filling out questionnaires
+</view>
+<view style="width:30%">
+<image src="/image/icons/ques1.png" style="width:60px;height:60px"></image>
+</view>
+</view>
+<!--文字-->
+<view style="display: flex;margin-top:5%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">EpiAging tests make sense only within a dynamic life-long life style, environmental and health management system.</view>
+</view>
+
+<view style="display: flex;margin-top:5%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">A personalized evaluation including intervention will be generated based on the health and lifestyle information you provided.</view>
+</view>
+
+<view style="display: flex;margin-top:5%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">Update your health and lifestyle parameters periodically to activate the life-long personalized analysis report.</view>
+</view>
+<view style="margin-top:4%;"></view>
+</view>
+<view style="padding-left:5%;">
+<!---->
+<view style="margin-top:5%;"></view>
+<view style="  display: flex; text-align: center;">
+<view style="width:25%;">
+<image src="/image/icons/ques2.png" style="width:60px;height:60px"></image>
+</view>
+<view style="width:75%;margin-top:5%;">
+How do we conduct data analysis ?
+</view>
+</view>
+<!--文字-->
+<view style="display: flex;margin-top:5%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">Epiaging test results are continuously analyzed with general health parameters, personal interventions and outcomes of multiple users using state of the art machine learning algorithms.</view>
+</view>
+
+<view style="display: flex;margin-top:4%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">Personalized analysis with some possible routes for improvement.</view>
+</view>
+
+<view style="display: flex;margin-top:4%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">Data in our data base in blinded with respect to personal identity.</view>
+</view>
+
+<view style="display: flex;margin-top:4%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">No access is allowed to your personal information by any one who has access to your health and life style data.</view>
+</view>
+
+<!--图-->
+<view style="  display: flex; text-align: center; margin-top:10%">
+<view style="width:70%;margin-top:5%;  font-size: 32rpx">
+How  do  we  ensure  that information is confidential ?
+</view>
+<view style="width:30%">
+<image src="/image/icons/ques4.png" style="width:60px;height:60px"></image>
+</view>
+</view>
+
+<!--文字-->
+<view style="display: flex;margin-top:6%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">We have data privacy and management system.</view>
+</view>
+
+<view style="display: flex;margin-top:5%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">
+Without your explicit consent, we will not share any of your personal data.
+</view>
+</view>
+
+<view style="display: flex;margin-top:5%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">
+We will not provide your information or results to employers or health insurance companies of other companies.
+</view>
+</view>
+
+<view style="display: flex;margin-top:5%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">
+Unless we are required to comply with valid court orders, we will not provide information to law enforcement agencies.
+</view>
+</view>
+
+<view style="display: flex;margin-top:5%;">
+<text style="color:#0071bc">●</text>
+<view style="width:95%;padding-left:12px">
+Learn more about our privacy clauses.
+</view>
+</view>
+
+<view style="display: flex;margin-top:5%;padding-left:2%;font-size:25rpx;width:90%;">
+<text style="color:#0071bc">☞</text>
+<view style="width:95%;padding-left:12px">
+When you are not logged into the system, your health information and personal user information will be in a'free'state, and no one can find your related information.
+</view>
+</view>
+
+<view style="display: flex;margin-top:5%;padding-left:2%;font-size:25rpx">
+<text style="color:#0071bc">☞</text>
+<view style="width:95%;padding-left:12px">
+We will not have or save user's private key to decrypt user data according to our Data Security Statement , please save your only private key.
+</view>
+</view>
+
+<view style="display: flex;margin-top:5%;padding-left:2%;font-size:25rpx">
+<text style="color:#0071bc">☞</text>
+<view style="width:95%;padding-left:12px">
+Once the private key is set, no changes are allowed. 
+<view>If the private key is changed, all previously saved healthy</view>
+<view>data will be lost. New healthy data will be encrypted  </view>
+<view>using a new private key,and it can only be set once.</view>
+</view>
+</view>
+
+<view style="display: flex;margin-top:5%;padding-left:2%;font-size:25rpx">
+<text style="color:#0071bc">☞</text>
+<view style="width:95%;padding-left:12px">
+We will not have or save user's private key to decrypt 
+<view>user data according to the Data Security Statement</view>
+<view>and HIPPA Law.</view>
+</view>
+</view>
+
+<view style="margin-top:20%;text-align:center;">
+@2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+</view>
+
+</view>
+</view>
+</view>

@@ -57,6 +57,11 @@ Page({
       url: '/pages/Buy/GoodsList/index'
     })
   },
+  Qa: function () {
+    wx.navigateTo({
+      url: '/pages/index/QA/index'
+    })
+  },
   ToOrderList: function() {
     wx.navigateTo({
       url: '/pages/Buy/Order/index'
@@ -110,6 +115,11 @@ Page({
   tous:function(){
     wx.switchTab({
       url: '/pages/mess/index',
+    })
+  },
+  datase: function () {
+    wx.navigateTo({
+      url: '/pages/index/DataSecurity/index',
     })
   },
   Testreport :function(){

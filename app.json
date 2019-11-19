@@ -51,7 +51,11 @@
     "pages/mess/TechnicalSupport/fat/chafat",
     "pages/mess/TechnicalSupport/lv/index",
     "pages/mess/Customer/index",
-    "pages/mess/Biological/index"
+    "pages/mess/Biological/index",
+    "pages/index/DataSecurity/index",
+    "pages/index/QA/index",
+    "pages/index/QA/EpiAging/index",
+    "pages/index/QA/Howto/howto"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -74,15 +78,15 @@
       },
       {
         "pagePath": "pages/mess/index",
-        "text": "关于我们",
+        "text": "品牌",
         "iconPath": "image/tabbar/mess-2.png",
         "selectedIconPath": "image/tabbar/mess-3.png"
       },
       {
         "pagePath": "pages/Buy/index",
-        "text": "问卷调查",
-        "iconPath": "image/tabbar/ques1.png",
-        "selectedIconPath": "image/tabbar/ques2.png"
+        "text": "产品商城",
+        "iconPath": "image/tabbar/buy.png",
+        "selectedIconPath": "image/tabbar/buy-1.png"
       },
       {
         "pagePath": "pages/user/user",

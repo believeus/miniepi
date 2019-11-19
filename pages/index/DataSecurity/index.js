@@ -1,32 +1,18 @@
- // pages/Buy/index.js
+// pages/index/DataSecurity/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    width :"",
-    height: ""
+
   },
 
-  ToDNA : function(){
-    wx.navigateTo({
-      url: '/pages/Buy/DNAMethylation',
-    })
-  },
-  toNutriList: function () {
-    wx.navigateTo({
-      url: '/pages/Buy/nutrilist',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-      this.setData({
-        width : wx.getSystemInfoSync().windowWidth,
-        height: wx.getSystemInfoSync().windowHeight
-      })
+
   },
 
   /**
