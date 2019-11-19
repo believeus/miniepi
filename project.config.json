@@ -149,6 +149,27 @@
 					"pathName": "pages/mess/DNAMethylation/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": 15,
+					"name": "pages/index/QA/EpiAging/index",
+					"pathName": "pages/index/QA/EpiAging/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/QA/",
+					"pathName": "pages/index/QA/Howto/howto",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/QA/Howto/howto",
+					"pathName": "pages/index/QA/Howto/howto",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

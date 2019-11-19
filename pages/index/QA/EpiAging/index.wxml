@@ -1,0 +1,99 @@
+<!--pages/index/QA/EpiAging/index.wxml-->
+<view class="page">
+<view style="text-align:center;font-size:15px;margin-top:10%">
+EpiAging App User Manual
+</view>
+
+<view style="padding-left:6%;"class="font">
+<view style="width:95%;margin-top:7%" >
+<view style="padding-left:2%">1.Download the IOS App from the Apple Store or Android App from the Google Play Store.</view>
+</view>
+<view style="width:95%;margin-top:7%" >
+<view style="padding-left:2%">2.Go to 'EPICENTER' and lick register to register an account.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:7%" >
+<image src="/image/icons/get1.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">3.Fill in the registration information.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/get2.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">4.Go to the registration mailbox to activate your account.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/get3.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">5.Log in with the account you just registered.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/get4.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">6.Set your unique data security key.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/get5.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">☞ Les clés uniques seront envoyées à votre boîte aux lettres</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/get6.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">7.Go to 'SHOPPING' to purchase the EpiAging test kit.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/get7.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:100%;height:50px;color:#7c7777;font-size:10px;margin-top:10%">
+        @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+    </view>
+
+
+
+
+
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

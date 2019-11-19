@@ -1,0 +1,13 @@
+<!--pages/index/QA/index.wxml-->
+<view class="page" style="margin-top:10%;width:100%;margin-left:5%;">
+<view bindtap="ep">
+<view class="font">EpiAging App User Manual</view>
+  <!-- 分割线 -->
+  <view class="divLine"></view>
+</view>
+<view style="margin-top:10%;"bindtap="ho">
+<view class="font">How to get my cpiAging test report?</view>
+  <!-- 分割线 -->
+  <view class="divLine"></view>
+</view>
+</view>

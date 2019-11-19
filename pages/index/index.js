@@ -57,6 +57,11 @@ Page({
       url: '/pages/Buy/GoodsList/index'
     })
   },
+  Qa: function () {
+    wx.navigateTo({
+      url: '/pages/index/QA/index'
+    })
+  },
   ToOrderList: function() {
     wx.navigateTo({
       url: '/pages/Buy/Order/index'

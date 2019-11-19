@@ -1,0 +1,84 @@
+<!--pages/index/QA/Howto/howto.wxml-->
+<!--pages/index/QA/EpiAging/index.wxml-->
+<view class="page">
+<view style="text-align:center;font-size:15px;margin-top:10%">
+How to get my epiAging test report
+</view>
+
+<view style="padding-left:6%;"class="font">
+<view style="width:95%;margin-top:7%" >
+<view style="padding-left:2%">1.Make sure to login with the account that has been used to purchase the epiAging product.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:7%" >
+<image src="/image/icons/man6.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">☞ Your username will appear after you log in.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/man7.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">2.Go to “HOME” or “EPICENTER” and click “My report”.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/man0.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">3.Enter(or Scan) the barcode on your test tube and get your epiAging report.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/man2.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">4.After entered your barcode, by clicking the icon to get your epiAging test report</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/man3.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:95%;margin-top:10%" >
+<view style="padding-left:2%">5.Your epiAging test result will be at the bottom of the page.</view>
+</view>
+
+<!--图片-->
+<view style="width:95%;margin-top:10%" >
+<image src="/image/icons/man5.png" style="height:300px;width:97%"></image>
+</view>
+
+<view style="width:100%;height:50px;color:#7c7777;font-size:10px;margin-top:10%">
+        @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+    </view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>
+

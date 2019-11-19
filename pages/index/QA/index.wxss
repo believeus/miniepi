@@ -1,0 +1,13 @@
+/* pages/index/QA/index.wxss */
+.page .font {
+  font-size: 28rpx;
+  color: #7c7777;
+  margin-bottom: 1%;
+
+}
+.divLine{
+ margin-top: 5%;
+ background: #E0E3DA;
+ width: 90%;
+ height: 3rpx;
+}

@@ -52,7 +52,10 @@
     "pages/mess/TechnicalSupport/lv/index",
     "pages/mess/Customer/index",
     "pages/mess/Biological/index",
-    "pages/index/DataSecurity/index"
+    "pages/index/DataSecurity/index",
+    "pages/index/QA/index",
+    "pages/index/QA/EpiAging/index",
+    "pages/index/QA/Howto/howto"
   ],
   "window": {
     "backgroundTextStyle": "light",
