@@ -89,8 +89,8 @@
 				},
 				{
 					"id": 6,
-					"name": "pages/mess/TechnicalSupport/david/index",
-					"pathName": "pages/mess/TechnicalSupport/david/index",
+					"name": "pages/mess/TechnicalSupport/huili/index",
+					"pathName": "pages/mess/TechnicalSupport/huili/index",
 					"query": "",
 					"scene": null
 				},
@@ -103,8 +103,8 @@
 				},
 				{
 					"id": 8,
-					"name": "pages/mess/TechnicalSupport/new/MoShe",
-					"pathName": "pages/mess/TechnicalSupport/new/MoShe",
+					"name": "pages/mess/TechnicalSupport/david/index",
+					"pathName": "pages/mess/TechnicalSupport/david/index",
 					"query": "",
 					"scene": null
 				},
@@ -140,27 +140,6 @@
 					"id": -1,
 					"name": "pages/mess/Biological/index",
 					"pathName": "pages/mess/Biological/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "DNAMethylation",
-					"pathName": "pages/mess/DNAMethylation/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/mess/TechnicalSupport/huili/index",
-					"pathName": "pages/mess/TechnicalSupport/huili/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/mess/index",
-					"pathName": "pages/mess/index",
 					"query": "",
 					"scene": null
 				}
