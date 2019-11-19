@@ -43,7 +43,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 15,
 			"list": [
 				{
 					"id": 0,
@@ -147,6 +147,13 @@
 					"id": -1,
 					"name": "pages/mess/DNAMethylation/index",
 					"pathName": "pages/mess/DNAMethylation/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ques",
+					"pathName": "pages/Buy/index",
 					"scene": null
 				}
 			]
