@@ -263,7 +263,7 @@
          <text style="position:absolute;left:60px;top:12px">Q&A</text>
           <text style="position:absolute;right:30px;top:12">  > </text>  
       </view>
-      <view class="list" bindtap="">
+      <view class="list" bindtap="datase">
       <image src="/image/icons/uc9.png"  class="image2"></image>
          <text style="position:absolute;left:60px;top:12px">Data Security</text>
           <text style="position:absolute;right:30px;top:12">  > </text>  

@@ -112,6 +112,11 @@ Page({
       url: '/pages/mess/index',
     })
   },
+  datase: function () {
+    wx.navigateTo({
+      url: '/pages/index/DataSecurity/index',
+    })
+  },
   Testreport :function(){
     wx.navigateTo({
       url: '/pages/index/TestProcess/index',   
