@@ -40,6 +40,18 @@ App({
   },
   onShow:function(options){
       console.log(options)
+      switch(options.scene){
+        case 1001:
+          "1001 场景进入"
+          break;
+        case 1005:
+          "1005 场景进入"
+          break;
+        case 1011:
+          "1011  扫描二维码场景进入"
+          break;
+       
+      }
   },
   onError:function(msg){
     console.log("发生错误时")
