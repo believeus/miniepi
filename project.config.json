@@ -43,7 +43,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 14,
 			"list": [
 				{
 					"id": 0,
@@ -140,6 +140,12 @@
 					"id": -1,
 					"name": "pages/mess/Biological/index",
 					"pathName": "pages/mess/Biological/index",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ques",
+					"pathName": "pages/Buy/index",
 					"scene": null
 				}
 			]
