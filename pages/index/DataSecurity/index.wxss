@@ -1,0 +1,13 @@
+/* pages/index/DataSecurity/index.wxss */
+.page{
+  margin: auto 0;
+  width:100%;
+  height:1100px;
+
+}
+.page .font {
+  font-size: 28rpx;
+  color: #7c7777;
+  margin-bottom: 1%;
+
+}
