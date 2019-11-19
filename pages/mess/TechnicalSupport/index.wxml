@@ -71,7 +71,7 @@
   <view style='width:100%;height:6px;background-color:#00000 '></view>
 
   <!-- CF -->
-  <view class='column' bindtap="toHui">
+  <view class='column' bindtap="CF">
     <view style='width:100%;height:4%;'></view>
     <view style='width:100%;height:85%;;display:flex'>
       <view style='width:30%;height:100%;margin-left:5%;margin-right:4%'>
