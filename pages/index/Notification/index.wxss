@@ -1,0 +1,6 @@
+/* pages/index/Notification/index.wxss */
+.page .font {
+  font-size: 28rpx;
+  color: #7c7777;
+  margin-bottom: 1%;
+}

@@ -1,0 +1,106 @@
+<!--pages/index/Notification/Questionnaires/Lifestyle/life.wxml-->
+<view class="page">
+  <view style="text-align: center">
+    <view style="margin-top:8%;font-size:12xp;opacity: 0.8">Life style Questionnaire</view>
+  </view>
+  <!--灰色带字-->
+  <view style="margin-top:7%"></view>
+  <view class="font" style="background-color:#F4F4F6;width:100%;border:solid 1px #F4F4F6">
+    <view style="width:90%;padding-left:6%;">
+      <view style="margin-top:6%">
+       A healthy or unhealthy lifestyle will most likely be transmitted across generations. According to the study done by Case et al.
+      </view>
+       <view style="margin-top:6%">
+      When a 0-3-year-old child has a mother who practices a healthy lifestyle, this child will be 27% more likely to become healthy and adopt the same lifestyle.
+      </view>
+      <view style="margin-top:6%">
+      For instance, high-income parents are more likely to eat organic food, have time to exercise and provide the best living condition to their children.On the other hand, low-income parents are more likely to participate in unhealthy activities such as smoking to help them release poverty-related stress and depression.
+      </view>
+<view style="margin-top:6%">
+     Parents are the first teacher for every child. Everything that parents do will be very likely transferred to their children through the learning process.
+      </view>
+<view style="margin-top:8%">    </view>
+    </view>
+  </view>
+
+<!---->
+
+<view style="margin-top:10%;padding-left:6%;" class="font">
+<view style="font-size:12xp;opacity: 0.8">Weight & Height</view>
+<view style="margin-top:4%;color:#23A9F2">Source: Centers for Disease……</view>
+<view style="margin-top:4%;width:95%;font-size:22rpx">
+Recommendation:If your BMI is less than 18.5, it falls within the underweight range.
+If your BMI is 18.5 to 24.9, it falls within the normal or Healthy Weight range.
+If your BMI is 25.0 to 29.9, it falls within the overweight range.
+If your BMI is 30.0 or higher, it falls within the obese range.
+</view>
+<view style="display: flex;margin-top:8%;">
+<view style="width:50%;Height:30px">Height(cm:)</view>
+<view style="width:50%;Height:25px;border-radius: 5% 5%">
+<view style="width:73%;Height:80%;border:solid 1px #D3D3D3;display: flex;">
+<view style="background-color: #7c7777;text-align: center;width:20%"><text style="color:#FFFFFE;font-size:18px">{{'<'}}</text></view>
+<view style="text-align: center;width:60%;">
+<text>165</text>
+</view>
+<view style="background-color: #7c7777;text-align: center;width:20%"><text style="color:#FFFFFE;font-size:18px">{{'>'}}</text></view>
+</view>
+</view>
+</view>
+
+<view style="display: flex;margin-top:4%;">
+<view style="width:50%;Height:30px">Weight(kg):</view>
+<view style="width:50%;Height:25px;border-radius: 5% 5%">
+<view style="width:73%;Height:80%;border:solid 1px #D3D3D3;display: flex;">
+<view style="background-color: #7c7777;text-align: center;width:20%"><text style="color:#FFFFFE;font-size:18px">{{'<'}}</text></view>
+<view style="text-align: center;width:60%;">
+<text>50</text>
+</view>
+<view style="background-color: #7c7777;text-align: center;width:20%"><text style="color:#FFFFFE;font-size:18px">{{'>'}}</text></view>
+</view>
+</view>
+</view>
+<view style="font-size:22rpx">
+<view style="margin-top:7%;width:95%">
+BMI[Body Mass Index=weight(kg)/(height(m)▪height(m))]
+<view style="color:#23A9F2">Source: National Heart,Lung,and Blood Institute</view>
+<view>Recommendation:</view>
+<view>If your BMI is less than 18.5, it falls within the underweight range.</view>
+<view>If your BMI is 18.5 to 24.9, it falls within the normal or Healthy Weight range.</view>
+<view>If your BMI is 25.0 to 29.9, it falls within the overweight range.</view>
+<view>If your BMI is 30.0 or higher, it falls within the obese range.</view>
+</view>
+</view>
+
+
+
+
+
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

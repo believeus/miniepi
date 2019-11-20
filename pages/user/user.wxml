@@ -88,48 +88,6 @@
           <view style='height:10px;border-bottom:1px solid #e2e2e2;'>
           </view>
         </navigator>
-
-        <navigator class="order-detail" url="../Buy/Order/empty">
-          <view style='height:15px'></view>
-          <view style='width:100%;display:flex;flex-direction: row;'>
-            <view style='width:2%'>
-            </view>
-            <view style='width:10%'>
-              <image src='/image/user_info/car.png' style='width:31px;height:32px'></image>
-            </view>
-            <view style='width:78%;'>
-              <view style='height:4px'></view>
-              购物车
-            </view>
-            <view style='width:10%'>
-              <view style='height:4px'></view>
-              <image src='/image/user_info/left_grey_array.png' style='width:10px;height:15px'></image>
-            </view>
-          </view>
-          <view style='height:10px;border-bottom:1px solid #e2e2e2;'>
-          </view>
-        </navigator>
-
-        <navigator class="order-detail" url="../Buy/Order/index">
-          <view style='height:15px'></view>
-          <view style='width:100%;display:flex;flex-direction: row;'>
-            <view style='width:2%'>
-            </view>
-            <view style='width:10%'>
-              <image src='/image/user_info/OrderList.png' style='width:31px;height:32px'></image>
-            </view>
-            <view style='width:78%;'>
-              <view style='height:4px'></view>
-              查看订单
-            </view>
-            <view style='width:10%'>
-              <view style='height:4px'></view>
-              <image src='/image/user_info/left_grey_array.png' style='width:10px;height:15px'></image>
-            </view>
-          </view>
-          <view style='height:10px;'>
-          </view>
-        </navigator>
       </view>
     </view>
   </view>

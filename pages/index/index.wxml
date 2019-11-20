@@ -237,7 +237,7 @@
         </view>
     </view>
     <!-- 更多跳页面 -->
-    <view style="color:#5F9BB2;width:100%;text-align:center;margin:10px" bindtap="">
+    <view style="color:#5F9BB2;width:100%;text-align:center;margin:10px" bindtap="leanmore">
        Learn  More >
     </view>
   </view>   

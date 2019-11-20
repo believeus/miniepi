@@ -57,6 +57,11 @@ Page({
       url: '/pages/Buy/GoodsList/index'
     })
   },
+  leanmore: function () {
+    wx.navigateTo({
+      url: '/pages/index/SAM/index'
+    })
+  },
   Qa: function () {
     wx.navigateTo({
       url: '/pages/index/QA/index'

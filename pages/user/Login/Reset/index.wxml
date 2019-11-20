@@ -1,0 +1,4 @@
+<!--pages/user/Login/Reset/index.wxml-->
+<view class="page">
+<view style="margin-top:12%;font-size:15px;opacity: 0.6">Reset Password</view>
+</view>

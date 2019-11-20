@@ -68,8 +68,8 @@
 				},
 				{
 					"id": 3,
-					"name": "pages/index/DataSecurity/index",
-					"pathName": "pages/index/DataSecurity/index",
+					"name": "pages/user/Login/Reset/index",
+					"pathName": "pages/user/Login/Reset/index",
 					"query": "",
 					"scene": null
 				},
@@ -96,8 +96,8 @@
 				},
 				{
 					"id": 7,
-					"name": "pages/mess/Customer/index",
-					"pathName": "pages/mess/Customer/index",
+					"name": "pages/index/SAM/index",
+					"pathName": "pages/index/SAM/index",
 					"query": "",
 					"scene": null
 				},

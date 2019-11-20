@@ -1,0 +1,56 @@
+<!--pages/index/Notification/Questionnaires/index.wxml-->
+<view class="page">
+<view class="font">
+<view bindtap="left1">
+<view style="display: flex;margin-top:8%;">
+<view style="padding-left:20%;width:80%;color:#0434BB;">Lifestyle Questionnaire</view>
+<view style="width:10%;opacity: 0.5;">{{'>'}}</view>
+</view>
+<view style="margin-top:8%;"></view>
+</view>
+<view style=" background-color: #F0F0F0;height:10px"></view>
+
+<!---->
+<view bindtap="">
+<view style="display: flex;margin-top:8%;">
+<view style="padding-left:20%;width:80%;color:#0434BB;">Mood Self-Assessment</view>
+<view style="width:10%;opacity: 0.5;">{{'>'}}</view>
+</view>
+<view style="margin-top:8%;"></view>
+</view>
+<view style=" background-color: #F0F0F0;height:10px"></view>
+
+
+<view bindtap="">
+<view style="display: flex;margin-top:8%;">
+<view style="padding-left:20%;width:80%;color:#0434BB;">McGill Pain Questionnaire</view>
+<view style="width:10%;opacity: 0.5;">{{'>'}}</view>
+</view>
+<view style="margin-top:8%;"></view>
+</view>
+<view style=" background-color: #F0F0F0;height:10px"></view>
+
+<!---->
+<view bindtap="">
+<view style="display: flex;margin-top:8%;">
+<view style="padding-left:20%;width:80%;color:#0434BB;">Sleep Self-Assessment</view>
+<view style="width:10%;opacity: 0.5;">{{'>'}}</view>
+</view>
+<view style="margin-top:8%;"></view>
+</view>
+<view style=" background-color: #F0F0F0;height:10px"></view>
+
+<!---->
+<view bindtap="">
+<view style="display: flex;margin-top:8%;">
+<view style="padding-left:20%;width:80%;color:#0434BB;">Diet Recommendation</view>
+<view style="width:10%;opacity: 0.5;">{{'>'}}</view>
+</view>
+<view style="margin-top:8%;"></view>
+</view>
+<view style=" background-color: #F0F0F0;height:10px"></view>
+</view>
+<view style="width:100%;height:40px;text-align:center;color:#7c7777;font-size:23rpx;line-height:40px">
+      @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+    </view>
+</view>

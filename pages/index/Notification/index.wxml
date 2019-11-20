@@ -1,0 +1,33 @@
+<!--pages/index/Notification/index.wxml-->
+<view class="page">
+<view class="font" style="padding-left: 6%;width:90%">
+<view style="margin-top:7%;font-size:12px">
+About Questionnaires
+</view>
+<view style="margin-top:9%;">
+The questionnaires are<text style="color:red">optional to fill up.</text>
+However, epigenetics affected by lifestyle as well as the environment. Our philosophy is that Epiaging tests make sense only within a dynamic life-long life style, environmental and health management system.
+</view>
+<view style="margin-top:5%;">
+A personalized evaluation including intervention will be generated based on the health and lifestyle information you provided Updates on your health and lifestyle parameters periodically will activate the life-long personalized analysis report.
+</view>
+
+<view style="margin-top:7%;width:100%;display: flex;">
+<view style="width:50%;height:20px;" bindtap="">
+<view style="background-color:cornflowerblue;width:80%;height:100%;text-align: center;border-radius: 1% 1%">
+<view style="color:#FFFFFF;">CANCEL</view>
+</view>
+</view>
+
+<view style="width:50%;height:20px;" bindtap="question"> 
+<view style="background-color:cornflowerblue;width:75%;height:100%;text-align: center;padding-left:15px;border-radius: 1% 1%">
+<view style="color:#FFFFFF;">CONTINUE</view>
+</view>
+</view>
+</view>
+<view style="width:100%;height:50px;color:#7c7777;font-size:22rpx;margin-top:10%">
+       @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+    </view>
+
+</view>
+</view>
