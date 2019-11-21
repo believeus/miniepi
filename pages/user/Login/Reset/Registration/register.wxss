@@ -1,0 +1,10 @@
+/* pages/user/Login/Reset/Registration/register.wxss */
+.page{
+padding-left: 6%;
+}
+.page .font {
+  font-size: 28rpx;
+  color: #7c7777;
+  margin-bottom: 1%;
+
+}

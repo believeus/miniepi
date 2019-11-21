@@ -14,14 +14,14 @@
 </view>
 
 <view style="margin-top:5%;text-align: center;padding-left:6%;">
-<view style="color:#0E6EB8;font-size:12px;" bindtap="">Forget password?</view>
-<view style="background-color:#0E6EB8; margin-top:6%;width:90%;"bindtap="">
+<view style="color:#0E6EB8;font-size:12px;" bindtap="forget">Forget password?</view>
+<view style="background-color:#0E6EB8; margin-top:6%;width:90%;"bindtap="login">
 <text style="color:#FFFFFF"class="font">LOGIN</text>
 </view>
 <view style="margin-top:6%;padding-right:15%"class="font">
 Don't have an account?
 </view>
-<view style="margin-top:3%;color:#0E6EB8;padding-right:15%"class="font"bindtap="">
+<view style="margin-top:3%;color:#0E6EB8;padding-right:15%"class="font"bindtap="register">
 Register
 </view>
 

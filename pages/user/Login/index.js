@@ -7,7 +7,21 @@ Page({
   data: {
 
   },
-
+  login:function(){
+wx.navigateTo({
+  url: '/pages/user/Login/Privatekey/key',
+})
+  },
+  register:function(){
+    wx.navigateTo({
+  url: '/pages/user/Login/Reset/Registration/register',
+})
+  }, 
+  forget:function(){
+    wx.navigateTo({
+  url: '/pages/user/Login/Reset/index',
+})
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,4 +1,4 @@
-// pages/user/Login/Reset/index.js
+// pages/user/Login/Privatekey/key.js
 Page({
 
   /**
@@ -7,11 +7,7 @@ Page({
   data: {
 
   },
-  login3:function(){
-wx.navigateTo({
-  url: '/pages/user/Login/index',
-})
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -61,7 +61,9 @@
     "pages/index/Notification/Questionnaires/index",
     "pages/index/Notification/Questionnaires/Lifestyle/life",
     "pages/user/Login/index",
-    "pages/user/Login/Reset/index"
+    "pages/user/Login/Reset/index",
+    "pages/user/Login/Reset/Registration/register",
+    "pages/user/Login/Privatekey/key"
   ],
   "window": {
     "backgroundTextStyle": "light",

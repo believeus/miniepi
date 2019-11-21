@@ -68,15 +68,15 @@
 				},
 				{
 					"id": 3,
-					"name": "pages/user/Login/Reset/index",
-					"pathName": "pages/user/Login/Reset/index",
+					"name": "pages/user/Login/Reset/Registration/register",
+					"pathName": "pages/user/Login/Reset/Registration/register",
 					"query": "",
 					"scene": null
 				},
 				{
-					"id": 5,
-					"name": "pages/mess/index",
-					"pathName": "pages/mess/index",
+					"id": 4,
+					"name": "pages/user/Login/Privatekey/key",
+					"pathName": "pages/user/Login/Privatekey/key",
 					"query": "",
 					"scene": null
 				},
@@ -168,6 +168,20 @@
 					"id": -1,
 					"name": "pages/index/QA/Howto/howto",
 					"pathName": "pages/index/QA/Howto/howto",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
 					"query": "",
 					"scene": null
 				}

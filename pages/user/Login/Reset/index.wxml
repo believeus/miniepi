@@ -1,4 +1,27 @@
 <!--pages/user/Login/Reset/index.wxml-->
 <view class="page">
-<view style="margin-top:12%;font-size:15px;opacity: 0.6">Reset Password</view>
+<view style="margin-top:12%;font-size:17px;opacity: 0.6">Reset Password</view>
+<view style="color:red;margin-top:6%;" class="font">By clicking the button below, A link to reset your password will be sent to your email.</view>
+
+<view style="margin-top:10%;" class="font">
+<view style="border:solid 1px #CCCCCC;width:87%;height:32px;border-width:1.5px;border-radius: 11%">
+<view style="margin-top:10px;opacity:0.7;padding-left:1%; ">Email</view>
+</view>
+</view>
+
+<view style="margin-top:6%;background-color:cornflowerblue;text-align: center;height:22px;width:90%">
+<view class="font" style="color:#FFFFFF;padding-top:1%">RESET PASSWORD</view>
+</view>
+<view style="text-align:center;width:90%">
+<view style="margin-top:6%;color:#012496;opacity: 0.7"class="font"bindtap="login3">
+Login to your account
+</view>
+</view>
+
+
+
+
+
+
+
 </view>

@@ -1,0 +1,73 @@
+<!--pages/user/Login/Privatekey/key.wxml-->
+<view class="page">
+<view style="text-align:center;margin-top:6%">
+<view style="font-size:15px;opacity: 0.6">Private key</view>
+</view>
+<view style="margin-top:9%;width:95%;display: flex" class="font">
+<view>1.</view>
+<view style="padding-left:3%">Please press the 'GENERATE' button to generate your Unique Public key and Privatelic key. Then, by pressing 'SAVE',<text style="color:#0078D7;font-style:italic">the Unique Public key and Private key will be saved to your mobile</text>
+</view>
+</view>
+
+<view style="margin-top:5%;width:95%;display: flex" class="font">
+<view>2.</view>
+<view style="padding-left:3%">Once the keys are set, no changes are allowed. If the Public key and Private key were changed, all previously saved healthy data will be lost. New healthy data will be encrypted using a new key,<text style="color:#0078D7;font-style:italic">and it can only be set once.</text>
+</view>
+</view>
+
+<view style="margin-top:5%;width:95%;display: flex" class="font">
+<view>3.</view>
+<view style="padding-left:3%;color:#0078D7;font-style:italic">The Unique Public key and Private key will be required to enter again if the user logs in again.</view>
+</view>
+
+<view style="margin-top:5%;width:95%;display: flex" class="font">
+<view>4.</view>
+<view style="padding-left:3%">We will not have or save the user's private key to decrypt user data according to the <text style="color:#0078D7;font-style:italic">Data Security Statement and HIPPA Law</text>please save your only private key.
+</view>
+</view>
+
+<view style="margin-top:5%;width:95%;display: flex" class="font">
+<view>5.</view>
+<view style="padding-left:3%">When you are not logged into the system, your health information and personal user information will be in a 'free' state, and no one can find your associated information between them.
+</view>
+</view>
+
+<view style="margin-top:4%;" class="font">
+Private key
+<view style="display: flex">
+<view style="border:solid 1px #48494B;width:60%;height:25px;border-width: 1px;opacity: 0.6;"></view>
+<view style="background-color: #0035BA;width:33%;text-align:center;">
+<view style="color:#FFFFFF;  padding-top: 6px">CENERATE</view>
+</view>
+</view>
+</view>
+
+<view style="margin-top:4%;" class="font">
+Publie key
+<view style="display: flex">
+<view style="border:solid 1px #48494B;width:60%;height:25px;border-width: 1px;opacity: 0.6;"></view>
+<view style="background-color: #0035BA;width:33%;text-align:center;">
+<view style="color:#FFFFFF;  padding-top: 6px">CENERATE</view>
+</view>
+</view>
+</view>
+
+<view style="margin-top:4%;" class="font">
+<view style="background-color: #0035BA;width:25%;text-align:center;height:25px">
+<view style="color:#FFFFFF;  padding-top: 4px">SAVE</view>
+</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

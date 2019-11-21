@@ -1,4 +1,4 @@
-// pages/user/Login/Reset/index.js
+// pages/user/Login/Reset/Registration/register.js
 Page({
 
   /**
@@ -7,10 +7,10 @@ Page({
   data: {
 
   },
-  login3:function(){
-wx.navigateTo({
-  url: '/pages/user/Login/index',
-})
+  login2:function(){
+    wx.navigateTo({
+      url: '/pages/user/Login/index',
+    })
   },
   /**
    * 生命周期函数--监听页面加载
