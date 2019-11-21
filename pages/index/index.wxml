@@ -82,7 +82,7 @@
           <text class="myreport">My Report</text>
         </view>
         <!-- Questionnaires -->
-        <view style="width:32%;height:156px;border-radius:14px;position:relative;" bindtap="">
+        <view style="width:32%;height:156px;border-radius:14px;position:relative;" bindtap="ques">
           <text class="question">Questionnaires</text>
         </view>
     </view>
@@ -155,7 +155,7 @@
         </view>
     </view>
     <!-- 更多跳页面 -->
-    <view style="color:#5F9BB2;width:100%;text-align:center;margin:10px" bindtap="">
+    <view style="color:#5F9BB2;width:100%;text-align:center;margin:10px" bindtap="learn2">
        Learn  More >
     </view>
   </view>

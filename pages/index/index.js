@@ -52,6 +52,16 @@ Page({
       url: '/pages/index/TestProcess/index'
     })
   },
+  learn2: function () {
+    wx.navigateTo({
+      url: '/pages/mess/Biological/index'
+    })
+  },
+  ques:function(){
+wx.navigateTo({
+  url: '/pages/index/Notification/index',
+})
+  },
   ToMarket: function() {
     wx.navigateTo({
       url: '/pages/Buy/GoodsList/index'

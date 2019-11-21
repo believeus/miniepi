@@ -16,27 +16,32 @@ Select your region:
 </view>
 
 <view style="margin-top:4%;" class="font">
-<view style="border:solid 1px #CCCCCC;width:87%;height:32px;border-radius: 11%">
-<view style="margin-top:10px;opacity:0.7;padding-left:1%; ">Nick name</view>
-</view>
+<view style="border:solid 1px #949494;width:85%;border-radius: 10px;">
+    <input class="input" name="nick" placeholder="Nick name"
+    bindinput ="Nick"/>
+  </view>
+
 </view>
 
 <view style="margin-top:4%;" class="font">
-<view style="border:solid 1px #CCCCCC;width:87%;height:32px;border-radius: 11%">
-<view style="margin-top:10px;opacity:0.7;padding-left:1%; ">Email</view>
-</view>
-</view>
-
-<view style="margin-top:4%;" class="font">
-<view style="border:solid 1px #CCCCCC;width:87%;height:32px;border-radius: 11%">
-<view style="margin-top:10px;opacity:0.7;padding-left:1%; ">Create Password</view>
-</view>
+<view style="border:solid 1px #949494;width:85%;border-radius: 10px;">
+    <input class="input" name="nick" placeholder="Email"
+    bindinput ="email"/>
+  </view>
 </view>
 
 <view style="margin-top:4%;" class="font">
-<view style="border:solid 1px #CCCCCC;width:87%;height:32px;border-radius: 11%">
-<view style="margin-top:10px;opacity:0.7;padding-left:1%; ">Confirm Password</view>
+<view style="border:solid 1px #949494;width:85%;border-radius: 10px;">
+    <input class="input" name="pwd" placeholder="Create Password"
+    bindinput ="Pwd"/>
+  </view>
 </view>
+
+<view style="margin-top:4%;" class="font">
+<view style="border:solid 1px #949494;width:85%;border-radius: 10px;">
+    <input class="input" name="confim" placeholder="Confirm Password"
+    bindinput ="Confim"/>
+  </view>
 </view>
 
 <view style="display: flex;margin-top:6%;">

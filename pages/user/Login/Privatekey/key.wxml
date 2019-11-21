@@ -35,7 +35,9 @@
 <view style="margin-top:4%;" class="font">
 Private key
 <view style="display: flex">
-<view style="border:solid 1px #48494B;width:60%;height:25px;border-width: 1px;opacity: 0.6;"></view>
+<view style="border:solid 1px #48494B;width:60%;height:25px;border-width: 1px;opacity: 0.7;text-align:center;">
+<view style="color:black;padding-top:5px">fahewqhqwe</view>
+</view>
 <view style="background-color: #0035BA;width:33%;text-align:center;">
 <view style="color:#FFFFFF;  padding-top: 6px">CENERATE</view>
 </view>
@@ -45,7 +47,9 @@ Private key
 <view style="margin-top:4%;" class="font">
 Publie key
 <view style="display: flex">
-<view style="border:solid 1px #48494B;width:60%;height:25px;border-width: 1px;opacity: 0.6;"></view>
+<view style="border:solid 1px #48494B;width:60%;height:25px;border-width: 1px;opacity: 0.7;text-align:center;">
+<text style="color:black;padding-top:7px；">hdjhakskdk</text>
+</view>
 <view style="background-color: #0035BA;width:33%;text-align:center;">
 <view style="color:#FFFFFF;  padding-top: 6px">CENERATE</view>
 </view>
@@ -57,7 +61,6 @@ Publie key
 <view style="color:#FFFFFF;  padding-top: 4px">SAVE</view>
 </view>
 </view>
-
 
 
 

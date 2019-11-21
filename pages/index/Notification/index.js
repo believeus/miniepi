@@ -61,6 +61,16 @@ question : function(){
     url: 'pages/index/Notification/Questionnaires/index',
   })
 },
+  close: function () {
+    wx.navigateTo({
+      url: '/pages/index/index',
+    })
+  },
+  continue: function () {
+    wx.navigateTo({
+      url: '/pages/index/Notification/Questionnaires/index',
+    })
+  },
   /**
    * 用户点击右上角分享
    */

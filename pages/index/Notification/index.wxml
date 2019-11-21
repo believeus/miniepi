@@ -15,13 +15,13 @@ A personalized evaluation including intervention will be generated based on the 
 <view style="margin-top:7%;width:100%;display: flex;">
 <view style="width:50%;height:20px;" bindtap="">
 <view style="background-color:cornflowerblue;width:80%;height:100%;text-align: center;border-radius: 1% 1%">
-<view style="color:#FFFFFF;">CANCEL</view>
+<view style="color:#FFFFFF;" bindtap="close">CANCEL</view>
 </view>
 </view>
 
 <view style="width:50%;height:20px;" bindtap="question"> 
 <view style="background-color:cornflowerblue;width:75%;height:100%;text-align: center;padding-left:15px;border-radius: 1% 1%">
-<view style="color:#FFFFFF;">CONTINUE</view>
+<view style="color:#FFFFFF;" bindtap="continue">CONTINUE</view>
 </view>
 </view>
 </view>

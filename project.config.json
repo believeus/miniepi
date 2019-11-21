@@ -158,9 +158,9 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/index/QA/",
-					"pathName": "pages/index/QA/Howto/howto",
+					"id": 16,
+					"name": "pages/user/Login/index",
+					"pathName": "pages/user/Login/index",
 					"query": "",
 					"scene": null
 				},
@@ -182,6 +182,34 @@
 					"id": -1,
 					"name": "pages/user/user",
 					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/Login/Reset/index",
+					"pathName": "pages/user/Login/Reset/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/Login/Reset/Registration/register",
+					"pathName": "pages/user/Login/Reset/Registration/register",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/Login/Privatekey/key",
+					"pathName": "pages/user/Login/Privatekey/key",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/Notification/Questionnaires/index",
+					"pathName": "pages/index/Notification/Questionnaires/index",
 					"query": "",
 					"scene": null
 				}
