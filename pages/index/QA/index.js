@@ -70,6 +70,27 @@ ep :function(){
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
+    
+  },
 
+  onbutton :function(){
+    wx.request({
+      url: 'http://ip:8080/WxProgram/buttonTest2',
+      data: {
+        username: 'admin',
+        password: 'admin'
+      },
+      method: 'GET',
+      header: {
+        'content-type': 'application/json'
+      },
+      success: function (res) {
+        console.log(res.data);
+      },
+      fail: function (res) {
+        console.log("test");
+      }
+    })
   }
 })
+
