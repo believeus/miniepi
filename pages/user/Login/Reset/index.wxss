@@ -1,0 +1,15 @@
+/* pages/user/Login/Reset/index.wxss */
+.page{
+padding-left: 6%;
+}
+.page .font {
+  font-size: 28rpx;
+  color: #7c7777;
+  margin-bottom: 1%;
+
+}
+.input{
+  margin: 0 0 3px 18px;
+  width: 270px;
+  height: 27px
+}

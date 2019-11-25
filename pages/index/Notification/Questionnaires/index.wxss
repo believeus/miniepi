@@ -1,0 +1,7 @@
+/* pages/index/Notification/Questionnaires/index.wxss */
+.page .font {
+  font-size: 30rpx;
+  color: #7c7777;
+  margin-bottom: 1%;
+  font-weight:bold;
+}

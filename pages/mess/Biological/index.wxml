@@ -240,7 +240,7 @@
       <view style="margin-top:2%">
         Sampling and detection methods are complex and have not been verified in a large number of population samples
       </view>
-      <view style="background-color:lightblue;margin-top:4%;border-radius: 5% 5%">
+      <view style="background-color:lightblue;margin-top:4%;">
         <image src="/image/enpic/bio12.png" style="width:50px;height:50px"></image>
         <view style="color:ghostwhite;">
           <view style="margin-top:2%;">

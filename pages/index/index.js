@@ -7,8 +7,15 @@ Page({
     height: "",
     width: "",
     L: "",
-    username:"xxxx",
-    
+    userInfo:{
+      avatarUrl: "",//用户头像
+      nickName: "",//用户昵称
+
+    },
+   
+   
+
+
   
     Urls: [{
         img: 'http://47.75.111.0/data/image/index/image-1.jpg',
@@ -37,7 +44,7 @@ Page({
     index: 0, //选择的下拉列表下标
   },
 
-  onLoad: function() {
+  onLoad: function (options) {
     var _height = wx.getSystemInfoSync().screenHeight;
     var _width = wx.getSystemInfoSync().screenWidth;
     var M = 137.5 / 375
@@ -46,15 +53,45 @@ Page({
       width: _width,
       L: M * _width
     });
+    var that = this;
+    /**
+     * 获取用户信息
+     */
+    wx.getUserInfo({
+      success: function (res) {
+        console.log(res);
+        var avatarUrl = 'userInfo.avatarUrl';
+        var nickName = 'userInfo.nickName';
+        that.setData({
+          [avatarUrl]: res.userInfo.avatarUrl,
+          [nickName]: res.userInfo.nickName,
+        })
+      }
+    })
   },
   ToTestProcess: function() {
     wx.navigateTo({
       url: '/pages/index/TestProcess/index'
     })
   },
+  learn2: function () {
+    wx.navigateTo({
+      url: '/pages/mess/Biological/index'
+    })
+  },
+  ques:function(){
+wx.navigateTo({
+  url: '/pages/index/Notification/index',
+})
+  },
   ToMarket: function() {
     wx.navigateTo({
       url: '/pages/Buy/GoodsList/index'
+    })
+  },
+  leanmore: function () {
+    wx.navigateTo({
+      url: '/pages/index/SAM/index'
     })
   },
   Qa: function () {

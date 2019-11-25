@@ -68,15 +68,15 @@
 				},
 				{
 					"id": 3,
-					"name": "pages/index/DataSecurity/index",
-					"pathName": "pages/index/DataSecurity/index",
+					"name": "pages/user/Login/Reset/Registration/register",
+					"pathName": "pages/user/Login/Reset/Registration/register",
 					"query": "",
 					"scene": null
 				},
 				{
-					"id": 5,
-					"name": "pages/mess/index",
-					"pathName": "pages/mess/index",
+					"id": 4,
+					"name": "pages/user/Login/Privatekey/key",
+					"pathName": "pages/user/Login/Privatekey/key",
 					"query": "",
 					"scene": null
 				},
@@ -96,8 +96,8 @@
 				},
 				{
 					"id": 7,
-					"name": "pages/mess/Customer/index",
-					"pathName": "pages/mess/Customer/index",
+					"name": "pages/index/SAM/index",
+					"pathName": "pages/index/SAM/index",
 					"query": "",
 					"scene": null
 				},
@@ -158,9 +158,9 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/index/QA/",
-					"pathName": "pages/index/QA/Howto/howto",
+					"id": 16,
+					"name": "pages/user/Login/index",
+					"pathName": "pages/user/Login/index",
 					"query": "",
 					"scene": null
 				},
@@ -168,6 +168,48 @@
 					"id": -1,
 					"name": "pages/index/QA/Howto/howto",
 					"pathName": "pages/index/QA/Howto/howto",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/Login/Reset/index",
+					"pathName": "pages/user/Login/Reset/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/Login/Reset/Registration/register",
+					"pathName": "pages/user/Login/Reset/Registration/register",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/user/Login/Privatekey/key",
+					"pathName": "pages/user/Login/Privatekey/key",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/Notification/Questionnaires/index",
+					"pathName": "pages/index/Notification/Questionnaires/index",
 					"query": "",
 					"scene": null
 				}

@@ -1,0 +1,278 @@
+<!--pages/index/SAM/index.wxml-->
+<view class="page">
+  <image src="/image/icons/index2.jpg" class="mrg"></image>
+  <view style="width:100%;height:40px;display:flex;flex-direction:row;justify-content:space-around;">
+    <view style="width:100%;color:white;background-color:#642C85;text-align:center; border-radius:5px 0 0 5px">
+      <view style="margin-top:4%;font-size:31rpx;">
+        <text>SAM-e</text>
+        <text style="color:#f2e421">$60</text>
+      </view>
+    </view>
+    <view style="width:1%;background-color:white"></view>
+    <!-- 购物车小图 -->
+    <view style="width:70px;color:white;background-color:#642C85; border-radius:0 5px 5px 0;text-align:center">
+      <image src="/image/icons/cart.png" style="width:30px;height:30px;line-height:40px;padding:5 10px 0 10px" bindtap=""></image>
+    </view>
+  </view>
+  <image src="/image/icons/sam2.png" style="wisth:100%;height:350px"></image>
+  <!--文字-->
+  <view style="padding-left:6%;margin-top:12%;display: flex;" class="font">
+    <text style="color:#0071bc">●</text>
+    <view style="width:95%;padding-left:12px">SAM-e is a nutritional supplement not a drug.</view>
+  </view>
+
+  <!--文字-->
+  <view style="padding-left:6%;margin-top:5%;display: flex;" class="font">
+    <text style="color:#0071bc">●</text>
+    <view style="width:95%;padding-left:12px">SAM-e (S-Adenosyl Methionine) is a chemical found naturally in the body.</view>
+  </view>
+
+  <view style="padding-left:6%;margin-top:5%;display: flex;" class="font">
+    <text style="color:#0071bc">●</text>
+    <view style="width:95%;padding-left:12px">SAM-e is considered the most important methyl donor in the body.</view>
+  </view>
+
+  <view style="padding-left:6%;margin-top:5%;display: flex;" class="font">
+    <text style="color:#0071bc">●</text>
+    <view style="width:95%;padding-left:12px">The level of SAM-e decreases as the body ages. Concomitantly, a number of health issues,including mood, joint, and liver disorders are likely to occur.</view>
+  </view>
+
+  <view style="padding-left:6%;margin-top:5%;display: flex;" class="font">
+    <text style="color:#0071bc">●</text>
+    <view style="width:95%;padding-left:12px">All SAM-e molecules have two forms: the SS (active) isomer and the RS (inactive) isomer.
+    </view>
+  </view>
+
+  <view style="padding-left:6%;margin-top:5%;display: flex;" class="font">
+    <text style="color:#0071bc">●</text>
+    <view style="width:95%;padding-left:12px">While SAM-e comes in two stable salt forms; tosylate and butane disulphanate, only the tosylate form is backed by twenty years of research for safety and effectiveness.
+    </view>
+  </view>
+
+  <!--灰色带字-->
+  <view style="margin-top:12%"></view>
+  <view class="font" style="background-color:#F4F4F6;width:100%;border:solid 1px #F4F4F6">
+    <view style="width:90%;padding-left:6%;">
+      <view style="margin-top:5%;">
+        According to clinical studies,sam-e can improve emotional health, joint relaxation and liver function
+      </view>
+      <image src="/image/icons/sam3.png" style="width:100%;height:90px"></image>
+      <view style="margin-top:7%;background-color:#B2E3FF;border:solid 1px #B2E3FF;border-radius: 5% 5%;font-size:23rxp">
+        <view style="width:97%;padding-left:3px;margin-top:1%;">In March of 2003, the AHRQ (Agency for Healthcare Research and Quality) a division of the United States Health and Human Services, released the findings of a major study on SAM-e.</view>
+
+        <view style="width:97%;padding-left:7px">https://www.ncbi.nlm.nih.gov/books/NBK11886/</view>
+        <view style="margin-top:15%;"></view>
+      </view>
+    </view>
+
+    <!--文字-->
+    <view style="padding-left:6%;margin-top:12%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">SAM-e is as effective as conventional prescription medications in the treatment of depression</view>
+    </view>
+
+    <view style="padding-left:6%;margin-top:5%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">SAM-e is as effective as standard prescription medications (NSAIDs) in the treatment of osteoarthritis</view>
+    </view>
+
+    <view style="padding-left:6%;margin-top:5%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">SAM-e has significant benefits for patients suffering from various liver diseases.</view>
+    </view>
+
+    <view style="padding-left:6%;margin-top:5%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">Natural SAM-e was not found to have any noticeable side effects.</view>
+    </view>
+    <view style="margin-top:12%;"></view>
+  </view>
+
+  <view style="padding-left:6%;margin-top:7%;font-size:15px;opacity:0.5">SAM-e in spotlight</view>
+
+
+  <view style="width:100%;height:40px"></view>
+  <!--2013-->
+  <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+  </view>
+  <view style="width:100%;height:0.4%;display:flex;">
+    <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2013</view>
+    <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+    <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Arthritis Today Magazine (October Issue) lists SAM-e as best supplement for osteoarthritis.
+    </view>
+  </view>
+  <!-- 2013 -->
+  <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+  </view>
+  <view style="width:100%;height:0.4%;display:flex">
+    <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2013</view>
+    <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+    <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">Arthritis Research UK study gives SAM-e the highest grade for oral supplement for osteoarthritis relief.
+    </view>
+  </view>
+  <!-- 2016-2017 -->
+  <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+  </view>
+  <view style="width:100%;height:0.4%;display:flex">
+    <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2010</view>
+    <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+    <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">The study from Massachusetts General Hospital demonstrated that SAM-e combined with antidepressants significantly increased remission rates in patients with major depression who failed conventional therapy.
+      <view style="color:#0071bc;font-size:24rpx;">https://ajp.psychiatryonline.org/doi/</view>
+      <view style="color:#0071bc;font-size:24rpx;">full/10.1176/</view>
+    </view>
+  </view>
+  <!-- 2011-2016 -->
+  <view style="width:31%;height:3%;border-right: solid 1px #7c7777;opacity:0.5">
+  </view>
+  <view style="width:100%;height:0.4%;display:flex">
+    <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2009</view>
+    <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+    <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">A Korean study found that SAM-e is as effective as the NSAID Nabumetone.
+      <view style="color:#0071bc;font-size:24rpx;">https://www.ncbi.nlm.nih.gov/</view>
+      <view style="color:#0071bc;font-size:24rpx;">pubmed/20110025</view>
+    </view>
+  </view>
+  <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+  </view>
+  <view style="width:100%;height:0.4%;display:flex">
+    <view style="width:28%;height:100%;color:#7c7777;font-size:12px; text-align: center">2004</view>
+    <view style="background:#0071BC;width:5.5%;height:100%;border-radius: 50%;"></view>
+    <view style="width:64%;height:100%;color:#7c7777;font-size:12px;padding-left:2%">The study done by University of California showed that SAM-e is as effective as Celecoxib, a prescription drug for Arthritis.
+      <view style="color:#0071bc;font-size:24rpx;">https://www.ncbi.nlm.nih.gov/</view>
+      <view style="color:#0071bc;font-size:24rpx;">pubmed/15102339</view>
+    </view>
+  </view>
+  <view style="width:31%;height:2%;border-right: solid 1px #7c7777;opacity:0.5">
+  </view>
+
+<!--灰色-->
+  <view style="margin-top:12%"></view>
+  <view class="font" style="background-color:#F4F4F6;width:100%;border:solid 1px #F4F4F6">
+    <view style="width:90%;padding-left:6%;">
+      <view style="margin-top:7%;">
+        Basic research on SAM-e on human cell lines and animals which were not yet followed by clinical studies
+      </view>
+
+      <view style="margin-top:14%;display: flex;">
+        <text style="color:#0071bc">●</text>
+        <view style="width:95%;padding-left:24px">SAM-e was shown to block breast cancer growth and metastasis in experiments on breast cancer cel lines and animals.</view>
+      </view>
+      <view style="color:#0071bc;font-size:22rpx;margin-top:3%;padding-left:29px">https://www.ncbi.nlm.nih.gov/pubmed/29435170
+        <view>https://www.ncbi.nlm.nih.gov/pubmed/15150277</view>
+ 
+      
+    </view>
+
+    <view style="margin-top:7%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:24px">SAM-e was shown to block growth of liver cancer cells.</view>
+    </view>
+    <view style="color:#0071bc;font-size:22rpx;margin-top:3%;padding-left:29px">https://www.ncbi.nlm.nih.gov/pubmed/29340097
+    </view>
+
+
+     <view style="margin-top:14%;display: flex;">
+        <text style="color:#0071bc">●</text>
+        <view style="width:95%;padding-left:24px">SAM-e was shown to block growth of prostate cancer cells.</view>
+      </view>
+      <view style="color:#0071bc;font-size:22rpx;margin-top:3%;padding-left:29px">https://www.ncbi.nlm.nih.gov/pubmed/25631332
+        <view>https://www.ncbi.nlm.nih.gov/pubmed/16982764</view>
+      </view>
+
+
+   <view style="margin-top:14%;display: flex;">
+        <text style="color:#0071bc">●</text>
+        <view style="width:95%;padding-left:24px">SAM-e was shown to inhibit formation of liver cancer in rats and colorectal cancer in mice.</view>
+      </view>
+      <view style="color:#0071bc;font-size:22rpx;margin-top:3%;padding-left:29px">https://www.ncbi.nlm.nih.gov/pubmed/23073625
+        <view>https://www.ncbi.nlm.nih.gov/pubmed/19444874</view>
+        <view>https://www.ncbi.nlm.nih.gov/pubmed/22159228</view>
+      </view>
+ 
+
+    <view style="margin-top:14%;display: flex;">
+        <text style="color:#0071bc">●</text>
+        <view style="width:95%;padding-left:24px">SAM-e was shown to improve memory in a mouse model of Alzheimer disease when taken before onset of symptoms.</view>
+      </view>
+      <view style="color:#0071bc;font-size:22rpx;margin-top:3%;padding-left:29px">https://www.ncbi.nlm.nih.gov/pubmed/27681803
+        <view>https://www.ncbi.nlm.nih.gov/pubmed/22221883</view>
+      </view>
+     </view>
+ <view style="margin-top:11%;width:100%">
+</view>
+</view>
+
+<image src="/image/icons/sam4.png" style="width:100%;height:600px"></image>
+
+<view style="width:95%;padding-left:6%;margin-top:10%;" class="font">
+<view style="font-size:15px;">Why Chose Our SAM-e?</view>
+   <!--文字-->
+    <view style="padding-left:6%;margin-top:12%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">Our SAMe is manufactured to the highest standards, using the original Italian method (salt - tosylate disulfate).</view>
+    </view>
+    
+ <!--文字-->
+    <view style="padding-left:6%;margin-top:6%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">Our SAMe products’ starting raw materials consistently test at the highest SS to RS isomer ratio on the market:
+      <text style="width:95%;color:#0071bc;  font-style:italic ">SS isomer {{'>'}} 80% /RS isomer  {{'<'}}  20%.</text>
+      </view>
+    </view>
+
+   <!--文字-->
+    <view style="padding-left:4%;margin-top:12%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">Our SAMe tablets are enteric coated for optimum absorption by the body.</view>
+    </view>
+
+   <!--文字-->
+    <view style="padding-left:4%;margin-top:12%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">Our SAMe tablets are sealed in blister packs to ensure freshness.</view>
+    </view>
+
+  <!--文字-->
+    <view style="padding-left:4%;margin-top:12%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">Our SAMe is made to guaranteed purity and potency standards.</view>
+    </view>
+
+  <!--文字-->
+    <view style="padding-left:4%;margin-top:12%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">No Artifical Flavors, Dairy Free, No Preservatives, Allergen Free, No Yeast or Gluten, Kosher Certified.</view>
+    </view>
+
+  <!--文字-->
+    <view style="padding-left:4%;margin-top:12%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">Our SAMe tablets have been tested for a minimum full two year stability rating.</view>
+    </view>
+</view>
+
+<!--灰色-->
+  <view style="margin-top:12%"></view>
+  <view class="font" style="background-color:#F4F4F6;width:100%;border:solid 1px #F4F4F6">
+    <view style="width:90%;padding-left:6%;">
+      <view style="margin-top:7%;font-size:13px;padding-left:4%;;">
+        Caution when taking SAM-e
+      </view>
+  <!--文字-->
+    <view style="padding-left:4%;margin-top:5%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">SAM-e should not be used in conjunction or in place of treatment recommended by your doctor.</view>
+    </view>
+<view style="padding-left:4%;margin-top:3%;display: flex;">
+      <text style="color:#0071bc">●</text>
+      <view style="width:95%;padding-left:12px">If you're taking medication and considering taking SAM-e as supplementary, consulate your doctor to make sure that SAM-e has no interaction with the medication that you are taking.</view>
+    </view>
+<view style="margin-top:6%;"></view>
+       </view>
+       
+        </view>
+
+<view style="width:100%;height:40px;text-align:center;color:#7c7777;font-size:12px;line-height:40px">
+  @2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved
+</view>
+</view>
