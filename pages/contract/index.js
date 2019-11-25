@@ -79,6 +79,22 @@ Page({
       // 获取到用户的信息了，打印到控制台上看下
       console.log("用户的信息如下：");
       console.log(e.detail.userInfo);
+      wx.request({
+        url: 'http://localhost:8080/buttonTest2',
+        data: {
+          name: e.detail.userInfo.nickName
+        },
+        method: 'get',
+        header: {
+          'content-type': 'application/x-www-form-urlencoded' // 默认值
+        },
+        success: function (res) {
+          console.log(res.data);
+        },
+        fail: function (res) {
+          console.log("反馈未提交，请检查网络");
+        }
+      })
       wx.switchTab({
         url: "/pages/index/index"
       })

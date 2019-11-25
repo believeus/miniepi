@@ -45,8 +45,8 @@ Select your region:
 </view>
 
 <view style="display: flex;margin-top:6%;">
-<view style="border:solid 2px #3CA6E0;width:8%;height:7%">
-<checkbox style="width:9%;height:9%"></checkbox>
+<view style="border:solid 2px #3CA6E0;width:8%;height:9%">
+<checkbox class=".wx-checkbox-input" ></checkbox>
 </view>
 <view style="padding-left:3%;font-size:22rpx">I have read and agree to<text style="color:#23A9F2">the Terms of Service and Privacy Statement.</text></view>
 </view>

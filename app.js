@@ -17,12 +17,30 @@ App({
               // 可以将 res 发送给后台解码出 unionId
               console.log(res)
               this.globalData.userInfo = res.userInfo
+              wx.request({
+                url: 'http://localhost:8080/buttonTest2',
+                data: {
+                  userif: e.detail.userInfo.nickName,
+                  name: "tom",
+                },
+                method: 'get',
+                header: {
+                  'content-type': 'application/x-www-form-urlencoded' // 默认值
+                },
+                success: function (res) {
+                  console.log(res.data);
+                },
+                fail: function (res) {
+                  console.log("反馈未提交，请检查网络");
+                }
+              })
               
               // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
               // 所以此处加入 callback 以防止这种情况
               if (this.userInfoReadyCallback) {
                 this.userInfoReadyCallback(res)
               }
+
             }
           })
         }
@@ -30,20 +48,11 @@ App({
     })
 
 
-    //系统打印错误
-    setTimeout(function(){
-      const err = new Error()
-      throw err
-    },3000)
-
-
   },
   onShow:function(options){
       console.log(options)
   },
-  onError:function(msg){
-    console.log("发生错误时")
-  },
+ 
   globalData: {
     userInfo: null,
     goods: [],

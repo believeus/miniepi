@@ -13,3 +13,7 @@ padding-left: 6%;
   width: 270px;
   height: 27px
 }
+checkbox .wx-checkbox-input {
+  width: 50rpx;
+  height: 50rpx;
+}

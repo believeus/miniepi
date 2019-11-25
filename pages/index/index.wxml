@@ -6,7 +6,7 @@
       <view style='height:100%;width:70%;'>
         <view style='height:45%;width:100%;color:#4d4d4d;font-size:22px;font-weight:700;;transform: translateY(-3px)'>首页</view>
         <view style='height:4%;width:100%;;'></view>
-        <view style='height:25%;width:100%;font-size:12px;color:#808080;;'>{{username}}，您好！</view>
+        <view style='height:25%;width:100%;font-size:12px;color:#808080;;'>{{userInfo.nickName}}，您好！</view>
       </view>
       <view style='height:100%;width:20%;;'>
         <view style='height:25%;width:100%;;font-size:12px;color:#808080;display:flex;'>
@@ -32,19 +32,19 @@
       <swiper class="headFor" style="height:100%;width:100%; " autoplay='true' interval='2000' duration='1000' circular='true'>
         <!-- <block wx:for="{{Urls}}"> -->
           <swiper-item>
-            <image src='/image/enpic/1-HKG微信小程序整合-55.png'></image>
+            <image src='/image/enpic/ai.png'></image>
           </swiper-item>
           <swiper-item>
-            <image src='/image/enpic/1-HKG微信小程序整合-56.png'></image>
+            <image src='/image/enpic/ai4.png'></image>
           </swiper-item>
           <swiper-item>
-            <image src='/image/enpic/1-HKG微信小程序整合-57.png'></image>
+            <image src='/image/enpic/ai1.png'></image>
           </swiper-item>
           <swiper-item>
-            <image src='/image/enpic/1-HKG微信小程序整合-58.png'></image>
+            <image src='/image/enpic/ai2.png'></image>
           </swiper-item>
           <swiper-item>
-            <image src='/image/enpic/1-HKG微信小程序整合-59.png'></image>
+            <image src='/image/enpic/ai3.png'></image>
           </swiper-item>
         <!-- </block> -->
       </swiper>
