@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-   
+
     //判断小程序的API，回调，参数，组件等是否在当前版本可用。
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     isHide: false,
@@ -19,18 +19,29 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
+  onLoad: function (options) {
     var oThis = this;
     wx.getSystemInfo({
-      success: function(res) {
+      success: function (res) {
         oThis.setData({
           lang: res.language
         });
       },
     })
     wx.login({
-      success: function(res) {
+      success: function (res) {
         console.log(res.code);
+        wx.request({
+          //     // 自行补上自己的 APPID 和 SECRET
+          url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx4f53ae05242a3e7b&secret=73acec450c056332720f026523e89e64&js_code=' + res.code + '&grant_type=authorization_code',
+          success: res => {
+            // 获取到用户的 openid                
+            console.log("用户的openid:" + res.data.openid);
+            var openid = res.data.openid;
+            wx.setStorageSync("openid", openid);
+            console.log("test的openid:" + wx.getStorageSync("openid"));
+          }
+        });
       }
     })
     // 查看是否授权
@@ -55,6 +66,9 @@ Page({
                     success: res => {
                       // 获取到用户的 openid
                       console.log("用户的openid:" + res.data.openid);
+                      var openid = res.data.openid;
+                      wx.setStorageSync("openid", openid);
+                      console.log("test的openid:" + wx.getStorageSync("openid"));
                     }
                   });
                 }
@@ -80,11 +94,11 @@ Page({
       console.log("用户的信息如下：");
       console.log(e.detail.userInfo);
       wx.request({
-        url: 'http://localhost:8080/buttonTest2',
+        url: 'https://app.beijingepidial.com/user/wx/login',
         data: {
-          name: e.detail.userInfo.nickName
+          openid: wx.getStorageSync('openid')
         },
-        method: 'get',
+        method: 'POST',
         header: {
           'content-type': 'application/x-www-form-urlencoded' // 默认值
         },
@@ -96,7 +110,7 @@ Page({
         }
       })
       wx.switchTab({
-        url: "/pages/index/index"
+        url: "/pages/user/quest1"
       })
     } else {
       //用户按了拒绝按钮
@@ -114,7 +128,7 @@ Page({
       });
     }
   },
-  toLang: function(e) {
+  toLang: function (e) {
     var _lang = e.target.dataset.lang;
     if (_lang == 'CN') {
       this.setData({
@@ -137,49 +151,49 @@ Page({
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function() {
+  onReady: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function() {
+  onShow: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function() {
+  onHide: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function() {
+  onUnload: function () {
 
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function() {
+  onPullDownRefresh: function () {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function() {
+  onReachBottom: function () {
 
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function() {
+  onShareAppMessage: function () {
 
   }
 })

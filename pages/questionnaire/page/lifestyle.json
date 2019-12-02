@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "ff-canvas": "../../../f2-canvas/f2-canvas"
-  },
-  "navigationBarTitleText": "生活方式问卷调查（lifestyle）"
-}

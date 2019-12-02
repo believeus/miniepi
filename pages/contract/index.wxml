@@ -15,7 +15,7 @@
         </view>
         <view style='width:100%;height:30px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:80%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>埃彼达雅客户数据知情同意单</view>
+          <view style='width:80%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>北京肛肠学会</view>
         </view>
         <view style='100%px;height:20px;'></view>
 
@@ -29,27 +29,27 @@
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            欢迎您使用香港HKG公司基因检测服务,在注册试用前，请您仔细阅读如下服务条款
+            北京肛肠学会欢迎您,在授权试用前，请您仔细阅读简介
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            关于EPIAGING APP
+            北京肛肠学会简介
           </view>
         </view>
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            EPIAGING APP 会帮您在移动端APP及云端数据分析上对您的个人医疗数据保持匿名，并获取您微信小程序上的个人信息(例如头像，性别、称昵等)这需要您的信息及知情同意。您真实的身份将会被屏蔽，取而代之的是我们将提供一个ID号码给您。因此，您的真实个人身份不会被储存在移动端APP或服务器上。所以，在您下载APP后，您会被授予一个ID号码，并通过这个ID号码来检索您的数据并接收健康报告，而无论是我们的APP还是"云端"数据分析引擎都不会记录您真实的个人身份。
+           北京肛肠学会是以肛肠专科医院及各级医院肛肠科为主体，采取自愿组成依法成立的学术性、公益性、非营利性的法人社会团体。它是以学术性、公益性、非营利性为目的的组织；是联系肛肠领域资深专家和基层医院的纽带；是肛肠领域资深专家和基层医生相互交流的平台，逐步带动基层医院的发展，提高基层医生的技术水平，带动新技术的发展，将最新的技术和科研成果推广到基层，使广大患者受益。
             <view style='100%;height:20px;border：1px solid grey;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            EPIAGING APP用途
+            北京肛肠学会宗旨
             <view style='100%px;height:20px;'>
             </view>
           </view>
@@ -57,72 +57,72 @@
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            EpiAging移动端APP旨在通过向您提供基于DNA甲基化分析的真实生物学年龄，同时也提供以改变生活方式来促进健康为目标的著名国内医学协会链接和建议给您，从而帮助您实现利用表观基因组的价值达到健康衰老的目标。总之，一切改变的选择尽在您手中。
+           依照卫生部的各项卫生工作方针、政策，以大医院带动小医院，支援乡村医院，开展各项活动，解决老百姓看病难、看病贵的问题，为肛肠疾病的伟大事业做出应有的贡献。
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            还是诚挚的邀请您能够与我们匿名分享您通过点击APP上简单的输入按钮而实现的改变，这些数据将被传输至机器学习引擎系统，以分析您生活方式的改变并提供相应的定期报告。
+            学会通过各种学术活动、培训等形式提高基层医务人员的继续教育程度，广泛提高我国从事肛肠疾病的医务人员的业务水平，促进现代肛肠新兴技术的繁荣和发展，加快现代微创技术的推广，推动基层医院肛肠专业技术队伍的成长。
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            通过定期使用我们的DNA甲基化检测来监测您的生物学年龄可帮助您评估相应进展。我们也衷心希望您能够与他人分享您所作出的改变，从而实现您我一起携手共同努力提高您和他人健康的目的。
+            学会通过电视、网络、社区等举办各种肛肠知识健康大讲堂，普及肛肠疾病的知识，预防直肠癌，提高普通群众对肛肠疾病的重视，减少不当治疗引起的各种术后并发症；通过到各地区举办各种形式的义诊、巡诊，使更多的普通群众受益，使普通民众在当地即可享受专家的诊治，为我国人民的健康服务。
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            如何丰富健康数据
+            北京肛肠学会学会的活动范围：
           </view>
         </view>
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            诚然，数据越丰富则越会对您和“EpiAging APP 社区”其他人的分析更具针对性和帮助性。通过"机器学习"来分析许多该APP其他用户的数据，我们将得出可能对降低老化速度有积极影响的生活方式变化的组合。
+            (一) 开展肛肠疾病的学术交流，定期举办学术研讨会、年会、讲座和培训；介绍国内外本领域的新动向和新成果，总结推广科研成果及技术革新的先进经验，提高基层肛肠医务人员的专业技术水平
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            我们认为，良好的健康需要许多朋友伙伴来分享他们的经验和相互学习，而不仅仅是从"博学的"健康指导者向"病人"单向传递健康建议。因为我们知道医学是不完美的，而它的进步则是反复试验的结果。
+           (二) 编辑出版各类科普宣传册，开展多渠道、多种形式的肛肠疾病的科普宣传、健康教育活动，使更多的普通民众关注大肠的健康，提高群众的医学卫生知识水平，增强自我保健能力。
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            匿名数据共享
+            服务
           </view>
         </view>
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            我们将像"伙伴"一样一起学习，并通过分享经验、评估进展以及使用最好的机器学习技术来分析您提供的数据，同时获得指导进一步改进的反馈。通过向许多与您一样参与进来的朋友学习，我们将能凭借共同努力改善我们和他人的健康。我们理解对您的数据保持绝对“隐匿”，以及对您的个人身份保持匿名的重要性。也只有在严格遵守这些匿名原则的前提下我们才能够自由地参与这一宏大的合作关系。
+            (三) 定期组织北京肛肠专业的专家到会员单位及医疗条件相对落后的贫穷地区进行义诊，使更多的普通民众在当地就可享受专家的服务。
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            数据安全
+            技术
           </view>
         </view>
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            根据《中国数据保护条例》(CDPR)关于数据保护的规定，您有权要求访问、纠正或删除您的个人数据，或者限制与您的数据有关的处理，或者反对处理以及数据可移动性。您可以通过联系（info@epidia.cn）行使此权利。
+            (四) 积极促进会员间的资源整合和资源共享，密切学科间和学术团体间的横向联系与协作，开展本领域科研项目研究。
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            您的数据会被加密和防火墙保护。同意接受条款之后，您将收到一个纯粹的ID号码，通过该ID号您可以进行数据提供并对系统保持匿名。
+           (五) 培养、发现和举荐优秀肛肠领域的科学技术人才，表彰奖励在肛肠领域成绩优异、热心学会工作的会员。
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
@@ -148,7 +148,7 @@
         </view>
         <view style='width:100%;height:30px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>Epidial Customer Data Consent Form</view>
+          <view style='width:90%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>Beijing Anorectal Society</view>
         </view>
         <view style='100%px;height:20px;'></view>
 
@@ -162,29 +162,27 @@
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            Welcome to Hong Kong HKG Gene Testing Service. Before registering for trial, please read the following terms of service carefully.
+            Beijing Anorectal Society welcomes you, please read the introduction carefully before authorizing the trial
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            About EPIAGING APP
+            Introduction of Beijing Anorectal Society
           </view>
         </view>
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            EPIAGING APP about to save your “blinded” personal medical data on the EpiAging Mobile App and the data analysis engine in the “cloud”, which requires your information and consent. Your identity is blinded and you will be provided with an ID number. Your
-            personal identity will not be stored in the mobile app or the server. Once you download the app you will be assigned an ID that will allow you to retrieve your data and receive health reports, but your identity will remain unknown either on
-            the app or the “cloud’ analysis engine.
+            Beijing Anorectal Society takes anorectal hospitals of anorectal specialist hospitals and hospitals at all levels as the main body, and adopts voluntary formation of academic, public welfare, and non-profit legal social organizations. It is an academic, public welfare, and non-profit organization. It is a link between senior experts in the anorectal field and grassroots hospitals. It is a platform for senior experts and doctors in the anorectal field to interact with each other. The technical level of grassroots doctors drives the development of new technologies, promotes the latest technology and scientific research results to the grassroots, and benefits the majority of patients.
             <view style='100%;height:20px;border：1px solid grey;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            EPIAGING APP Purpose
+            Purpose of Beijing Anorectal Society
             <view style='100%px;height:20px;'>
             </view>
           </view>
@@ -192,80 +190,72 @@
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            EpiAging Mobile APP is designed to help you to harness the power of your epigenome for healthy aging by providing you with a DNA methylation-based assessment of your true biological age and by providing you links and recommendations of reputable national
-            medical societies on life style changes that can improve your health. It is your decision what changes to make.
+            In accordance with the various health work guidelines and policies of the Ministry of Health, large hospitals are used to drive small hospitals, support rural hospitals, and carry out various activities to solve the problems of ordinary people who are difficult to see and expensive, and make due contributions to the great cause of anorectal diseases .
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            However, we are asking you to share with us “anonymously” the changes that you have made using the simple entry buttons in the app, these data will be streamed to a machine learning engine that will analyze your life style changes and provide you with
-            a periodical report.
+           Learn to improve the continuing education of primary medical staff through various academic activities, training, etc., widely improve the professional level of medical staff engaged in anorectal diseases in our country, promote the prosperity and development of modern anorectal technologies, and accelerate the promotion of modern minimally invasive technologies Promote the growth of anorectal professional and technical teams in primary hospitals.
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            Testing your biological age periodically using our DNA methylation test will help you assess progress. We ask you to share the changes that you have made with others and thus become a partner in a joint effort to improve your and other people health.
+            Learn to hold a variety of anorectal health lectures through television, the Internet, the community, etc., popularize the knowledge of anorectal diseases, prevent rectal cancer, increase the attention of the general public to anorectal diseases, and reduce various postoperative complications caused by inappropriate treatment; Various forms of free consultations and patrols are held in various regions, benefiting more ordinary people, so that ordinary people can enjoy expert consultation and treatment for the health of our people.
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            How to enrich health data
+           Activities of Beijing Anorectal Society：
           </view>
         </view>
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            You are not obligated to answer the questions on this app and it is your decision what information to provide. Similarly, it is your decision to make or avoid life style changes and to attend or ignore the recommendations of the different medical associations
-            that we are providing you with.
+       Carry out academic exchanges on anorectal diseases, regularly hold academic seminars, annual meetings, lectures and training; introduce new trends and new achievements in this field at home and abroad, summarize advanced scientific and technological achievements and advanced experience in technological innovation, and improve the professionalism of anorectal medical staff techinque level.
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            However, the richer the data, the better and more helpful the analysis will be to you and others in the “epiaging app community”. By analyzing data streaming from many other app users with “machine learning”, we will derive combinations of life style
-            alterations that may have a positive impact on reducing the speed of aging.
+         Edit and publish all kinds of science popularization brochures, carry out multi-channel and various forms of anorectal disease science popularization and health education activities, so that more ordinary people pay attention to the health of the large intestine, improve the level of people's medical and health knowledge, and enhance their self-care capabilities.
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            Anonymous data sharing
+            service
           </view>
         </view>
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            We believe that good health requires partnership of many people sharing their experiences and learning from each other rather than a unidirectional flow of instructions from the “learned” health provider to the “patient”. We know that medical science
-            is imperfect, and its progress involves trial and error.We will learn together as “partners” by sharing experiences, assessing progress and using the best of machine learning technology to analyze the data that you provide and get feedbacks
-            that will guide further improvement. By learning from many people that will be engaged as you are, we will be able to work together on improving our and other people health. We understand that it is a strict requirement that your data remains
-            absolutely “blinded” and that your personal identity remains anonymous. Only if these rules of anonymity are strictly adhered to, we will be able to freely participate in this grand partnership.
+           Regularly organize Beijing anorectal experts to provide free consultations to member units and poor areas with relatively backward medical conditions, so that more ordinary people can enjoy expert services locally      
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            Data security
+            technology
           </view>
         </view>
         <view style='width:100%;height:10px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            In accordance with the China Data Protection Regulations (CDPR) with regards to data protection, you have the right to request access to and rectification or erasure of your personal data or restriction of processing concerning your data or to object
-            to processing as well as the right to data portability. You can exercise this right by contacting (info@epidia.cn).
+            Actively promote resource integration and resource sharing among members, close horizontal connections and collaboration between disciplines and academic groups, and carry out research projects in this field.
             <view style='100%px;height:20px;'></view>
           </view>
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
           <view style='width:90%;'>
-            Your name and identity will be encrypted and firewalled. Following your signature you will receive a blinded ID that will allow you to provide data and remain anonymous to the system.
+            Cultivate, discover and recommend outstanding scientific and technical talents in the anorectal field, and recognize and reward members who have excellent performance in the anorectal field and are enthusiastic about their work.
             <view style='100%px;height:20px;'></view>
           </view>
         </view>

@@ -1,0 +1,1 @@
+<web-view src="{{url}}?openid={{openid}}" bindmessage="getMessage"></web-view>

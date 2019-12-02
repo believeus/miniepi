@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "ff-canvas": "../../../f2-canvas/f2-canvas"
-  },
-  "navigationBarTitleText": "生物学年龄统计报告"
-}
