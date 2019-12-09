@@ -94,7 +94,7 @@ Page({
       console.log("用户的信息如下：");
       console.log(e.detail.userInfo);
       wx.request({
-        url: 'https://app.beijingepidial.com/user/wx/login',
+        url: 'localhost:8080/user/wx/login',
         data: {
           openid: wx.getStorageSync('openid')
         },

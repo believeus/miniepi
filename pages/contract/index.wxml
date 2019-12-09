@@ -15,18 +15,22 @@
         </view>
         <view style='width:100%;height:30px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:80%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>北京肛肠学会</view>
+          <view style='width:96%;text-align:center;font-weight:bold;font-size:16px;'>北京肛肠学会2020年大肠癌早期防治公益调研</view>
         </view>
-        <view style='100%px;height:20px;'></view>
         <view style='width:100%;height:30px;'></view>
         <!-- 内容 -->
-        <view style="width:100%;height:60px;font-size:14px;color:#333">
-            《2020年大肠癌早期防治公益调研》尊敬的用户，欢迎您使用北京埃彼达雅联合北京肛肠学会合作推出的健康公益调研问卷项目。
+        <view style="width:90%;margin:auto; font-size:14px;color:#333">
+             尊敬的用户，欢迎您使用北京埃彼达雅联合北京肛肠学会合作推出的健康公益调研问卷项目。
         </view>
-        <view style="width:100%;height:200px;font-size:14px;color:#333">
-           该问卷项目旨在开展多渠道、多种形式的肛肠疾病的科普宣传及健康调研活动，使更多的普通民众关注大肠的健康，提高大众的医学卫生知识水平，增强自我保健能力。并定期组织北京肛肠专业的专家到会员单位及医疗条件相对落后的贫穷地区进行义诊，使更多的普通民众在当地就可享受专家的服务。
+         <view style='width:100%;height:20px;'></view>
+        <view style="width:90%;margin:auto; font-size:14px;color:#333">
+               该问卷项目旨在开展多渠道、多种形式的肛肠疾病的科普宣传及健康调研活动，使更多的普通民众关注大肠的健康，提高大众的医学卫生知识水平，增强自我保健能力。并定期组织北京肛肠专业的专家到会员单位及医疗条件相对落后的贫穷地区进行义诊，使更多的普通民众在当地就可享受专家的服务。
         </view>
-
+          <view style='width:100%;height:20px;'></view>
+<view style="width:90%;margin:auto; font-size:14px;color:#333">
+            请您知悉以上内容并允许授权提供问卷内涉及的相关个人健康信息。 
+        </view>
+          <view style='width:100%;height:20px;'></view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;' bindtap='toIndex'>
           <button style='width:40%;border-radius:30px;background-color:#0071bc;height:40px;color:white;text-align:center;line-height:40px;font-size:16px;' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="authorize">同意</button>
         </view>
@@ -66,7 +70,4 @@
       </view>
     </view>
   </view>
-
-
-  <view style='width:100%;height:10px;background-color:f7f7f9;'></view>
 </view>

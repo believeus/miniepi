@@ -6,7 +6,7 @@ Page({
    */
   data: {
     openid:wx.getStorageSync("openid"),
-    url: "https://app.beijingepidial.com/ques1/index.jhtml"
+    url: "localhost:8080/ques1/index.jhtml"
   },
 
   /**
