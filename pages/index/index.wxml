@@ -4,7 +4,7 @@
     <view style='height:100%;display: flex;flex-direction: row;;'>
       <view style='height:100%;width:5%;;'></view>
       <view style='height:100%;width:70%;'>
-        <view style='height:45%;width:100%;color:#4d4d4d;font-size:22px;font-weight:700;;transform: translateY(-3px)'>首页</view>
+        <view style='height:45%;width:100%;color:#4d4d4d;font-size:22px;font-weight:700;;transform: translateY(-3px)'><image src="/image/enpic/index03 (1).jpg" style="width:60%;height:35px"></image></view>
         <view style='height:4%;width:100%;;'></view>
         <view style='height:25%;width:100%;font-size:12px;color:#808080;;'>{{userInfo.nickName}}，您好！</view>
       </view>
@@ -34,255 +34,55 @@
       <swiper class="headFor" style="height:100%;width:100%; " autoplay='true' interval='2000' duration='1000' circular='true'>
         <!-- <block wx:for="{{Urls}}"> -->
           <swiper-item>
-            <image src='/image/enpic/ai.png'></image>
+            <image src='/image/enpic/ques1.jpg' style="width:100%"></image>
           </swiper-item>
           <swiper-item>
-            <image src='/image/enpic/ai4.png'></image>
+            <image src='/image/enpic/ques2.png' style="width:100%"></image>
           </swiper-item>
           <swiper-item>
-            <image src='/image/enpic/ai1.png'></image>
-          </swiper-item>
-          <swiper-item>
-            <image src='/image/enpic/ai2.png'></image>
-          </swiper-item>
-          <swiper-item>
-            <image src='/image/enpic/ai3.png'></image>
-          </swiper-item>
+            <image src='/image/enpic/ques3.png' style="width:100%"></image>
+          </swiper-item>  
         <!-- </block> -->
       </swiper>
     </view>
   </view>
 
-  <view style='width:100%;height:10px;background-color:#eaeaea'></view>
-  <view style='width:100vw;height:20px;background-color:white'></view>
-  <!-- 太极容器框 -->
-  <view style="width:100vw;height:300px">
-    <view style='width:90%;height:300px;background-image: url(/image/enpic/epiT.png);background-size: 100% 100%;background-repeat:no-repeat;display-flex;margin-left:18px'>
-        <!-- 太极容器上2结构  -->
-    <view style="display:flex;justify-content:space-around;width:100%;flex-basis:100%;">
-        <!-- about us -->
-        <view style="width:32%;height:144px;border-radius:14px;position:relative;" bindtap="tous"> 
-          <text class="aboutus">About us</text>
-        </view>
-        <!-- lifestyle -->
-        <view style="width:36%;height:144px;position:relative" bindtap="">
-          <text class="lifestyle">Lifestyle</text>
-        </view>
-        <!-- testprocess -->
-        <view style="width:32%;height:144px;border-radius:14px;position:relative;" bindtap="Testreport">
-          <text class="testprocess">Testprocess</text>
-        </view>
+  
+  <!-- 介绍 -->
+  <view  class="comquest">
+    <view style="width:60%;height:70px" >
+      <view style="color:#489CA1;font-size:12px">大肠癌筛查数量化-风险评估问卷</view>
+      <view style="font-size:14px">大肠癌日趋年轻化，30岁的你可能需要自查</view>
+      <view style="font-size:12px">日益年轻化的大肠癌隐藏的总是很深</view>
     </view>
-    <!-- 太极图的下容器 -->
-       <view style="display:flex;justify-content:space-around;width:100%;flex-basis:100%;">
-        <!-- health market -->
-        <view style="width:32%;height:156px;border-radius:14px;position:relative;" bindtap=""> 
-          <text class="health">Health Market</text>
-        </view>
-        <!-- My Report -->
-        <view style="width:36%;height:80px;position:relative" bindtap="">
-          <text class="myreport">My Report</text>
-        </view>
-        <!-- Questionnaires -->
-        <view style="width:32%;height:156px;border-radius:14px;position:relative;" bindtap="ques">
-          <text class="question">Questionnaires</text>
-        </view>
+    <view style="width:40%;height:70px">
+      <image src="/image/enpic/index2.jpg" style="width:80%;height:70px"></image>
     </view>
+  </view>
 
+  <view  class="comquest">
+    <view style="width:60%;height:70px" >
+      <view style="color:#489CA1;font-size:12px">大肠癌高位人群-基本信息调查表</view>
+      <view style="font-size:14px">大肠癌日趋年轻化，30岁的你可能需要自查</view>
+      <view style="font-size:12px">日益年轻化的大肠癌隐藏的总是很深</view>
+    </view>
+    <view style="width:40%;height:70px">
+      <image src="/image/enpic/index3.jpg" style="width:80%;height:70px"></image>
+    </view>
+  </view>
 
+  <view  class="comquest">
+    <view style="width:60%;height:70px" >
+      <view style="color:#489CA1;font-size:12px">大肠癌早期防治-知识调查表</view>
+      <view style="font-size:14px">大肠癌日趋年轻化，30岁的你可能需要自查</view>
+      <view style="font-size:12px">日益年轻化的大肠癌隐藏的总是很深</view>
+    </view>
+    <view style="width:40%;height:70px">
+      <image src="/image/enpic/index4.jpg" style="width:80%;height:70px"></image>
+    </view>
+  </view>
+  
 
-    </view>
-  </view>
-  <view style="width:100vw;height:20px;background-color:white"></view>
-  <!-- videotitle -->
-  <view style="width:100vw;height:60px;background-color:#eaeaea">
-    <text style="line-height:60px;font-size:20px;margin-left:15px">Related-Video</text>
-  </view>
-  <!-- moshe&video -->
-  <view style="width:100vw;">
-    <video src="https://app.beijingepidial.com/How_early_life_experience_is_written_into_DNA _Moshe_Szyf.mp4" controls='controls' vcIsPlay='false' show-fullscreen-btn='true' style="width:100%;">
-    </video>
-  </view>
-  <!-- 灰色分割线 -->
-  <view style="width:100vw;height:30px;background-color:#eaeaea"></view>
-  <!-- video下放的文字（生物年龄） -->
-  <view style="width:100vw;background-color:white">
-    <view style="width:90%;display:flex;color:#333333;font-size:20px;margin-bottom:14px;line-height:30px;text-align:center">
-      Biological Age Detection by DNA Methylation 
-    </view>
-    <view style="color:#808080;display:flex;font-ize:16px;margin-bottom:14px;text-align:center">
-      Only 1ml saliva sample is needed for detection, which is convinient and safe.
-    </view>
-    <view style="color:#808080;display:flex;font-ize:16px;margin-bottom:14px;text-align:center">
-      The sample will be sent to the laboratory for testing, the test results will be sent to your APP.
-    </view>
-    <view style="width:100vw;height:40px;background-color:white"></view>
-  </view>
-  <!-- epiaging kit price -->
-  <view style="width:100vw;background-color:#eaeaea">
-    <view style="text-align:center;width:100%;margin:10px">
-       <image src="/image/enpic/index6.jpg" style="width:280px;height:200px;">
-         </image>
-    </view>
-    <view style="width:100%;color:#333333;font-size:20px;text-align:center;margin:4px">Epiaging Kit
-    </view>
-    <view style="text-align:center;color:#333333;font-size:14px;padding:12px">
-        <text style="color:#b2b2b2;font-size:14px;text-decoration:line-through">$189</text>
-         $99
-    </view>
-  </view>
-  <!-- two women  image -->
-  <view style="width:100vw;background-color:white;padding-bottom:20px">
-    <view style="text-align:center;padding:12px">
-      <image src="/image/enpic/index7.jpg" style="width:96%;height:200px;">
-        </image>
-    </view>
-    <view style="width:100%;line-height:26px">
-        <text style="width:96%;text-index:3em;padding-left:18px;color: #333333;font-size:14px"> Biological Age Detection          2.0
-        </text>
-    </view>
-    <view style="width:100%;line-height:22px">
-        <text style="width:96%;padding-left:18px;color: #4d4d4d;font-size:16px">              Biological age can be measured with 
-        </text>
-        <text style="width:96%;padding-left:18px;color: #4d4d4d;font-size:16px">              Only 1ml saliva sample.</text>
-    </view>
-    <view style="width:94%;height:40px;line-height:40px;display:flex;flex-direction:row;justify-content:space-around;margin-top:20px">
-        <view style="width:99%;color:white;background-color:#3792BF;text-align:center;margin-left:20px; border-radius:5px 0 0 5px"> 
-            Biological Age Detection 2.0 <text style="color:#f2e421">$90</text> 
-        </view>
-        <view style="width:1%;background-color:white"></view>
-        <!-- 购物车小图 -->
-        <view style="width:70px;color:white;background-color:#3792BF; border-radius:0 5px 5px 0;text-align:center"> 
-          <image src="/image/icons/cart.png" style="width:30px;height:30px;line-height:40px;padding:5 10px 0 10px" bindtap=""></image>
-        </view>
-    </view>
-    <!-- 更多跳页面 -->
-    <view style="color:#5F9BB2;width:100%;text-align:center;margin:10px" bindtap="learn2">
-       Learn  More >
-    </view>
-  </view>
-  <!-- our app -->
-  <view style="width:100vw;height:180px;background-color:#0070BA;color:#ffffff;text-align:center">
-      <view style="font:22px;margin-bottom:20px;padding-top:20px">
-          Our APP System
-      </view>
-      <view style="line-align:40px;margin:10px 0 10px 0">-Dynamic personal reporting-</view>
-      <view style="line-align:40px;margin:10px 0 10px 0">-Comprehensive questionnaires-</view>
-      <view style="line-align:40px;margin:10px 0 10px 0">-Follow-up-</view>
-  </view>
-  <!-- 主页面图片 -->
-  <view style="width:100vw;height:220px"> 
-    <image src="/image/enpic/index8.jpg" style="width:100%;height:220px"></image>
-  </view>
-  <!-- 4幅介绍图 -->
-  <view style="" class="photo4">
-  <!-- 上2 -->
-    <view style="display:flex;justify-content:space-around;width:100%;flex-basis:100%;">
-      <view style="width:38%;height:100px;background:white;border-radius:14px;">
-         <image src="/image/icons/ap1.png" style="width:30%;height:42%;margin:5% 0 0 35%;"></image>
-         <view class="photo4andtext">
-             <text>Links to international reputable medical associations recommendations</text>
-         </view>
-      </view>
-      <view style="width:38%;height:100px;background:white;border-radius:14px">
-         <image src="/image/icons/ap2.png" style="width:30%;height:42%;margin:5% 0 0 35%;"></image>
-         <view class="photo4andtext">
-            <text>personalized dynamic report</text>
-         </view>
-      </view>
-    </view>
-     <!-- 下2 -->
-    <view style="display:flex;justify-content:space-around;width:100%;flex-basis:100%">
-      <view style="width:38%;height:100px;background:white;border-radius:14px">
-          <image src="/image/icons/ap3.png" style="width:30%;height:42%;margin:5% 0 0 35%;"></image>
-          <view class="photo4andtext">
-              <text>Lifestyle questionnaires</text>
-          </view>
-      </view>
-      <view style="width:38%;height:100px;background:white;border-radius:14px">
-          <image src="/image/icons/ap4.png" style="width:30%;height:42%;margin:5% 0 0 35%;"></image>
-          <view class="photo4andtext">
-              <text>APP linked to a machine learning System</text>
-          </view>
-      </view>
-    </view>
-  </view>
-    <!-- run women sam image -->
-  <view style="width:100vw;background-color:#EFF1F0;padding-bottom:20px">
-    <!-- SAM介绍 -->
-    <view style="width:100%;text-align:center;padding-top:20px;color:#333333;font-size:22px">What is SAM-e?</view>
-    <view style="text-align:center;width:100%;margin-top:20px;color#868689;font-size:16px">SAM-e is a natural product in the human body, which can affect human health.</view>
-    <view style="text-align:center;padding:12px">
-      <image src="/image/enpic/index9.jpg" style="width:96%;height:200px;">
-        </image>
-    </view>
-    <view style="width:100%;line-height:26px">
-        <text style="width:96%;text-index:3em;padding-left:18px;color: #333333;font-size:14px"> SAM-e
-        </text>
-    </view>
-    <view style="width:100%;height:100px;position:relative">
-        <text style="width:96%;padding-left:18px;color:#4d4d4d;font-size:16px;position:absolute;left:0"> 
-           SAM-e is a natural nutrition supplement 
-        </text>
-        <text style="width:96%;padding-left:18px;color:#4d4d4d;font-size:16px;position:absolute;left:0;bottom:30px"> 
-          in the human body.
-        </text>     
-    </view>
-    <view style="width:94%;height:40px;line-height:40px;display:flex;flex-direction:row;justify-content:space-around;margin-top:20px">
-        <view style="width:99%;color:white;background-color:#642C85;text-align:center;margin-left:20px; border-radius:5px 0 0 5px"> 
-           SAM-e <text style="color:#f2e421">$60</text>
-        </view>
-        <view style="width:1%;background-color:white"></view>
-        <!-- 购物车小图 -->
-        <view style="width:70px;color:white;background-color:#642C85; border-radius:0 5px 5px 0;text-align:center"> 
-          <image src="/image/icons/cart.png" style="width:30px;height:30px;line-height:40px;padding:5 10px 0 10px" bindtap=""></image>
-        </view>
-    </view>
-    <!-- 更多跳页面 -->
-    <view style="color:#5F9BB2;width:100%;text-align:center;margin:10px" bindtap="leanmore">
-       Learn  More >
-    </view>
-  </view>   
-  <!-- 分类列表 -->
-  <view style="width:100vw;background:white;">
-      <view class="list1" style="position:relative" bindtap="">
-        <image src="/image/icons/uc4.png" style="width:30px;height:30px;margin-left:15px"></image>
-         <text style="position:absolute;left:60px;top:12px">My report</text> 
-            <text style="position:absolute;right:30px;top:12px">> </text>        
-      </view>
-      <view class="list" bindtap="">
-        <image src="/image/icons/uc3.png" class="image2"></image>
-        <text style="position:absolute;left:60px;top:12px">Questionnaires</text>  
-            <text style="position:absolute;right:30px;top:12">  > </text>      
-      </view>
-      <view class="list" bindtap="Testreport">
-      <image src="/image/icons/tp4.png" class="image2"></image>
-        <text style="position:absolute;left:60px;top:12px">Test Process </text> 
-          <text style="position:absolute;right:30px;top:12">  > </text>  
-      </view>
-      <view class="list" bindtap="Qa">
-      <image src="/image/icons/uc1.png" class="image2"></image>
-         <text style="position:absolute;left:60px;top:12px">Q&A</text>
-          <text style="position:absolute;right:30px;top:12">  > </text>  
-      </view>
-      <view class="list" bindtap="datase">
-      <image src="/image/icons/uc9.png"  class="image2"></image>
-         <text style="position:absolute;left:60px;top:12px">Data Security</text>
-          <text style="position:absolute;right:30px;top:12">  > </text>  
-      </view>
-      <view class="list" bindtap="">
-      <image src="/image/icons/uc2.png"  class="image2"></image>
-         <text style="position:absolute;left:60px;top:12px">User Informed Consent</text>
-          <text style="position:absolute;right:30px;top:12">  > </text>  
-      </view>
-  </view>
-  <!-- 声明 -->
-  <view style="margin-top:100px;text-align:center;color:#4D4D4D">
-    <text style="text-decoration:underline;font-size:16px">Disclaimer</text>
-      <view style="font-size:14px">The epiAging test is not intended to be health information or medical data or to be used to screen, diagnose, treat, prevent or assess the risk of any disease or condition. The epiAging service is an epigenetic age determination based on the assessment of DNA methylation in your DNA. We are not collecting genetic data. The test is available for individuals 21 years of age or older. This service has not been cleared or approved by the U. S. Food and Drug Administration.
-      </view>
-      <view style="font-size:12px;margin-top:30px">@2019 HKG epi THERAPEUTICS Ltd. All Rights Reserved</view>
-  </view>
 
 
 

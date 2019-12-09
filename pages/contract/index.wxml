@@ -18,119 +18,19 @@
           <view style='width:80%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>北京肛肠学会</view>
         </view>
         <view style='100%px;height:20px;'></view>
-
         <view style='width:100%;height:30px;'></view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            尊敬的用户
-          </view>
+        <!-- 内容 -->
+        <view style="width:100%;height:60px;font-size:14px;color:#333">
+            《2020年大肠癌早期防治公益调研》尊敬的用户，欢迎您使用北京埃彼达雅联合北京肛肠学会合作推出的健康公益调研问卷项目。
         </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            北京肛肠学会欢迎您,在授权试用前，请您仔细阅读简介
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            北京肛肠学会简介
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-           北京肛肠学会是以肛肠专科医院及各级医院肛肠科为主体，采取自愿组成依法成立的学术性、公益性、非营利性的法人社会团体。它是以学术性、公益性、非营利性为目的的组织；是联系肛肠领域资深专家和基层医院的纽带；是肛肠领域资深专家和基层医生相互交流的平台，逐步带动基层医院的发展，提高基层医生的技术水平，带动新技术的发展，将最新的技术和科研成果推广到基层，使广大患者受益。
-            <view style='100%;height:20px;border：1px solid grey;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            北京肛肠学会宗旨
-            <view style='100%px;height:20px;'>
-            </view>
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-           依照卫生部的各项卫生工作方针、政策，以大医院带动小医院，支援乡村医院，开展各项活动，解决老百姓看病难、看病贵的问题，为肛肠疾病的伟大事业做出应有的贡献。
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            学会通过各种学术活动、培训等形式提高基层医务人员的继续教育程度，广泛提高我国从事肛肠疾病的医务人员的业务水平，促进现代肛肠新兴技术的繁荣和发展，加快现代微创技术的推广，推动基层医院肛肠专业技术队伍的成长。
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            学会通过电视、网络、社区等举办各种肛肠知识健康大讲堂，普及肛肠疾病的知识，预防直肠癌，提高普通群众对肛肠疾病的重视，减少不当治疗引起的各种术后并发症；通过到各地区举办各种形式的义诊、巡诊，使更多的普通群众受益，使普通民众在当地即可享受专家的诊治，为我国人民的健康服务。
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            北京肛肠学会学会的活动范围：
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            (一) 开展肛肠疾病的学术交流，定期举办学术研讨会、年会、讲座和培训；介绍国内外本领域的新动向和新成果，总结推广科研成果及技术革新的先进经验，提高基层肛肠医务人员的专业技术水平
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-           (二) 编辑出版各类科普宣传册，开展多渠道、多种形式的肛肠疾病的科普宣传、健康教育活动，使更多的普通民众关注大肠的健康，提高群众的医学卫生知识水平，增强自我保健能力。
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            服务
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            (三) 定期组织北京肛肠专业的专家到会员单位及医疗条件相对落后的贫穷地区进行义诊，使更多的普通民众在当地就可享受专家的服务。
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            技术
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            (四) 积极促进会员间的资源整合和资源共享，密切学科间和学术团体间的横向联系与协作，开展本领域科研项目研究。
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-           (五) 培养、发现和举荐优秀肛肠领域的科学技术人才，表彰奖励在肛肠领域成绩优异、热心学会工作的会员。
-            <view style='100%px;height:20px;'></view>
-          </view>
+        <view style="width:100%;height:200px;font-size:14px;color:#333">
+           该问卷项目旨在开展多渠道、多种形式的肛肠疾病的科普宣传及健康调研活动，使更多的普通民众关注大肠的健康，提高大众的医学卫生知识水平，增强自我保健能力。并定期组织北京肛肠专业的专家到会员单位及医疗条件相对落后的贫穷地区进行义诊，使更多的普通民众在当地就可享受专家的服务。
         </view>
 
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;' bindtap='toIndex'>
-          <button style='width:40%;border-radius:30px;background-color:#0071bc;height:40px;color:white;text-align:center;line-height:40px;font-size:16px;' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="authorize">授权同意</button>
+          <button style='width:40%;border-radius:30px;background-color:#0071bc;height:40px;color:white;text-align:center;line-height:40px;font-size:16px;' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="authorize">同意</button>
         </view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;height:20px;'></view>
+       
       </view>
     </view>
   </view>
@@ -151,117 +51,16 @@
           <view style='width:90%;text-align:center;background-color:#0071bc;border-radius:30px;color:white;height:45px;line-height:45px;font-size:16px;'>Beijing Anorectal Society</view>
         </view>
         <view style='100%px;height:20px;'></view>
-
         <view style='width:100%;height:30px;'></view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            Dear Users
-          </view>
+        <!-- 内容 -->
+        <view style="width:100%;height:100px;font-size:14px;color:#333">
+            Dear users of "Public Welfare Survey for Early Prevention and Treatment of Colorectal Cancer 2020", welcome you to use the health charity survey questionnaire launched by Beijing Epitaya and Beijing Anorectal Society.
         </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            Beijing Anorectal Society welcomes you, please read the introduction carefully before authorizing the trial
-            <view style='100%px;height:20px;'></view>
-          </view>
+        <view style="width:100%;height:250px;font-size:14px;color:#333">
+           The questionnaire project aims to carry out multi-channel and various forms of anorectal disease science popularization and health research activities, so that more ordinary people pay attention to the health of the large intestine, improve the level of medical and health knowledge of the general public, and enhance their self-care capabilities. And regularly organize Beijing anorectal experts to provide free consultations to member units and poor areas with relatively backward medical conditions, so that more ordinary people can enjoy the services of experts in the local area.
         </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            Introduction of Beijing Anorectal Society
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            Beijing Anorectal Society takes anorectal hospitals of anorectal specialist hospitals and hospitals at all levels as the main body, and adopts voluntary formation of academic, public welfare, and non-profit legal social organizations. It is an academic, public welfare, and non-profit organization. It is a link between senior experts in the anorectal field and grassroots hospitals. It is a platform for senior experts and doctors in the anorectal field to interact with each other. The technical level of grassroots doctors drives the development of new technologies, promotes the latest technology and scientific research results to the grassroots, and benefits the majority of patients.
-            <view style='100%;height:20px;border：1px solid grey;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            Purpose of Beijing Anorectal Society
-            <view style='100%px;height:20px;'>
-            </view>
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            In accordance with the various health work guidelines and policies of the Ministry of Health, large hospitals are used to drive small hospitals, support rural hospitals, and carry out various activities to solve the problems of ordinary people who are difficult to see and expensive, and make due contributions to the great cause of anorectal diseases .
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-           Learn to improve the continuing education of primary medical staff through various academic activities, training, etc., widely improve the professional level of medical staff engaged in anorectal diseases in our country, promote the prosperity and development of modern anorectal technologies, and accelerate the promotion of modern minimally invasive technologies Promote the growth of anorectal professional and technical teams in primary hospitals.
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            Learn to hold a variety of anorectal health lectures through television, the Internet, the community, etc., popularize the knowledge of anorectal diseases, prevent rectal cancer, increase the attention of the general public to anorectal diseases, and reduce various postoperative complications caused by inappropriate treatment; Various forms of free consultations and patrols are held in various regions, benefiting more ordinary people, so that ordinary people can enjoy expert consultation and treatment for the health of our people.
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-           Activities of Beijing Anorectal Society：
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-       Carry out academic exchanges on anorectal diseases, regularly hold academic seminars, annual meetings, lectures and training; introduce new trends and new achievements in this field at home and abroad, summarize advanced scientific and technological achievements and advanced experience in technological innovation, and improve the professionalism of anorectal medical staff techinque level.
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-         Edit and publish all kinds of science popularization brochures, carry out multi-channel and various forms of anorectal disease science popularization and health education activities, so that more ordinary people pay attention to the health of the large intestine, improve the level of people's medical and health knowledge, and enhance their self-care capabilities.
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            service
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-           Regularly organize Beijing anorectal experts to provide free consultations to member units and poor areas with relatively backward medical conditions, so that more ordinary people can enjoy expert services locally      
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;;color:#0071bc;border-radius:10px;height:20px;line-height:20px;font-size:18px;'>
-            technology
-          </view>
-        </view>
-        <view style='width:100%;height:10px;'></view>
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            Actively promote resource integration and resource sharing among members, close horizontal connections and collaboration between disciplines and academic groups, and carry out research projects in this field.
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
-        <view style='width:100%;font-size:14px;display:flex;justify-content:center;'>
-          <view style='width:90%;'>
-            Cultivate, discover and recommend outstanding scientific and technical talents in the anorectal field, and recognize and reward members who have excellent performance in the anorectal field and are enthusiastic about their work.
-            <view style='100%px;height:20px;'></view>
-          </view>
-        </view>
-
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;' bindtap='toIndex'>
-          <button style='width:40%;border-radius:30px;background-color:#0071bc;height:40px;color:white;text-align:center;line-height:40px;font-size:16px;' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="authorize">AUTHORIZE AGREE</button>
+          <button style='width:40%;border-radius:30px;background-color:#0071bc;height:40px;color:white;text-align:center;line-height:40px;font-size:16px;' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="authorize">AGREE</button>
         </view>
         <view style='width:100%;font-size:14px;display:flex;justify-content:center;height:20px;'></view>
       </view>

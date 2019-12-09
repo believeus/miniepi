@@ -192,6 +192,7 @@ wx.navigateTo({
       selectShow: !this.data.selectShow
     });
   },
+  
 
   //语言选择菜单 --end
 })

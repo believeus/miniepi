@@ -110,7 +110,7 @@ Page({
         }
       })
       wx.switchTab({
-        url: "/pages/user/quest1"
+        url: "/pages/index/index"
       })
     } else {
       //用户按了拒绝按钮
