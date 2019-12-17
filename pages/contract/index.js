@@ -1,4 +1,4 @@
-// pages/contract/index.js
+const app = getApp();
 Page({
 
   /**
@@ -13,6 +13,8 @@ Page({
     en_lang: false,
     zh_color: "red",
     en_color: "black",
+    openid:wx.getStorage('openid')
+   
 
   },
 
@@ -28,22 +30,7 @@ Page({
         });
       },
     })
-    wx.login({
-      success: function (res) {
-        console.log(res.code);
-        wx.request({
-          //     // 自行补上自己的 APPID 和 SECRET
-          url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx4f53ae05242a3e7b&secret=73acec450c056332720f026523e89e64&js_code=' + res.code + '&grant_type=authorization_code',
-          success: res => {
-            // 获取到用户的 openid                
-            console.log("用户的openid:" + res.data.openid);
-            var openid = res.data.openid;
-            wx.setStorageSync("openid", openid);
-            console.log("test的openid:" + wx.getStorageSync("openid"));
-          }
-        });
-      }
-    })
+    
     // 查看是否授权
     wx.getSetting({
       success: function (res) {
@@ -60,17 +47,16 @@ Page({
                   console.log("用户的code:" + res.code);
                   // 可以传给后台，再经过解析获取用户的 openid
                   // 或者可以直接使用微信的提供的接口直接获取 openid ，方法如下：
-                  wx.request({
-                    //     // 自行补上自己的 APPID 和 SECRET
-                    url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx4f53ae05242a3e7b&secret=73acec450c056332720f026523e89e64&js_code=' + res.code + '&grant_type=authorization_code',
-                    success: res => {
-                      // 获取到用户的 openid
-                      console.log("用户的openid:" + res.data.openid);
-                      var openid = res.data.openid;
-                      wx.setStorageSync("openid", openid);
-                      console.log("test的openid:" + wx.getStorageSync("openid"));
-                    }
-                  });
+                  // wx.request({
+                  //   //     // 自行补上自己的 APPID 和 SECRET
+                  //   url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx4f53ae05242a3e7b&secret=73acec450c056332720f026523e89e64&js_code=' + res.code + '&grant_type=authorization_code',
+                  //   success: res => {
+                  //     // 获取到用户的 openid
+                  //     console.log("用户的openid:" + res.data.openid);
+                  //     var openid = res.data.openid; 
+                  //     console.log("test的openid-2:" + wx.getStorageSync("openid"));
+                  //   }
+                  // });
                 }
               });
             }
@@ -93,22 +79,21 @@ Page({
       // 获取到用户的信息了，打印到控制台上看下
       console.log("用户的信息如下：");
       console.log(e.detail.userInfo);
-      wx.request({
-        url: 'localhost:8080/user/wx/login',
-        data: {
-          openid: wx.getStorageSync('openid')
-        },
-        method: 'POST',
-        header: {
-          'content-type': 'application/x-www-form-urlencoded' // 默认值
-        },
-        success: function (res) {
-          console.log(res.data);
-        },
-        fail: function (res) {
-          console.log("反馈未提交，请检查网络");
-        }
-      })
+
+      // wx.request({
+      //   url: 'https://app.beijingepidial.com/user/wx/login.jhtml',
+      //   data: wx.getStorageSync('openid'),
+      //   method: 'POST',
+      //   header: {
+      //     'content-type': 'application/x-www-form-urlencoded' // 默认值
+      //   },
+      //   success: function (res) {
+      //     console.log(res.data);
+      //   },
+      //   fail: function (res) {
+      //     console.log("反馈未提交，请检查网络");
+      //   }
+      // })
       wx.switchTab({
         url: "/pages/index/index"
       })
@@ -158,8 +143,27 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
+  
   onShow: function () {
+    // wx.login({
+    //   success: function (res) {
+    //     console.log(res.code);
+    //     wx.request({
+    //       //     // 自行补上自己的 APPID 和 SECRET
+    //       url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx4f53ae05242a3e7b&secret=73acec450c056332720f026523e89e64&js_code=' + res.code + '&grant_type=authorization_code',
+    //       success: res => {
+    //         // 获取到用户的 openid                
+    //         console.log("用户的openid:" + res.data.openid);
+    //         var openid = res.data.openid;
+    //         app.globalData.openid = res.data.openid;
+    //         wx.setStorageSync("openid", openid);
+    //         console.log("test的openid-1:" + wx.getStorageSync("openid"));
+    //         console.log("app-openid:" + app.globalData.openid)
 
+    //       }
+    //     });
+    //   }
+    // })
   },
 
   /**

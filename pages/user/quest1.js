@@ -1,12 +1,12 @@
-// pages/user/quest1.js
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    openid:wx.getStorageSync("openid"),
-    url: "localhost:8080/ques1/index.jhtml"
+    openid: '',
+    url: "https://app.beijingepidial.com/ques1/index.jhtml"
   },
 
   /**
@@ -14,55 +14,17 @@ Page({
    */
   
   onLoad: function (options) {
-    console.log("web-view"+wx.getStorageSync("openid"))
+   
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  getParams: function (a) {
+    return wx.getStorageSync(a)
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  onShow: function (options) {
+    var openid = this.getParams('openid');
+    console.log(openid);
+    this.setData({
+      openid: openid
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+ 
 })

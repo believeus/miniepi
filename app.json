@@ -1,25 +1,12 @@
 {
-  "subPackages": [
-  
-   ],
+ 
   "pages": [
     "pages/contract/index",
     "pages/index/index",
-    "pages/index/TestProcess/index",
-    "pages/index/introduction/index",
-    "pages/index/introduction/DNA/index",
-    "pages/index/Swiper/lifestyle/index",
-    "pages/user/question/index",
-    "pages/user/user",
-    "pages/index/DataSecurity/index",
-    "pages/index/QA/index",
-    "pages/index/QA/EpiAging/index",
-    "pages/index/QA/Howto/howto",
-    "pages/index/SAM/index",
-    "pages/index/Notification/index",
-    "pages/index/Notification/Questionnaires/index",
-    "pages/index/Notification/Questionnaires/Lifestyle/life",
     "pages/user/quest1"
+  ],
+  "subPackages": [
+   
   ],
   "window": {
     "backgroundTextStyle": "light",
