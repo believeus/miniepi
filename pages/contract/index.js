@@ -13,7 +13,9 @@ Page({
     en_lang: false,
     zh_color: "red",
     en_color: "black",
-    openid:wx.getStorage('openid')
+    
+    
+
    
 
   },
@@ -30,46 +32,77 @@ Page({
         });
       },
     })
-    
-    // 查看是否授权
-    wx.getSetting({
-      success: function (res) {
-        console.info(res.authSetting['scope.userInfo']);
-        if (res.authSetting['scope.userInfo']) {
-          wx.getUserInfo({
+    wx.login({
+      success: res => {
+        console.log(res)
+        if(res.code){
+          var code = res.code;
+          console.log("data:"+res.code);
+
+          // 查看是否授权
+          wx.getSetting({
             success: function (res) {
-              // 用户已经授权过,不需要显示授权页面,所以不需要改变 isHide 的值
-              // 根据自己的需求有其他操作再补充
-              // 我这里实现的是在用户授权成功后，调用微信的 wx.login 接口，从而获取code
-              wx.login({
-                success: res => {
-                  // 获取到用户的 code 之后：res.code
-                  console.log("用户的code:" + res.code);
-                  // 可以传给后台，再经过解析获取用户的 openid
-                  // 或者可以直接使用微信的提供的接口直接获取 openid ，方法如下：
-                  // wx.request({
-                  //   //     // 自行补上自己的 APPID 和 SECRET
-                  //   url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx4f53ae05242a3e7b&secret=73acec450c056332720f026523e89e64&js_code=' + res.code + '&grant_type=authorization_code',
-                  //   success: res => {
-                  //     // 获取到用户的 openid
-                  //     console.log("用户的openid:" + res.data.openid);
-                  //     var openid = res.data.openid; 
-                  //     console.log("test的openid-2:" + wx.getStorageSync("openid"));
-                  //   }
-                  // });
-                }
-              });
+              console.info("index:res"+res)
+              if (res.authSetting['scope.userInfo']) {
+                wx.getUserInfo({
+                  success: ures2 => {
+                    // this.globalData.userInfo = ures2.userInfo;
+                    console.log("获取到的用户数据：");
+                    console.log(ures2)
+                    JSON.stringify(ures2)
+                    if (oThis.userInfoReadyCallback) {
+                      oThis.userInfoReadyCallback(ures2)
+                    }
+                    // 获取到用户的 code 之后：res.code
+                    console.log("用户的code:" + res.code);
+                    wx.request({
+                      url: "https://app.beijingepidial.com/user/getopenid",
+                      data: {
+                        code: code,
+                        encryptedData: ures2.encryptedData,
+                        iv: ures2.iv
+
+                      },
+                      method: 'GET',
+                      header: {
+                        'content-type': 'application/x-www-form-urlencoded' // 默认值
+                      },
+                      success: function (res) {
+                        console.log(res.data);
+                      },
+                      fail: function (res) {
+                        console.log("日志："+res);
+                        wx.showToast({
+                          title: res,
+                        })
+                      },
+                      complete: function (err) {
+                        wx.showToast({
+                          title: err,
+                        })
+                      }
+                    })
+
+
+
+                  }
+                });
+              } else {
+                // 用户没有授权
+                // 改变 isHide 的值，显示授权页面
+                oThis.setData({
+                  isHide: true
+                });
+              }
             }
           });
-        } else {
-          // 用户没有授权
-          // 改变 isHide 的值，显示授权页面
-          oThis.setData({
-            isHide: true
-          });
+
         }
       }
-    });
+    })
+    
+
+
   },
 
   authorize: function (e) {
@@ -78,22 +111,7 @@ Page({
       var that = this;
       // 获取到用户的信息了，打印到控制台上看下
       console.log("用户的信息如下：");
-      console.log(e.detail.userInfo);
-
-      // wx.request({
-      //   url: 'https://app.beijingepidial.com/user/wx/login.jhtml',
-      //   data: wx.getStorageSync('openid'),
-      //   method: 'POST',
-      //   header: {
-      //     'content-type': 'application/x-www-form-urlencoded' // 默认值
-      //   },
-      //   success: function (res) {
-      //     console.log(res.data);
-      //   },
-      //   fail: function (res) {
-      //     console.log("反馈未提交，请检查网络");
-      //   }
-      // })
+      console.log(+e.detail.userInfo);
       wx.switchTab({
         url: "/pages/index/index"
       })
@@ -133,71 +151,5 @@ Page({
 
 
   },
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
   
-  onShow: function () {
-    // wx.login({
-    //   success: function (res) {
-    //     console.log(res.code);
-    //     wx.request({
-    //       //     // 自行补上自己的 APPID 和 SECRET
-    //       url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx4f53ae05242a3e7b&secret=73acec450c056332720f026523e89e64&js_code=' + res.code + '&grant_type=authorization_code',
-    //       success: res => {
-    //         // 获取到用户的 openid                
-    //         console.log("用户的openid:" + res.data.openid);
-    //         var openid = res.data.openid;
-    //         app.globalData.openid = res.data.openid;
-    //         wx.setStorageSync("openid", openid);
-    //         console.log("test的openid-1:" + wx.getStorageSync("openid"));
-    //         console.log("app-openid:" + app.globalData.openid)
-
-    //       }
-    //     });
-    //   }
-    // })
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
 })
